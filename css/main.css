@@ -1,13 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 
 body {
-	background-color: grey;
+	background-color: white;
 }
 
-.title {
-	color: pink;
+h1 {
+	color: #8a9cff;
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 100px;
+	font-size: 80px;
+	font-weight: 700;
+	letter-spacing: 15px;
+	margin-bottom: 0;
 	text-align: center;
-	text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.3);
+	text-decoration: underline;
+}
+
+h2 {
+	color: #8a9cff;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: 15px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+h3 {
+	color: #8a9cff;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 40px;
+	letter-spacing: 10px;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.arrow {
+	display: block;
+	margin: auto;
+}
+
+.lol {
+	box-sizing: border-box;
+	border-bottom: 3px solid #8a9cff;
+	border-right: 5px solid #8a9cff;
+	display: block;
+	margin: auto;
+	max-width: 20rem;
+}
+
+
+#fp-nav ul li a span {
+	background: #8a9cff !important;
 }
