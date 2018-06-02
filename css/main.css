@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+body {
+	background-color: grey;
+}
+
+.title {
+	color: pink;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.3);
+}
