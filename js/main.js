@@ -6,7 +6,7 @@ $(document).ready(function() {
 		anchors:['firstPage', 'secondPage'],
 		navigation: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['firstSlide', 'secondSlide'],
+		navigationTooltips: [],
 		showActiveTooltip: true,
 		slidesNavigation: false,
 		slidesNavPosition: 'bottom',
