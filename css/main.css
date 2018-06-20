@@ -133,29 +133,23 @@ h2 {
 	text-shadow: none;
 }
 
-.rsvp-form {
-	align-items: flex-start;
-	background-color: white;
+#mc_embed_signup {
 	border-radius: 1rem;
-	display: flex;
-	flex-direction: column;
-	font-family: 'Fira Sans', sans-serif;
-	justify-content: center;
-	margin: 5rem auto;
-	padding: 5rem;
-	width: 50%;
+	margin: auto;
+	padding: 3rem;
+	text-align: center;
+	width: 30%;
 }
 
-.rsvp button {
-	cursor: pointer;
-  width: 8rem;
-  height: 2rem;
-  background: pink;
-  border: none;
-  color: white;
-  border-radius: 5px;
-  text-align: center;
-  margin: auto;
+#mc_embed_signup form {
+	font-family: 'Fira Sans', sans-serif;
+	margin: auto;
+	padding-left: 0;
+}
+
+#mc_embed_signup h2 {
+	border-left: none;
+	color: black;
 }
 
 /** Registry **/
