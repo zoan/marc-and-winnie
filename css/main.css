@@ -53,6 +53,13 @@ h3 {
 	background: #8a9cff !important;
 }
 
+/** Hero Section **/
+.hero {
+	background-image: url('../img/tree-tunnel.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
 
 /** Venue **/
 .venue {
