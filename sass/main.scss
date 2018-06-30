@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Merienda+One');
+
+body {
+	background-color: white;
+}
+
+h1 {
+	color: #8a9cff;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 80px;
+	font-weight: 700;
+	letter-spacing: 15px;
+	margin-bottom: 0;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h2 {
+	color: #8a9cff;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: 15px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+h3 {
+	color: #8a9cff;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 40px;
+	letter-spacing: 10px;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.arrow {
+	display: block;
+	margin: auto;
+}
+
+.lol {
+	box-sizing: border-box;
+	border-bottom: 3px solid #8a9cff;
+	border-right: 5px solid #8a9cff;
+	display: block;
+	margin: auto;
+	max-width: 20rem;
+}
+
+
+#fp-nav ul li a span {
+	background: #8a9cff !important;
+}
+
+@import './hero.scss';
+
+
+/** Venue **/
+.venue {
+	background-image: url('../img/casa-real-blur.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.venue .fp-tableCell {
+	vertical-align: unset;
+}
+
+h2 {
+	border-left: 5rem solid pink;
+	color: white;
+	font-family: 'Merienda One', cursive;
+	font-size: 70px;
+	letter-spacing: 1px;
+	padding-left: 1rem;
+	text-align: left;
+	text-shadow: 3px 2px 6px #1b1717;
+}
+
+.venue-right {
+	float: right;
+	padding-right: 10rem;
+}
+
+.venue-address {
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 26px;
+	margin-left: 5rem;
+	margin-top: 1rem;
+}
+
+.venue .overlay {
+	height: 100%;
+	width: 100%;
+}
+
+/** Our Story **/
+.our-story .fp-tableCell {
+	vertical-align: unset;
+}
+
+.our-story h2 {
+	color: black;
+	text-shadow: none;
+}
+
+.our-story .content {
+	margin: 5rem auto;
+	text-align: center;
+}
+
+/** Wedding Party **/
+.wedding-party .fp-tableCell {
+	vertical-align: unset;
+}
+
+.wedding-party h2 {
+	color: black;
+	text-shadow: none;
+}
+
+/** RSVP **/
+.rsvp {
+	background-color: #8a9cff;
+}
+
+.rsvp .fp-tableCell {
+	vertical-align: unset;
+}
+
+.rsvp h2 {
+	color: white;
+	text-shadow: none;
+}
+
+#mc_embed_signup {
+	border-radius: 1rem;
+	margin: auto;
+	padding: 3rem;
+	text-align: center;
+	width: 30%;
+}
+
+#mc_embed_signup form {
+	font-family: 'Fira Sans', sans-serif;
+	margin: auto;
+	padding-left: 0;
+}
+
+#mc_embed_signup h2 {
+	border-left: none;
+	color: black;
+}
+
+/** Registry **/
+.registry .fp-tableCell {
+	vertical-align: unset;
+}
+
+.registry h2 {
+	color: black;
+	text-shadow: none;
+}
+

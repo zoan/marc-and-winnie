@@ -1,0 +1,19 @@
+{
+  "name": "marc-and-winnie",
+  "version": "1.0.0",
+  "description": "### Details to follow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@zoan:zoan/zoan.github.io.git"
+  },
+  "author": "Marc Wong",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
