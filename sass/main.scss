@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Merienda+One');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Merienda+One|Muli|Roboto');
 
 body {
 	background-color: white;
@@ -48,9 +48,9 @@ h3 {
 	max-width: 20rem;
 }
 
-
+// scroll dot color
 #fp-nav ul li a span {
-	background: #8a9cff !important;
+	background: pink !important;
 }
 
 @import './hero.scss';
