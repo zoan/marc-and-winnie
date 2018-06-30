@@ -1,0 +1,8 @@
+/** Hero Section **/
+.hero {
+  background-image: url("../img/tree-tunnel.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s background-image; }
+  .hero.hand-in-hand {
+    background-image: url("../img/hand-in-hand.jpg"); }

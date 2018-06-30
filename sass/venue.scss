@@ -1,0 +1,39 @@
+/** Venue **/
+.venue {
+	background-image: url('../img/casa-real-blur.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.venue .fp-tableCell {
+	vertical-align: unset;
+}
+
+h2 {
+	border-left: 5rem solid pink;
+	color: white;
+	font-family: 'Merienda One', cursive;
+	font-size: 70px;
+	letter-spacing: 1px;
+	padding-left: 1rem;
+	text-align: left;
+	text-shadow: 3px 2px 6px #1b1717;
+}
+
+.venue-right {
+	float: right;
+	padding-right: 10rem;
+}
+
+.venue-address {
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 26px;
+	margin-left: 5rem;
+	margin-top: 1rem;
+}
+
+.venue .overlay {
+	height: 100%;
+	width: 100%;
+}
