@@ -72,4 +72,18 @@ $(document).ready(function() {
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
 		onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
 	});
+
+	var heroClasses = ['hand-in-hand', 'ocean-side', 'init'];
+	var heroIndex = 0;
+
+	setInterval(function() {
+		var prevIndex = heroIndex === 0 ? heroClasses.length - 1 : heroIndex - 1;
+		$('.hero').addClass(heroClasses[heroIndex]);
+		$('.hero').removeClass(heroClasses[prevIndex]);
+
+		heroIndex++;
+
+		if (heroIndex > heroClasses.length - 1) heroIndex = 0;
+
+	}, 3500);
 });

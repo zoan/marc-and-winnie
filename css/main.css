@@ -49,9 +49,11 @@ h3 {
   background-image: url("../img/tree-tunnel.jpg");
   background-position: center;
   background-size: cover;
-  transition: 0.5s background-image; }
+  transition: 1s background-image; }
   .hero.hand-in-hand {
     background-image: url("../img/hand-in-hand.jpg"); }
+  .hero.ocean-side {
+    background-image: url("../img/ocean-side.jpg"); }
   .hero .caption-block {
     background-color: rgba(0, 0, 0, 0.5);
     border-left: 3px solid pink;
@@ -98,6 +100,17 @@ h3 {
       position: absolute;
       right: 3rem;
       text-shadow: 3px 3px 2px black; }
+  .hero .mickey-icon {
+    background-image: url("../img/mickey-mouse-pink.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0.8rem;
+    height: 2rem;
+    left: 2.5rem;
+    position: absolute;
+    transform: skew(10deg);
+    width: 2rem; }
 
 /** Venue **/
 .venue {
