@@ -1,0 +1,55 @@
+.page-header {
+	align-items: center;
+	background-color: white;
+	display: flex;
+	font-family: 'Muli', sans-serif;
+	justify-content: center;
+	left: 0;
+	margin: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 60%;
+	z-index: 100;
+	ul {
+		display: flex;
+		justify-content: center;
+		list-style-type: none;
+		margin: 0.7rem;
+	}
+	li {
+		color: $font-pink;
+		font-size: 18px;
+		font-weight: 600;
+		margin: 0 1.5rem;
+		// text-shadow: 5px 2px 2px rgba(0, 0, 0, 0.3);
+		a {
+			text-decoration: none;
+			&:visited {
+				color: $font-pink;
+			}
+		}
+	}
+	.left-angle {
+		border-left: 5.5rem solid transparent;
+    border-right: 5.5rem solid white;
+    border-top: 5.5rem solid transparent;
+		height: 0;
+		left: -56px;
+    position: absolute;
+    top: -92px;
+    transform: rotate(135deg);
+    width: 0;
+	}
+	.right-angle {
+		border-left: 5.5rem solid white;
+    border-right: 5.5rem solid transparent;
+    border-top: 5.5rem solid transparent;
+		height: 0;
+		right: -56px;
+    position: absolute;
+    top: -92px;
+    transform: rotate(-135deg);
+    width: 0;
+	}
+}

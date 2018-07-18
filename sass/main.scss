@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans|Merienda+One|Muli|Roboto');
 
+@import './_variables/index.scss';
+
 body {
 	background-color: white;
 }
@@ -53,6 +55,7 @@ h3 {
 	background: pink !important;
 }
 
+@import './header.scss';
 @import './hero.scss';
 @import './venue.scss';
 @import './story.scss';

@@ -1,0 +1,46 @@
+.page-header {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  font-family: 'Muli', sans-serif;
+  justify-content: center;
+  left: 0;
+  margin: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 60%;
+  z-index: 100; }
+  .page-header ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none; }
+  .page-header li {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 1.5rem; }
+    .page-header li a {
+      text-decoration: none; }
+      .page-header li a:visited {
+        color: black; }
+  .page-header .left-angle {
+    border-left: 5.5rem solid transparent;
+    border-right: 5.5rem solid white;
+    border-top: 5.5rem solid transparent;
+    height: 0;
+    left: -56px;
+    position: absolute;
+    top: -82px;
+    transform: rotate(135deg);
+    width: 0; }
+  .page-header .right-angle {
+    border-left: 5.5rem solid white;
+    border-right: 5.5rem solid transparent;
+    border-top: 5.5rem solid transparent;
+    height: 0;
+    right: -56px;
+    position: absolute;
+    top: -82px;
+    transform: rotate(-135deg);
+    width: 0; }
