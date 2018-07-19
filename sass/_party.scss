@@ -1,0 +1,62 @@
+/** Wedding Party **/
+.wedding-party .fp-tableCell {
+	vertical-align: unset;
+}
+
+.wedding-party h2 {
+	color: black;
+	font-size: 48px;
+	text-align: center;
+	text-shadow: none;
+}
+
+.bridesmaids {
+	align-items: center;
+	display: flex;
+	height: 40rem;
+	justify-content: center;
+	overflow: hidden;
+	width: 100vw;
+	.bridesmaid {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s;
+    width: 5rem;
+    &:hover {
+    	width: 15rem;
+    	.info {
+    		opacity: 1;
+    		transition: all 0.5s;
+    		transition-delay: 0.3s;
+    	}
+    }
+    .info {
+    	background-color: rgba(0, 0, 0, 0.5);
+    	bottom: 0;
+    	position: absolute;
+    	opacity: 0;
+    	padding: 2rem;
+    	transition: all 0s;
+    	transition-delay: 0s;
+    	width: 100%;
+    	h3 {
+    		color: white;
+    		letter-spacing: 1px;
+    		margin-bottom: 0;
+    		margin-top: 0;
+    	}
+    	h5 {
+    		color: white;
+    		text-align: center;
+    	}
+    	p {
+    		color: white;
+    	}
+    }
+	}
+	.joanna {
+		background-image: url('../img/wedding-party/joanna-wedding-party.jpg');
+	}
+}
