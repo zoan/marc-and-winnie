@@ -86,4 +86,8 @@ $(document).ready(function() {
 		if (heroIndex > heroClasses.length - 1) heroIndex = 0;
 
 	}, 3500);
+
+	$('.hamburger-menu').on('click', function() {
+		$('.mobile-menu').toggleClass('open');
+	});
 });
