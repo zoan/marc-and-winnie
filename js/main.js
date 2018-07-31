@@ -51,7 +51,7 @@ $(document).ready(function() {
 		paddingTop: '3em',
 		paddingBottom: '10px',
 		fixedElements: '#header, .footer',
-		responsiveWidth: 0,
+		responsiveWidth: 768,
 		responsiveHeight: 0,
 		responsiveSlides: false,
 		parallax: false,
