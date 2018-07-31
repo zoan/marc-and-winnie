@@ -53,7 +53,7 @@ $(document).ready(function() {
 		fixedElements: '#header, .footer',
 		responsiveWidth: 768,
 		responsiveHeight: 0,
-		responsiveSlides: false,
+		responsiveSlides: true,
 		parallax: false,
 		parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
 

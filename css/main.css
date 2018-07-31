@@ -488,32 +488,12 @@ h2 {
         .groomsmen .bridesmaid .info p,
         .groomsmen .groomsman .info p {
           color: white; }
-    .bridesmaids .bridesmaid,
-    .groomsmen .bridesmaid {
-      transform: skew(10deg); }
-      .bridesmaids .bridesmaid:hover,
-      .groomsmen .bridesmaid:hover {
-        border-top: 1rem solid #ff6ca9; }
-      .bridesmaids .bridesmaid h3,
-      .bridesmaids .bridesmaid h5,
-      .bridesmaids .bridesmaid p,
-      .groomsmen .bridesmaid h3,
-      .groomsmen .bridesmaid h5,
-      .groomsmen .bridesmaid p {
-        transform: skew(-10deg); }
-    .bridesmaids .groomsman,
-    .groomsmen .groomsman {
-      transform: skew(-10deg); }
-      .bridesmaids .groomsman:hover,
-      .groomsmen .groomsman:hover {
-        border-top: 1rem solid blue; }
-      .bridesmaids .groomsman h3,
-      .bridesmaids .groomsman h5,
-      .bridesmaids .groomsman p,
-      .groomsmen .groomsman h3,
-      .groomsmen .groomsman h5,
-      .groomsmen .groomsman p {
-        transform: skew(10deg); }
+    .bridesmaids .bridesmaid:hover,
+    .groomsmen .bridesmaid:hover {
+      border-top: 1rem solid #ff6ca9; }
+    .bridesmaids .groomsman:hover,
+    .groomsmen .groomsman:hover {
+      border-top: 1rem solid blue; }
     .bridesmaids .joanna,
     .groomsmen .joanna {
       background-image: url("../img/wedding-party/joanna-wedding-party.jpg"); }
