@@ -24,7 +24,7 @@
 		// transform: skew(-10deg);
 		transition: 0.3s background-color;
 		transition-property: background-color, border;
-		width: 100vw;
+		width: 100%;
 		&:hover {
 			background-color: rgba(0, 0, 0, 0.7);
 			border-left: 8px solid pink;
