@@ -40,20 +40,6 @@
     	}
     }
 	}
-	.bridesmaid {
-    h3,
-    h5,
-    p {
-  
-    }
-	}
-	.groomsman {
-		h3,
-		h5,
-		p {
-		
-		}
-	}
 }
 
 @media (min-width: $desktop) {
@@ -80,20 +66,19 @@
 
 .bridesmaids,
 .groomsmen {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	width: 50%;
 	.bridesmaid,
 	.groomsman {
 		display: flex;
 		margin: 0.5rem 1rem;
-    width: 100%;
-    &:hover {
-    	
-    	.info {
-    	
-    	}
-    }
+    // width: 100%;
 	}
-	.bridesmaid-img {
+	.bridesmaid-img,
+	.groomsman-img {
     height: 5rem;
     overflow: hidden;
     position: relative;
@@ -107,7 +92,15 @@
 			width: 150%;
 		}
 	}
-	.bridesmaid-info {
+	.groomsman-img {
+		transform: skew(-10deg);
+		img {
+			right: initial;
+			transform: skew(10deg);
+		}
+	}
+	.bridesmaid-info,
+	.groomsman-info {
 		background: rgba(0, 0, 0, 0.5);
 		border-left: 5px solid pink;
 		height: 5rem;
@@ -119,7 +112,7 @@
 			font-size: 30px;
 			margin: 0;
 			margin-left: 1.5rem;
-			letter-spacing: 5px;
+			letter-spacing: 3px;
 			text-align: left;
 			transform: skew(-10deg);
 		}
@@ -136,48 +129,23 @@
 			margin: 0;
 		}
 	}
-	.bridesmaid {
-		
-		&:hover {
-    	
-    }
-    h3,
-    h5,
-    p {
-    
-    }
-	}
-	.groomsman {
-	
-		&:hover {
-			
+	.groomsman-info {
+		border-left: 0;
+		border-right: 5px solid lightblue;
+		color: lightblue;
+		transform: skew(-10deg);
+		h3 {
+			color: lightblue;
+			margin-left: 0;
+			margin-right: 1.5rem;
+			text-align: right;
+			transform: skew(10deg);
 		}
-		h3,
-		h5,
-		p {
-		
+		h5 {
+			margin-right: 1rem;
+			text-align: right;
+			transform: skew(10deg);
 		}
 	}
-	// .joanna {
-	// 	background-image: url('../img/wedding-party/joanna-wedding-party.jpg');
-	// }
-	// .clare {
-	// 	background-image: url('../img/wedding-party/clare-bridesmaid.jpg');
-	// }
-	// .jovian {
-	// 	background-image: url('../img/wedding-party/jovian-bridesmaid.jpg');
-	// }
-	// .karina {
-	// 	background-image: url('../img/wedding-party/karina-bridesmaid.jpg');
-	// }
-	// .evan {
-	// 	background-image: url('../img/wedding-party/evan-temp-skew.jpg');
-	// }
-	// .alan {
-	// 	background-image: url('../img/wedding-party/alan-temp.png');
-	// }
-	// .placeholder {
-	// 	background-color: lightgrey;
-	// }
 }
 }
