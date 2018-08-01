@@ -5,10 +5,18 @@
 
 .our-story h2 {
 	color: black;
+	font-size: 48px;
+	text-align: center;
 	text-shadow: none;
 }
 
 .our-story .content {
 	margin: 5rem auto;
 	text-align: center;
+}
+
+.our-story {
+	p {
+		font-family: 'Merienda One', serif;
+	}
 }

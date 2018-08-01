@@ -49,7 +49,7 @@ h3 {
 
 .page-header {
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   font-family: 'Muli', sans-serif;
   height: 3rem;
   justify-content: center;
@@ -62,7 +62,7 @@ h3 {
   width: 100%;
   z-index: 100; }
   .page-header:hover {
-    background-color: white; }
+    background-color: rgba(0, 0, 0, 0.9); }
   .page-header ul {
     display: none; }
   .page-header .hamburger-menu {
@@ -96,7 +96,7 @@ h3 {
 @media (min-width: 768px) {
   .page-header {
     align-items: center;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     font-family: 'Muli', sans-serif;
     justify-content: center;
@@ -105,7 +105,7 @@ h3 {
     position: fixed;
     right: 0;
     top: 0;
-    width: 60%;
+    width: 100%;
     z-index: 100; }
     .page-header .mobile-menu,
     .page-header .hamburger-menu {
@@ -116,7 +116,7 @@ h3 {
       list-style-type: none;
       margin: 0.7rem; }
     .page-header li {
-      color: #ff6ca9;
+      color: pink;
       font-size: 18px;
       font-weight: 600;
       margin: 0 1.5rem; }
@@ -125,7 +125,7 @@ h3 {
         .page-header li a:hover {
           text-decoration: underline; }
         .page-header li a:visited {
-          color: #ff6ca9; }
+          color: pink; }
     .page-header .left-angle {
       border-left: 5.5rem solid transparent;
       border-right: 5.5rem solid white;
@@ -319,16 +319,18 @@ h2 {
 
 .our-story h2 {
   color: black;
+  font-size: 48px;
+  text-align: center;
   text-shadow: none; }
 
 .our-story .content {
   margin: 5rem auto;
   text-align: center; }
 
-/** Wedding Party **/
-.wedding-party {
-  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); }
+.our-story p {
+  font-family: 'Merienda One', serif; }
 
+/** Wedding Party **/
 .wedding-party .fp-tableCell {
   vertical-align: unset; }
 
@@ -410,8 +412,6 @@ h2 {
     background-color: lightgrey; }
 
 @media (min-width: 768px) {
-  .wedding-party {
-    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); }
   .wedding-party .fp-tableCell {
     vertical-align: unset; }
   .wedding-party h2 {
