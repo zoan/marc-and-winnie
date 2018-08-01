@@ -90,4 +90,9 @@ $(document).ready(function() {
 	$('.hamburger-menu').on('click', function() {
 		$('.mobile-menu').toggleClass('open');
 	});
+
+	$('.another-time').on('click', function() {
+		$('.another-time-video').addClass('show');
+		$('video').play();
+	});
 });

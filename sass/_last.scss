@@ -2,4 +2,30 @@
 	background-image: url('../img/last.jpg');
 	background-position: center;
 	background-size: cover;
+	position: relative;
+	width: 100vw;
+	.content {
+		margin: auto;
+		width: 50%;
+		p {
+			background-color: rgba(255, 255, 255, 0.5);
+			cursor: pointer;
+			font-family: 'Merienda One', sans-serif;
+			font-size: 18px;
+			font-weight: 500;
+			padding: 1rem;
+			text-align: center;
+		}
+		iframe {
+			display: none;
+			height: 100vh;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100vw;
+			&.show {
+				display: block;
+			}
+		}
+	}
 }
