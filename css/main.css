@@ -347,6 +347,7 @@ h2 {
 .wedding-party h2 {
   color: black;
   font-size: 48px;
+  margin-top: 1rem;
   text-align: center;
   text-shadow: none; }
 
@@ -389,11 +390,11 @@ h2 {
     .groomsmen .bridesmaid,
     .groomsmen .groomsman {
       display: flex;
-      margin: 1rem;
+      margin: 0.5rem 1rem;
       width: 100%; }
     .bridesmaids .bridesmaid-img,
     .groomsmen .bridesmaid-img {
-      height: 7rem;
+      height: 5rem;
       overflow: hidden;
       position: relative;
       transform: skew(10deg);
@@ -409,7 +410,7 @@ h2 {
     .groomsmen .bridesmaid-info {
       background: rgba(0, 0, 0, 0.5);
       border-left: 5px solid pink;
-      height: 7rem;
+      height: 5rem;
       padding: 1rem;
       transform: skew(10deg);
       width: 20rem; }
