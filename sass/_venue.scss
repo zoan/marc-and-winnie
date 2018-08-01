@@ -1,6 +1,6 @@
 /** Venue **/
 .venue {
-	background-image: url('../img/casa-real-blur.jpg');
+	background-image: url('../img/casa-real.jpg');
 	background-position: center;
 	background-size: cover;
 }
@@ -26,11 +26,13 @@ h2 {
 }
 
 .venue-address {
+	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 26px;
+	font-size: 16px;
 	margin-left: 5rem;
 	margin-top: 1rem;
+	padding: 1rem;
 }
 
 .venue .overlay {

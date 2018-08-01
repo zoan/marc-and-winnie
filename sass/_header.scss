@@ -26,21 +26,21 @@
     margin-top: 1rem;
     width: 2rem;
 		.burger-layer {
-			background-color: grey;
+			background-color: white;
 			height: 0.2rem;
 			margin-top: 0.2rem;
 			width: 2rem;
 		}
 	}
 	.mobile-menu {
-		background: white;
+		background-color: rgba(0, 0, 0, 0.9);
 		height: 0;
 		left: 0;
 		overflow: hidden;
 		position: absolute;
 		top: 3rem;
 		transition: height 1s;
-		width: 100vw;
+		width: 100%;
 		&.open {
 			height: 10rem;
 		}
@@ -49,6 +49,7 @@
 			list-style-type: none;
 			text-align: center;
 			a {
+				color: white;
 				text-decoration: none;
 			}
 		}

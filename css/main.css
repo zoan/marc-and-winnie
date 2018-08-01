@@ -47,6 +47,122 @@ h3 {
 #fp-nav ul li a span {
   background: pink !important; }
 
+.caption-block {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-left: 3px solid pink;
+  bottom: 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: default;
+  height: 8rem;
+  left: 0;
+  padding: 1rem 2rem;
+  position: absolute;
+  transition: 0.3s background-color;
+  transition-property: background-color, border;
+  width: 100%; }
+  .caption-block:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-left: 8px solid pink; }
+  .caption-block p {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem; }
+  .caption-block .subheader {
+    font-size: 14px;
+    line-height: 0;
+    margin-top: 1rem;
+    transform: skew(-10deg); }
+  .caption-block .header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    font-size: 30px; }
+  .caption-block .caption {
+    font-family: 'Muli', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5); }
+  .caption-block .caption-date {
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+    bottom: 1rem;
+    color: pink;
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    padding-left: 0.5rem;
+    position: absolute;
+    right: 3rem;
+    text-shadow: 3px 3px 2px black; }
+
+.mickey-icon {
+  background-image: url("../img/mickey-mouse-pink.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0.8rem;
+  height: 2rem;
+  left: 2.5rem;
+  position: absolute;
+  transform: skew(10deg);
+  width: 2rem; }
+
+@media (min-width: 768px) {
+  .caption-block {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-left: 3px solid pink;
+    bottom: 5rem;
+    box-sizing: border-box;
+    color: white;
+    cursor: default;
+    height: 8rem;
+    left: 10rem;
+    padding: 1rem 2rem;
+    position: absolute;
+    transform: skew(-10deg);
+    transition: 0.3s background-color;
+    transition-property: background-color, border;
+    width: 20rem; }
+    .caption-block:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+      border-left: 8px solid pink; }
+    .caption-block p {
+      margin-bottom: 0.5rem;
+      margin-top: 0.5rem; }
+    .caption-block .subheader {
+      font-size: 14px;
+      line-height: 0;
+      margin-top: 1rem;
+      transform: skew(-10deg); }
+    .caption-block .header {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+      font-size: 30px; }
+    .caption-block .caption {
+      font-family: 'Muli', sans-serif;
+      font-size: 24px;
+      position: absolute;
+      text-transform: uppercase;
+      text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+      transform: skew(10deg); }
+    .caption-block .caption-date {
+      border-left: 1px solid rgba(255, 255, 255, 0.25);
+      bottom: 1rem;
+      color: pink;
+      font-family: 'Muli', sans-serif;
+      font-size: 20px;
+      padding-left: 0.5rem;
+      position: absolute;
+      right: 3rem;
+      text-shadow: 3px 3px 2px black; }
+  .mickey-icon {
+    background-image: url("../img/mickey-mouse-pink.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0.8rem;
+    height: 2rem;
+    left: 2.5rem;
+    position: absolute;
+    transform: skew(10deg);
+    width: 2rem; } }
+
 .page-header {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
@@ -71,19 +187,19 @@ h3 {
     margin-top: 1rem;
     width: 2rem; }
     .page-header .hamburger-menu .burger-layer {
-      background-color: grey;
+      background-color: white;
       height: 0.2rem;
       margin-top: 0.2rem;
       width: 2rem; }
   .page-header .mobile-menu {
-    background: white;
+    background-color: rgba(0, 0, 0, 0.9);
     height: 0;
     left: 0;
     overflow: hidden;
     position: absolute;
     top: 3rem;
     transition: height 1s;
-    width: 100vw; }
+    width: 100%; }
     .page-header .mobile-menu.open {
       height: 10rem; }
     .page-header .mobile-menu ul {
@@ -91,6 +207,7 @@ h3 {
       list-style-type: none;
       text-align: center; }
       .page-header .mobile-menu ul a {
+        color: white;
         text-decoration: none; }
 
 @media (min-width: 768px) {
@@ -157,61 +274,6 @@ h3 {
     background-image: url("../img/hand-in-hand.jpg"); }
   .hero.ocean-side {
     background-image: url("../img/ocean-side.jpg"); }
-  .hero .caption-block {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-left: 3px solid pink;
-    bottom: 0;
-    box-sizing: border-box;
-    color: white;
-    cursor: default;
-    height: 8rem;
-    left: 0;
-    padding: 1rem 2rem;
-    position: absolute;
-    transition: 0.3s background-color;
-    transition-property: background-color, border;
-    width: 100%; }
-    .hero .caption-block:hover {
-      background-color: rgba(0, 0, 0, 0.7);
-      border-left: 8px solid pink; }
-    .hero .caption-block p {
-      margin-bottom: 0.5rem;
-      margin-top: 0.5rem; }
-    .hero .caption-block .subheader {
-      font-size: 14px;
-      line-height: 0;
-      margin-top: 1rem;
-      transform: skew(-10deg); }
-    .hero .caption-block .header {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-      font-size: 30px; }
-    .hero .caption-block .caption {
-      font-family: 'Muli', sans-serif;
-      font-size: 24px;
-      position: absolute;
-      text-transform: uppercase;
-      text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5); }
-    .hero .caption-block .caption-date {
-      border-left: 1px solid rgba(255, 255, 255, 0.25);
-      bottom: 1rem;
-      color: pink;
-      font-family: 'Muli', sans-serif;
-      font-size: 20px;
-      padding-left: 0.5rem;
-      position: absolute;
-      right: 3rem;
-      text-shadow: 3px 3px 2px black; }
-  .hero .mickey-icon {
-    background-image: url("../img/mickey-mouse-pink.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    bottom: 0.8rem;
-    height: 2rem;
-    left: 2.5rem;
-    position: absolute;
-    transform: skew(10deg);
-    width: 2rem; }
 
 @media (min-width: 768px) {
   .hero {
@@ -222,68 +284,11 @@ h3 {
     .hero.hand-in-hand {
       background-image: url("../img/hand-in-hand.jpg"); }
     .hero.ocean-side {
-      background-image: url("../img/ocean-side.jpg"); }
-    .hero .caption-block {
-      background-color: rgba(0, 0, 0, 0.5);
-      border-left: 3px solid pink;
-      bottom: 5rem;
-      box-sizing: border-box;
-      color: white;
-      cursor: default;
-      height: 8rem;
-      left: 10rem;
-      padding: 1rem 2rem;
-      position: absolute;
-      transform: skew(-10deg);
-      transition: 0.3s background-color;
-      transition-property: background-color, border;
-      width: 20rem; }
-      .hero .caption-block:hover {
-        background-color: rgba(0, 0, 0, 0.7);
-        border-left: 8px solid pink; }
-      .hero .caption-block p {
-        margin-bottom: 0.5rem;
-        margin-top: 0.5rem; }
-      .hero .caption-block .subheader {
-        font-size: 14px;
-        line-height: 0;
-        margin-top: 1rem;
-        transform: skew(-10deg); }
-      .hero .caption-block .header {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-        font-size: 30px; }
-      .hero .caption-block .caption {
-        font-family: 'Muli', sans-serif;
-        font-size: 24px;
-        position: absolute;
-        text-transform: uppercase;
-        text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
-        transform: skew(10deg); }
-      .hero .caption-block .caption-date {
-        border-left: 1px solid rgba(255, 255, 255, 0.25);
-        bottom: 1rem;
-        color: pink;
-        font-family: 'Muli', sans-serif;
-        font-size: 20px;
-        padding-left: 0.5rem;
-        position: absolute;
-        right: 3rem;
-        text-shadow: 3px 3px 2px black; }
-    .hero .mickey-icon {
-      background-image: url("../img/mickey-mouse-pink.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      bottom: 0.8rem;
-      height: 2rem;
-      left: 2.5rem;
-      position: absolute;
-      transform: skew(10deg);
-      width: 2rem; } }
+      background-image: url("../img/ocean-side.jpg"); } }
 
 /** Venue **/
 .venue {
-  background-image: url("../img/casa-real-blur.jpg");
+  background-image: url("../img/casa-real.jpg");
   background-position: center;
   background-size: cover; }
 
@@ -303,11 +308,13 @@ h2 {
   padding-right: 10rem; }
 
 .venue-address {
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   font-family: 'Fira Sans', sans-serif;
-  font-size: 26px;
+  font-size: 16px;
   margin-left: 5rem;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  padding: 1rem; }
 
 .venue .overlay {
   height: 100%;

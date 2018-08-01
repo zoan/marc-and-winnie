@@ -1,0 +1,134 @@
+.caption-block {
+		background-color: rgba(0, 0, 0, 0.5);
+		border-left: 3px solid pink;
+		bottom: 0;
+		box-sizing: border-box;
+		color: white;
+		cursor: default;
+		height: 8rem;
+		left: 0;
+		padding: 1rem 2rem;
+		position: absolute;
+		// transform: skew(-10deg);
+		transition: 0.3s background-color;
+		transition-property: background-color, border;
+		width: 100%;
+		&:hover {
+			background-color: rgba(0, 0, 0, 0.7);
+			border-left: 8px solid pink;
+		}
+		p {
+			margin-bottom: 0.5rem;
+			margin-top: 0.5rem;
+		}
+		.subheader {
+			font-size: 14px;
+			line-height: 0;
+			margin-top: 1rem;
+			transform: skew(-10deg);
+		}
+		.header {
+			border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+			font-size: 30px;
+		}
+		.caption {
+			font-family: 'Muli', sans-serif;
+			font-size: 24px;
+			position: absolute;
+			text-transform: uppercase;
+			text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+			// transform: skew(10deg);
+		}
+		.caption-date {
+			border-left: 1px solid rgba(255, 255, 255, 0.25);
+			bottom: 1rem;
+    	color: pink;
+    	font-family: 'Muli', sans-serif;
+    	font-size: 20px;
+    	padding-left: 0.5rem;
+    	position: absolute;
+    	right: 3rem;
+    	text-shadow: 3px 3px 2px black;
+		}
+	}
+
+	.mickey-icon {
+		background-image: url('../img/mickey-mouse-pink.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		bottom: 0.8rem;
+		height: 2rem;
+		left: 2.5rem;
+		position: absolute;
+		transform: skew(10deg);
+		width: 2rem;
+	}
+
+@media (min-width: $desktop) {
+	.caption-block {
+		background-color: rgba(0, 0, 0, 0.5);
+		border-left: 3px solid pink;
+		bottom: 5rem;
+		box-sizing: border-box;
+		color: white;
+		cursor: default;
+		height: 8rem;
+		left: 10rem;
+		padding: 1rem 2rem;
+		position: absolute;
+		transform: skew(-10deg);
+		transition: 0.3s background-color;
+		transition-property: background-color, border;
+		width: 20rem;
+		&:hover {
+			background-color: rgba(0, 0, 0, 0.7);
+			border-left: 8px solid pink;
+		}
+		p {
+			margin-bottom: 0.5rem;
+			margin-top: 0.5rem;
+		}
+		.subheader {
+			font-size: 14px;
+			line-height: 0;
+			margin-top: 1rem;
+			transform: skew(-10deg);
+		}
+		.header {
+			border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+			font-size: 30px;
+		}
+		.caption {
+			font-family: 'Muli', sans-serif;
+			font-size: 24px;
+			position: absolute;
+			text-transform: uppercase;
+			text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+			transform: skew(10deg);
+		}
+		.caption-date {
+			border-left: 1px solid rgba(255, 255, 255, 0.25);
+			bottom: 1rem;
+    	color: pink;
+    	font-family: 'Muli', sans-serif;
+    	font-size: 20px;
+    	padding-left: 0.5rem;
+    	position: absolute;
+    	right: 3rem;
+    	text-shadow: 3px 3px 2px black;
+		}
+	}
+	.mickey-icon {
+		background-image: url('../img/mickey-mouse-pink.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		bottom: 0.8rem;
+		height: 2rem;
+		left: 2.5rem;
+		position: absolute;
+		transform: skew(10deg);
+		width: 2rem;
+	}
+}

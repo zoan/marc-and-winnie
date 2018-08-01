@@ -59,6 +59,7 @@ h3 {
 	background: pink !important;
 }
 
+@import './_shared.scss';
 @import './_header.scss';
 @import './_hero.scss';
 @import './_venue.scss';
