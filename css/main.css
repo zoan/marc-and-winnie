@@ -593,3 +593,8 @@ h2 {
     .registry-item a:hover {
       background-color: #f7a6c7;
       cursor: pointer; }
+
+.last {
+  background-image: url("../img/last.jpg");
+  background-position: center;
+  background-size: cover; }
