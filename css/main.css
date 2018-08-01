@@ -337,6 +337,9 @@ h2 {
 .our-story p {
   font-family: 'Merienda One', serif; }
 
+.windy {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); }
+
 /** Wedding Party **/
 .wedding-party .fp-tableCell {
   vertical-align: unset; }
@@ -352,71 +355,18 @@ h2 {
   flex-direction: column;
   margin-top: 1rem; }
 
-.bridesmaids,
-.groomsmen {
-  width: 100%; }
-  .bridesmaids .bridesmaid,
-  .bridesmaids .groomsman,
-  .groomsmen .bridesmaid,
-  .groomsmen .groomsman {
-    background-position: center;
-    background-size: cover;
-    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
-    min-height: 30rem;
-    position: relative;
-    transition: all 0.5s;
-    width: 100%; }
-    .bridesmaids .bridesmaid .info,
-    .bridesmaids .groomsman .info,
-    .groomsmen .bridesmaid .info,
-    .groomsmen .groomsman .info {
-      background-color: rgba(0, 0, 0, 0.5);
-      bottom: 0;
-      position: absolute;
-      padding: 2rem;
-      transition: all 0s;
-      transition-delay: 0s;
-      width: 100%; }
-      .bridesmaids .bridesmaid .info h3,
-      .bridesmaids .groomsman .info h3,
-      .groomsmen .bridesmaid .info h3,
-      .groomsmen .groomsman .info h3 {
-        color: white;
-        letter-spacing: 1px;
-        margin-bottom: 0;
-        margin-top: 0; }
-      .bridesmaids .bridesmaid .info h5,
-      .bridesmaids .groomsman .info h5,
-      .groomsmen .bridesmaid .info h5,
-      .groomsmen .groomsman .info h5 {
-        color: white;
-        text-align: center; }
-      .bridesmaids .bridesmaid .info p,
-      .bridesmaids .groomsman .info p,
-      .groomsmen .bridesmaid .info p,
-      .groomsmen .groomsman .info p {
-        color: white; }
-  .bridesmaids .joanna,
-  .groomsmen .joanna {
-    background-image: url("../img/wedding-party/joanna-wedding-party.jpg"); }
-  .bridesmaids .clare,
-  .groomsmen .clare {
-    background-image: url("../img/wedding-party/clare-bridesmaid.jpg"); }
-  .bridesmaids .jovian,
-  .groomsmen .jovian {
-    background-image: url("../img/wedding-party/jovian-bridesmaid.jpg"); }
-  .bridesmaids .karina,
-  .groomsmen .karina {
-    background-image: url("../img/wedding-party/karina-bridesmaid.jpg"); }
-  .bridesmaids .evan,
-  .groomsmen .evan {
-    background-image: url("../img/wedding-party/evan-temp-skew.jpg"); }
-  .bridesmaids .alan,
-  .groomsmen .alan {
-    background-image: url("../img/wedding-party/alan-temp.png"); }
-  .bridesmaids .placeholder,
-  .groomsmen .placeholder {
-    background-color: lightgrey; }
+.bridesmaids .bridesmaid .info h5,
+.bridesmaids .groomsman .info h5,
+.groomsmen .bridesmaid .info h5,
+.groomsmen .groomsman .info h5 {
+  color: white;
+  text-align: center; }
+
+.bridesmaids .bridesmaid .info p,
+.bridesmaids .groomsman .info p,
+.groomsmen .bridesmaid .info p,
+.groomsmen .groomsman .info p {
+  color: white; }
 
 @media (min-width: 768px) {
   .wedding-party .fp-tableCell {
@@ -433,95 +383,57 @@ h2 {
     margin-top: 1rem; }
   .bridesmaids,
   .groomsmen {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 90%;
-    justify-content: center;
-    overflow: hidden;
-    padding-bottom: 0.5rem;
-    width: 100vw; }
+    width: 50%; }
     .bridesmaids .bridesmaid,
     .bridesmaids .groomsman,
     .groomsmen .bridesmaid,
     .groomsmen .groomsman {
-      background-position: center;
-      background-size: cover;
-      box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
-      height: 100%;
+      display: flex;
+      margin: 1rem;
+      width: 100%; }
+    .bridesmaids .bridesmaid-img,
+    .groomsmen .bridesmaid-img {
+      height: 7rem;
+      overflow: hidden;
       position: relative;
-      transition: all 0.5s;
-      width: 5rem; }
-      .bridesmaids .bridesmaid:hover,
-      .bridesmaids .groomsman:hover,
-      .groomsmen .bridesmaid:hover,
-      .groomsmen .groomsman:hover {
-        width: 15rem; }
-        .bridesmaids .bridesmaid:hover .info,
-        .bridesmaids .groomsman:hover .info,
-        .groomsmen .bridesmaid:hover .info,
-        .groomsmen .groomsman:hover .info {
-          opacity: 1;
-          transition: all 0.5s;
-          transition-delay: 0.3s; }
-      .bridesmaids .bridesmaid .info,
-      .bridesmaids .groomsman .info,
-      .groomsmen .bridesmaid .info,
-      .groomsmen .groomsman .info {
-        background-color: rgba(0, 0, 0, 0.5);
-        bottom: 0;
+      transform: skew(10deg);
+      width: 7rem; }
+      .bridesmaids .bridesmaid-img img,
+      .groomsmen .bridesmaid-img img {
         position: absolute;
-        opacity: 0;
-        padding: 2rem;
-        transition: all 0s;
-        transition-delay: 0s;
-        width: 100%; }
-        .bridesmaids .bridesmaid .info h3,
-        .bridesmaids .groomsman .info h3,
-        .groomsmen .bridesmaid .info h3,
-        .groomsmen .groomsman .info h3 {
-          color: white;
-          letter-spacing: 1px;
-          margin-bottom: 0;
-          margin-top: 0; }
-        .bridesmaids .bridesmaid .info h5,
-        .bridesmaids .groomsman .info h5,
-        .groomsmen .bridesmaid .info h5,
-        .groomsmen .groomsman .info h5 {
-          color: white;
-          text-align: center; }
-        .bridesmaids .bridesmaid .info p,
-        .bridesmaids .groomsman .info p,
-        .groomsmen .bridesmaid .info p,
-        .groomsmen .groomsman .info p {
-          color: white; }
-    .bridesmaids .bridesmaid:hover,
-    .groomsmen .bridesmaid:hover {
-      border-top: 1rem solid #ff6ca9; }
-    .bridesmaids .groomsman:hover,
-    .groomsmen .groomsman:hover {
-      border-top: 1rem solid blue; }
-    .bridesmaids .joanna,
-    .groomsmen .joanna {
-      background-image: url("../img/wedding-party/joanna-wedding-party.jpg"); }
-    .bridesmaids .clare,
-    .groomsmen .clare {
-      background-image: url("../img/wedding-party/clare-bridesmaid.jpg"); }
-    .bridesmaids .jovian,
-    .groomsmen .jovian {
-      background-image: url("../img/wedding-party/jovian-bridesmaid.jpg"); }
-    .bridesmaids .karina,
-    .groomsmen .karina {
-      background-image: url("../img/wedding-party/karina-bridesmaid.jpg"); }
-    .bridesmaids .evan,
-    .groomsmen .evan {
-      background-image: url("../img/wedding-party/evan-temp-skew.jpg"); }
-    .bridesmaids .alan,
-    .groomsmen .alan {
-      background-image: url("../img/wedding-party/alan-temp.png"); }
-    .bridesmaids .placeholder,
-    .groomsmen .placeholder {
-      background-color: lightgrey; } }
+        right: 0;
+        transform: skew(-10deg);
+        top: -2rem;
+        width: 150%; }
+    .bridesmaids .bridesmaid-info,
+    .groomsmen .bridesmaid-info {
+      background: rgba(0, 0, 0, 0.5);
+      border-left: 5px solid pink;
+      height: 7rem;
+      padding: 1rem;
+      transform: skew(10deg);
+      width: 20rem; }
+      .bridesmaids .bridesmaid-info h3,
+      .groomsmen .bridesmaid-info h3 {
+        color: pink;
+        font-size: 30px;
+        margin: 0;
+        margin-left: 1.5rem;
+        letter-spacing: 5px;
+        text-align: left;
+        transform: skew(-10deg); }
+      .bridesmaids .bridesmaid-info h5,
+      .groomsmen .bridesmaid-info h5 {
+        color: white;
+        font-family: 'Muli', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0;
+        margin-left: 1rem;
+        transform: skew(-10deg); }
+      .bridesmaids .bridesmaid-info p,
+      .groomsmen .bridesmaid-info p {
+        margin: 0; } }
 
 /** RSVP **/
 .rsvp {
