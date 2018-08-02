@@ -1,32 +1,41 @@
 /** RSVP **/
 .rsvp {
-	background-color: #8a9cff;
-}
-
-.rsvp .fp-tableCell {
-	vertical-align: unset;
-}
-
-.rsvp h2 {
-	color: white;
-	text-shadow: none;
-}
-
-#mc_embed_signup {
-	border-radius: 1rem;
-	margin: auto;
-	padding: 3rem;
-	text-align: center;
-	width: 30%;
-}
-
-#mc_embed_signup form {
-	font-family: 'Fira Sans', sans-serif;
-	margin: auto;
-	padding-left: 0;
-}
-
-#mc_embed_signup h2 {
-	border-left: none;
-	color: black;
+	background-image: url('../img/save-the-date-group.jpg');
+	background-position: center;
+	background-size: cover;
+	.fp-tableCell {
+		vertical-align: unset;
+	}
+	h2 {
+		color: white;
+		text-shadow: none;
+	}
+	#mc_embed_signup {
+		background: rgba(0, 0, 0, 0.5);
+		border-right: 5px solid pink;
+		color: white;
+		margin-left: auto;
+		margin-right: 5rem;
+		margin-top: 5rem;
+		padding: 1rem 3.5rem;
+		text-align: center;
+		transform: skew(-10deg);
+		width: 25rem;
+		form {
+			font-family: 'Fira Sans', sans-serif;
+			margin: auto;
+			padding-left: 0;
+			transform: skew(10deg);
+			input,
+			select {
+				background: rgba(0, 0, 0, 0.5);
+				border: 0;
+				color: white;
+			}
+		}
+		h2 {
+			border-left: none;
+			color: white;
+		}
+	}
 }

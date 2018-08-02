@@ -95,4 +95,7 @@ $(document).ready(function() {
 		$('.another-time-video').addClass('show');
 		$('video').play();
 	});
+
+	// Update RSVP Button Text
+	$('#mc-embedded-subscribe')[0].value = 'RSVP';
 });

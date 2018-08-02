@@ -4,6 +4,7 @@
 	background: url('../img/walking-flip.jpg');
 	background-position: center;
 	background-size: cover;
+	padding: 7rem 0 !important;
 }
 .wedding-party .fp-tableCell {
 	vertical-align: unset;
@@ -25,20 +26,90 @@
 
 .bridesmaids,
 .groomsmen {
-
+	.bridesmaid,
+	.groomsman {
+		display: flex;
+		max-height: 7rem;
+		margin: 1rem;
+	}
+	.bridesmaid-info,
+	.groomsman-info {
+		background: rgba(0, 0, 0, 0.5);
+		border: 1px solid pink;
+		border-left: 5px solid pink;
+		border-right: 0;
+		padding: 1rem 0;
+		width: 70%;
+		h3 {
+			color: pink;
+			font-size: 30px;
+			margin: 0;
+			margin-left: 1.5rem;
+			letter-spacing: 3px;
+			text-align: left;
+			// transform: skew(-10deg);
+		}
+		h5 {
+			color: white;
+			font-family: 'Muli', sans-serif;
+			font-size: 14px;
+			font-weight: 600;
+			margin: 0;
+			margin-left: 1rem;
+			// transform: skew(-10deg);
+		}
+		p {
+			margin: 0;
+		}
+	}
+	.groomsman-info {
+		border-left: 0;
+		border: 1px solid lightblue;
+		border-right: 5px solid lightblue;
+		border-left: 0;
+		color: lightblue;
+		// transform: skew(-10deg);
+		h3 {
+			color: lightblue;
+			margin-left: 0;
+			margin-right: 1.5rem;
+			text-align: right;
+			// transform: skew(10deg);
+		}
+		h5 {
+			color: white;
+			margin-right: 1rem;
+			text-align: right;
+			// transform: skew(10deg);
+		}
+	}
 }
 
 .bridesmaid-img,
 .groomsman-img {
-	width: 100%;
+	border: 1px solid pink;
+	border-radius: 0 1rem 1rem 0;
+	overflow: hidden;
+	width: 30%;
 	img {
 		width: 100%;
 	}
 }
 
+.bridesmaid-img {
+	border-left: 0;
+}
+
+.groomsman-img {
+	border: 1px solid lightblue;
+	border-right: 0;
+	border-radius: 1rem 0 0 1rem;
+}
+
 @media (min-width: $desktop) {
 	.wedding-party {
-
+	padding-top: 3em !important;
+	padding-bottom: 10px !important;
 }
 .wedding-party .fp-tableCell {
 	vertical-align: unset;
@@ -79,13 +150,13 @@
 		}
 		&:last-child {
 			.bridesmaid-info {
-				border-bottom: 1px solid pink;
+				border-bottom: 1px solid rgba(255, 192, 203, 0.2);
 			}
 			.bridesmaid-img {
 				border-radius: 0 0 1rem 0;
 			}
 			.groomsman-info {
-				border-bottom: 1px solid lightblue;
+				border-bottom: 1px solid rgba(255, 192, 203, 0.2);
 			}
 			.groomsman-img {
 				border-radius: 0 0 0 1rem;
@@ -187,7 +258,8 @@
 	}
 	.bridesmaid-img,
 	.groomsman-img {
-		border: 1px solid pink;
+		border: 0;
+		border-radius: 0;
     height: 5rem;
     overflow: hidden;
     position: relative;
@@ -211,11 +283,12 @@
 	}
 	.bridesmaid-info,
 	.groomsman-info {
-		background: rgba(0, 0, 0, 0.9);
-		border-top: 1px solid pink;
+		background: rgba(0, 0, 0, 0.7);
+		border: 0;
+		border-top: 1px solid rgba(255, 192, 203, 0.2);
 		border-left: 5px solid pink;
 		height: 5rem;
-		padding: 1rem;
+		padding: 0.7rem;
 		transform: skew(10deg);
 		width: 20rem;
 		h3 {
@@ -242,7 +315,7 @@
 	}
 	.groomsman-info {
 		border-left: 0;
-		border-top: 1px solid lightblue;
+		border-top: 1px solid rgba(173, 216, 230, 0.2);
 		border-right: 5px solid lightblue;
 		color: lightblue;
 		transform: skew(-10deg);
