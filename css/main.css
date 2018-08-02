@@ -191,6 +191,11 @@ h3 {
       height: 0.2rem;
       margin-top: 0.2rem;
       width: 2rem; }
+  .page-header .mobile-title {
+    color: white;
+    position: absolute;
+    right: 1rem;
+    top: 0.9rem; }
   .page-header .mobile-menu {
     background-color: rgba(0, 0, 0, 0.9);
     height: 0;
@@ -225,7 +230,8 @@ h3 {
     width: 100%;
     z-index: 100; }
     .page-header .mobile-menu,
-    .page-header .hamburger-menu {
+    .page-header .hamburger-menu,
+    .page-header .mobile-title {
       display: none; }
     .page-header ul {
       display: flex;
@@ -399,16 +405,36 @@ h2 {
     .groomsmen .groomsman {
       display: flex;
       margin: 0rem 1rem; }
+      .bridesmaids .bridesmaid:first-child .bridesmaid-img,
+      .bridesmaids .groomsman:first-child .bridesmaid-img,
+      .groomsmen .bridesmaid:first-child .bridesmaid-img,
+      .groomsmen .groomsman:first-child .bridesmaid-img {
+        border-radius: 0 1rem 0 0; }
+      .bridesmaids .bridesmaid:first-child .groomsman-img,
+      .bridesmaids .groomsman:first-child .groomsman-img,
+      .groomsmen .bridesmaid:first-child .groomsman-img,
+      .groomsmen .groomsman:first-child .groomsman-img {
+        border-radius: 1rem 0 0 0; }
       .bridesmaids .bridesmaid:last-child .bridesmaid-info,
       .bridesmaids .groomsman:last-child .bridesmaid-info,
       .groomsmen .bridesmaid:last-child .bridesmaid-info,
       .groomsmen .groomsman:last-child .bridesmaid-info {
         border-bottom: 1px solid pink; }
+      .bridesmaids .bridesmaid:last-child .bridesmaid-img,
+      .bridesmaids .groomsman:last-child .bridesmaid-img,
+      .groomsmen .bridesmaid:last-child .bridesmaid-img,
+      .groomsmen .groomsman:last-child .bridesmaid-img {
+        border-radius: 0 0 1rem 0; }
       .bridesmaids .bridesmaid:last-child .groomsman-info,
       .bridesmaids .groomsman:last-child .groomsman-info,
       .groomsmen .bridesmaid:last-child .groomsman-info,
       .groomsmen .groomsman:last-child .groomsman-info {
         border-bottom: 1px solid lightblue; }
+      .bridesmaids .bridesmaid:last-child .groomsman-img,
+      .bridesmaids .groomsman:last-child .groomsman-img,
+      .groomsmen .bridesmaid:last-child .groomsman-img,
+      .groomsmen .groomsman:last-child .groomsman-img {
+        border-radius: 0 0 0 1rem; }
     .bridesmaids .joanna,
     .groomsmen .joanna {
       margin-left: -5rem; }

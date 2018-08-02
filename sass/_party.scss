@@ -69,12 +69,26 @@
 	.groomsman {
 		display: flex;
 		margin: 0rem 1rem;
+		&:first-child {
+			.bridesmaid-img {
+				border-radius: 0 1rem 0 0;
+			}
+			.groomsman-img {
+				border-radius: 1rem 0 0 0;
+			}
+		}
 		&:last-child {
 			.bridesmaid-info {
 				border-bottom: 1px solid pink;
 			}
+			.bridesmaid-img {
+				border-radius: 0 0 1rem 0;
+			}
 			.groomsman-info {
 				border-bottom: 1px solid lightblue;
+			}
+			.groomsman-img {
+				border-radius: 0 0 0 1rem;
 			}
 		}
 	}

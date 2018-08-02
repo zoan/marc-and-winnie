@@ -32,6 +32,12 @@
 			width: 2rem;
 		}
 	}
+	.mobile-title {
+		color: white;
+		position: absolute;
+		right: 1rem;
+		top: 0.9rem;
+	}
 	.mobile-menu {
 		background-color: rgba(0, 0, 0, 0.9);
 		height: 0;
@@ -71,7 +77,8 @@
 	width: 100%;
 	z-index: 100;
 	.mobile-menu,
-	.hamburger-menu {
+	.hamburger-menu,
+	.mobile-title {
 		display: none;
 	}
 	ul {
