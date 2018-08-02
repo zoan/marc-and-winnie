@@ -244,6 +244,7 @@ h3 {
       font-weight: 600;
       margin: 0 1.5rem; }
       .page-header li a {
+        color: pink;
         text-decoration: none; }
         .page-header li a:hover {
           text-decoration: underline; }
@@ -353,7 +354,7 @@ h2 {
 
 /** Wedding Party **/
 .wedding-party {
-  background: url("../img/walking-flip.jpg");
+  background: url("../img/walking-flip.JPG");
   background-position: center;
   background-size: cover;
   padding: 7rem 0 !important; }
