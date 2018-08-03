@@ -11,21 +11,19 @@
 		text-shadow: none;
 	}
 	#mc_embed_signup {
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.7);
 		border-right: 5px solid pink;
 		color: white;
 		margin-left: auto;
-		margin-right: 5rem;
+		margin-right: auto;
 		margin-top: calc(50vh - 20rem);
 		padding: 1rem 3.5rem;
 		text-align: center;
-		transform: skew(-10deg);
 		width: 25rem;
 		form {
 			font-family: 'Merienda One', sans-serif;
 			margin: auto;
 			padding-left: 0;
-			transform: skew(10deg);
 			input,
 			select {
 				background: rgba(0, 0, 0, 0.5);
@@ -47,6 +45,19 @@
 		.button {
 			&:hover {
 				background-color: pink;
+			}
+		}
+	}
+}
+
+@media (min-width: $desktop) {
+	.rsvp {
+		#mc_embed_signup {
+			background: rgba(0, 0, 0, 0.5);
+			margin-right: 5rem;
+			transform: skew(-10deg);
+			form {
+				transform: skew(10deg);
 			}
 		}
 	}
