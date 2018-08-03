@@ -16,13 +16,13 @@
 		color: white;
 		margin-left: auto;
 		margin-right: 5rem;
-		margin-top: 5rem;
+		margin-top: calc(50vh - 20rem);
 		padding: 1rem 3.5rem;
 		text-align: center;
 		transform: skew(-10deg);
 		width: 25rem;
 		form {
-			font-family: 'Fira Sans', sans-serif;
+			font-family: 'Merienda One', sans-serif;
 			margin: auto;
 			padding-left: 0;
 			transform: skew(10deg);
@@ -31,11 +31,23 @@
 				background: rgba(0, 0, 0, 0.5);
 				border: 0;
 				color: white;
+				font-family: 'Merienda One', sans-serif;
+				font-size: 14px;
+			}
+			select {
+				height: 2.5rem;
 			}
 		}
 		h2 {
 			border-left: none;
 			color: white;
+			font-family: 'Merienda One', sans-serif;
+			font-size: 28px;
+		}
+		.button {
+			&:hover {
+				background-color: pink;
+			}
 		}
 	}
 }

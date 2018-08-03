@@ -700,13 +700,13 @@ h2 {
     color: white;
     margin-left: auto;
     margin-right: 5rem;
-    margin-top: 5rem;
+    margin-top: calc(50vh - 20rem);
     padding: 1rem 3.5rem;
     text-align: center;
     transform: skew(-10deg);
     width: 25rem; }
     .rsvp #mc_embed_signup form {
-      font-family: 'Fira Sans', sans-serif;
+      font-family: 'Merienda One', sans-serif;
       margin: auto;
       padding-left: 0;
       transform: skew(10deg); }
@@ -714,10 +714,18 @@ h2 {
       .rsvp #mc_embed_signup form select {
         background: rgba(0, 0, 0, 0.5);
         border: 0;
-        color: white; }
+        color: white;
+        font-family: 'Merienda One', sans-serif;
+        font-size: 14px; }
+      .rsvp #mc_embed_signup form select {
+        height: 2.5rem; }
     .rsvp #mc_embed_signup h2 {
       border-left: none;
-      color: white; }
+      color: white;
+      font-family: 'Merienda One', sans-serif;
+      font-size: 28px; }
+    .rsvp #mc_embed_signup .button:hover {
+      background-color: pink; }
 
 /** Registry **/
 .registry .fp-tableCell {

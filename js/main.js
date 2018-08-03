@@ -98,4 +98,9 @@ $(document).ready(function() {
 
 	// Update RSVP Button Text
 	$('#mc-embedded-subscribe')[0].value = 'RSVP';
+
+	// prefill email in RSVP form if coming from invite email
+	var queryString = window && window.location.search;
+	var visitorEmail = queryString.split('?email=')[1];
+	$('#mce-EMAIL')[0].value = visitorEmail;
 });
