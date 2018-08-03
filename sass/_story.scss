@@ -1,30 +1,101 @@
 /** Our Story **/
 .our-story .fp-tableCell {
+	background: pink;
+	// background-image: url('../img/windy.jpg');
+	// background-position: center;
+	// background-size: cover;
 	vertical-align: unset;
 }
 
-.our-story h2 {
-	color: black;
-	font-size: 48px;
-	text-align: center;
-	text-shadow: none;
-}
-
-.our-story .content {
-	margin: 5rem auto;
-	text-align: center;
-}
-
-.our-story {
+.our-story { 	
+	h2 {
+		color: black;
+		font-size: 48px;
+		text-align: center;
+		text-shadow: none;
+	}
 	p {
 		font-family: 'Merienda One', serif;
 	}
+	.content {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 5rem auto;
+		text-align: center;
+	}
+	.polaroid {
+		background-color: white;
+		border-radius: 3px;
+		box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
+		cursor: pointer;
+		height: 20rem;
+		margin: 2rem;
+		padding: 1rem;
+		position: relative;
+		transition: all 0.5s;
+		width: 18rem;
+		.image-shine {
+	    background-color: rgba(255, 255, 255, 0.2);
+	    height: 200%;
+	    position: relative;
+	    width: 200%;
+	    z-index: 10;
+	    transform: rotate(-63deg) translate(21rem, -6rem);
+		}
+		.image-container {
+			height: 15rem;
+			overflow: hidden;
+			position: relative;
+			margin: auto;	
+			width: 95%;
+			img {
+				left: 0;
+				position: absolute;
+				top: -50%;
+				width: 100%;
+				&.boys {
+					top: -35%;
+				}
+				&.grad {
+					top: -20%;
+				}
+				&.hk-cake,
+				&.d232015,
+				&.d232017 {
+					top: 0;
+				}
+				&.vegas {
+					top: -10%;
+				}
+				&.fisheye {
+					left: -8rem;
+					top: 0;
+					width: 200%;
+				}
+			}
+		}
+		.polaroid-date {
+			bottom: 0.5rem;
+			font-family: 'Merienda One', serif;
+			position: absolute;
+			right: 0.5rem;
+		}
+		&.left-tilt {
+			transform: rotate(-3deg);
+			&:hover {
+			transform: rotate(3deg) scale(1.1);
+			}
+		}
+		&.right-tilt {
+			transform: rotate(3deg);
+			&:hover {
+				transform: rotate(-3deg) scale(1.1);
+			}
+		}
+	}
 }
 
-.windy {
-	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-	width: 90vw;
-}
 
 @media (min-width: $desktop) {
 	.windy {
