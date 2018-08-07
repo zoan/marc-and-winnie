@@ -21,7 +21,7 @@
 
 #### Story
 - Intro text section
-- Descriptors on polaroids
+- ~~Descriptors on polaroids~~
 - Some design/pattern for the background
 
 #### Registry

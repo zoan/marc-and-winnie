@@ -394,6 +394,8 @@ h2 {
         left: -8rem;
         top: 0;
         width: 200%; }
+  .our-story .polaroid .polaroid-caption {
+    margin-top: 0.5rem; }
   .our-story .polaroid .polaroid-date {
     bottom: 0.5rem;
     font-family: 'Merienda One', serif;
