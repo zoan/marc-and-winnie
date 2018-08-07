@@ -33,6 +33,7 @@
 - Confirm disabled email functionality
 - Bottom padding
 - Food allergy input
+- RSVP Button styling
 
 #### Mobile
 - Mobile Only section headers
