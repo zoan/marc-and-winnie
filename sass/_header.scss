@@ -66,6 +66,7 @@
 	.page-header {
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 0 0 1rem 1rem;
 	display: flex;
 	font-family: 'Muli', sans-serif;
 	justify-content: center;
@@ -74,7 +75,7 @@
 	position: fixed;
 	right: 0;
 	top: 0;
-	width: 100%;
+	width: 75%;
 	z-index: 100;
 	.mobile-menu,
 	.hamburger-menu,

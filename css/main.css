@@ -219,6 +219,7 @@ h3 {
   .page-header {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 1rem 1rem;
     display: flex;
     font-family: 'Muli', sans-serif;
     justify-content: center;
@@ -227,7 +228,7 @@ h3 {
     position: fixed;
     right: 0;
     top: 0;
-    width: 100%;
+    width: 75%;
     z-index: 100; }
     .page-header .mobile-menu,
     .page-header .hamburger-menu,
@@ -628,12 +629,27 @@ h2 {
     .bridesmaids .michael,
     .groomsmen .michael {
       margin-right: -1.5rem; }
+      .bridesmaids .michael .groomsman-img img,
+      .groomsmen .michael .groomsman-img img {
+        right: -2.3rem;
+        top: -2rem;
+        width: 140%; }
     .bridesmaids .daniel,
     .groomsmen .daniel {
       margin-right: 0.3rem; }
+      .bridesmaids .daniel .groomsman-img img,
+      .groomsmen .daniel .groomsman-img img {
+        right: -3.5rem;
+        top: -2.8rem;
+        width: 200%; }
     .bridesmaids .josh,
     .groomsmen .josh {
       margin-right: 2rem; }
+      .bridesmaids .josh .groomsman-img img,
+      .groomsmen .josh .groomsman-img img {
+        right: -0.9rem;
+        top: -0.9rem;
+        width: 120%; }
     .bridesmaids .alan,
     .groomsmen .alan {
       margin-right: 3.8rem; }
