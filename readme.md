@@ -2,8 +2,10 @@
 
 ### Details to follow
 
+---
 
 ### To-Dos / Ideas
+#### General
 - Curved header
 - Venue address in a postcard image or something from Disney
 - Use horizontal sections for venue
