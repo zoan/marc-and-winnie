@@ -329,6 +329,10 @@ h2 {
   width: 100%; }
 
 /** Our Story **/
+.our-story.fp-section {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important; }
+
 .our-story .fp-tableCell {
   background: pink;
   vertical-align: unset; }
@@ -526,7 +530,7 @@ h2 {
     display: flex;
     flex-direction: row;
     height: 80vh;
-    margin-top: 1rem; }
+    margin-top: 4rem; }
   .bridesmaids,
   .groomsmen {
     align-items: center;
@@ -779,6 +783,8 @@ h2 {
       font-family: 'Merienda One', sans-serif;
       margin: auto;
       padding-left: 0; }
+      .rsvp #mc_embed_signup form label {
+        font-size: 12px; }
       .rsvp #mc_embed_signup form input,
       .rsvp #mc_embed_signup form select {
         background: rgba(0, 0, 0, 0.5);
@@ -790,9 +796,12 @@ h2 {
         height: 2.5rem; }
     .rsvp #mc_embed_signup h2 {
       border-left: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
       color: white;
       font-family: 'Merienda One', sans-serif;
-      font-size: 28px; }
+      font-size: 32px;
+      padding-left: 1rem;
+      text-align: center; }
     .rsvp #mc_embed_signup .button:hover {
       background-color: pink; }
 
