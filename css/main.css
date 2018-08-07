@@ -766,18 +766,21 @@ h2 {
   background-image: url("../img/save-the-date-group.jpg");
   background-position: center;
   background-size: cover; }
+  .rsvp.fp-section {
+    padding: 0 !important; }
   .rsvp .fp-tableCell {
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 5rem;
     vertical-align: unset; }
   .rsvp h2 {
     color: white;
-    text-shadow: none; }
+    text-shadow: 2px 2px 1px black; }
   .rsvp #mc_embed_signup {
-    background: rgba(0, 0, 0, 0.7);
+    background: transparent;
     color: white;
     margin-left: auto;
     margin-right: auto;
-    margin-top: calc(50vh - 20rem);
-    padding: 1rem 3.5rem;
+    margin-top: 0;
     text-align: center;
     width: 85%; }
     .rsvp #mc_embed_signup form {
@@ -785,15 +788,17 @@ h2 {
       margin: auto;
       padding-left: 0; }
       .rsvp #mc_embed_signup form label {
-        font-size: 12px; }
+        font-size: 12px;
+        text-shadow: 2px 2px 1px black; }
       .rsvp #mc_embed_signup form input,
       .rsvp #mc_embed_signup form select {
-        background: rgba(171, 171, 171, 0.5);
+        background: rgba(138, 138, 138, 0.45);
         border: 0;
         color: white;
         font-family: 'Merienda One', sans-serif;
         font-size: 14px;
-        margin-bottom: 1rem; }
+        margin-bottom: 1rem;
+        text-shadow: 2px 2px 1px black; }
       .rsvp #mc_embed_signup form select {
         height: 2.5rem; }
     .rsvp #mc_embed_signup h2 {
@@ -810,14 +815,24 @@ h2 {
       display: none; }
 
 @media (min-width: 768px) {
+  .rsvp.fp-section {
+    padding: initial !important; }
+  .rsvp .fp-tableCell {
+    background: none;
+    padding-top: 0; }
   .rsvp #mc_embed_signup {
     background: rgba(0, 0, 0, 0.5);
     border-right: 5px solid pink;
     margin-right: 5rem;
+    margin-top: calc(50vh - 18rem);
+    padding: 1rem 3.5rem;
     transform: skew(-10deg);
     width: 25rem; }
     .rsvp #mc_embed_signup form {
-      transform: skew(10deg); } }
+      transform: skew(10deg); }
+      .rsvp #mc_embed_signup form input,
+      .rsvp #mc_embed_signup form select {
+        margin-bottom: 0; } }
 
 /** Registry **/
 .registry .fp-tableCell {

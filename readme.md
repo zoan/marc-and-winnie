@@ -32,6 +32,7 @@
 #### RSVP
 - Confirm disabled email functionality
 - Bottom padding
+- Food allergy input
 
 #### Mobile
 - Mobile Only section headers
