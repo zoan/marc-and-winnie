@@ -771,14 +771,13 @@ h2 {
     text-shadow: none; }
   .rsvp #mc_embed_signup {
     background: rgba(0, 0, 0, 0.7);
-    border-right: 5px solid pink;
     color: white;
     margin-left: auto;
     margin-right: auto;
     margin-top: calc(50vh - 20rem);
     padding: 1rem 3.5rem;
     text-align: center;
-    width: 25rem; }
+    width: 85%; }
     .rsvp #mc_embed_signup form {
       font-family: 'Merienda One', sans-serif;
       margin: auto;
@@ -787,11 +786,12 @@ h2 {
         font-size: 12px; }
       .rsvp #mc_embed_signup form input,
       .rsvp #mc_embed_signup form select {
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(171, 171, 171, 0.5);
         border: 0;
         color: white;
         font-family: 'Merienda One', sans-serif;
-        font-size: 14px; }
+        font-size: 14px;
+        margin-bottom: 1rem; }
       .rsvp #mc_embed_signup form select {
         height: 2.5rem; }
     .rsvp #mc_embed_signup h2 {
@@ -804,12 +804,16 @@ h2 {
       text-align: center; }
     .rsvp #mc_embed_signup .button:hover {
       background-color: pink; }
+    .rsvp #mc_embed_signup .indicates-required {
+      display: none; }
 
 @media (min-width: 768px) {
   .rsvp #mc_embed_signup {
     background: rgba(0, 0, 0, 0.5);
+    border-right: 5px solid pink;
     margin-right: 5rem;
-    transform: skew(-10deg); }
+    transform: skew(-10deg);
+    width: 25rem; }
     .rsvp #mc_embed_signup form {
       transform: skew(10deg); } }
 
@@ -828,7 +832,8 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 2rem 5rem; }
+  margin: auto;
+  width: 85%; }
 
 .registry-item {
   align-items: center;

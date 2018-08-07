@@ -3,7 +3,7 @@ $(document).ready(function() {
 		//Navigation
 		menu: '#menu',
 		lockAnchors: false,
-		anchors:['hero', 'venue', 'our-story', 'wedding-party', 'rsvp', 'registry', 'last'],
+		anchors:['hero', 'venue', 'our-story', 'wedding-party', 'registry', 'rsvp', 'last'],
 		navigation: true,
 		navigationPosition: 'right',
 		navigationTooltips: [],
