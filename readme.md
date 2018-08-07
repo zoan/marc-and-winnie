@@ -33,3 +33,8 @@
 
 #### Mobile
 - Mobile Only section headers
+
+#### Invite Email
+- Confirm correct pictures & layout
+- Confirm copy & details
+- Gather guest emails
