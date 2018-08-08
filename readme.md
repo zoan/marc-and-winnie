@@ -15,6 +15,7 @@
 - Find Disney designs/patterns
 - Mickey Mouse background pattern
 - Compress images for faster loading
+- Google Analytics
 
 #### Venue
 - As sidebar?
