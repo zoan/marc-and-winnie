@@ -31,9 +31,9 @@
 
 #### RSVP
 - Confirm disabled email functionality
-- Bottom padding
+- ~~Bottom padding~~
 - Food allergy input
-- RSVP Button styling
+- ~~RSVP Button styling~~
 
 #### Mobile
 - Mobile Only section headers

@@ -57,8 +57,12 @@
 			text-align: center;
 		}
 		.button {
+			background: pink;
+			font-size: 20px;
+			height: 3rem;
+			width: 100%;
 			&:hover {
-				background-color: pink;
+				background-color: #ffd5dd;
 			}
 		}
 		.indicates-required {
@@ -82,14 +86,18 @@
 			margin-right: 5rem;
 			margin-top: calc(50vh - 18rem);
 			padding: 1rem 3.5rem;
-			transform: skew(-10deg);
+			// transform: skew(-10deg);
 			width: 25rem;
 			form {
-				transform: skew(10deg);
+				// transform: skew(10deg);
+				margin-bottom: 2rem;
 				input,
 				select {
 					margin-bottom: 0;
 				}
+			}
+			.mc-field-group {
+				width: 100%;
 			}
 		}
 	}

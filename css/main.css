@@ -809,8 +809,13 @@ h2 {
       font-size: 32px;
       padding-left: 1rem;
       text-align: center; }
-    .rsvp #mc_embed_signup .button:hover {
-      background-color: pink; }
+    .rsvp #mc_embed_signup .button {
+      background: pink;
+      font-size: 20px;
+      height: 3rem;
+      width: 100%; }
+      .rsvp #mc_embed_signup .button:hover {
+        background-color: #ffd5dd; }
     .rsvp #mc_embed_signup .indicates-required {
       display: none; }
 
@@ -826,13 +831,14 @@ h2 {
     margin-right: 5rem;
     margin-top: calc(50vh - 18rem);
     padding: 1rem 3.5rem;
-    transform: skew(-10deg);
     width: 25rem; }
     .rsvp #mc_embed_signup form {
-      transform: skew(10deg); }
+      margin-bottom: 2rem; }
       .rsvp #mc_embed_signup form input,
       .rsvp #mc_embed_signup form select {
-        margin-bottom: 0; } }
+        margin-bottom: 0; }
+    .rsvp #mc_embed_signup .mc-field-group {
+      width: 100%; } }
 
 /** Registry **/
 .registry .fp-tableCell {
