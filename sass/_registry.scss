@@ -1,6 +1,6 @@
 /** Registry **/
 .registry .fp-tableCell {
-	vertical-align: unset;
+	vertical-align: middle;
 }
 
 .registry h2 {
@@ -15,7 +15,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: auto;
+	margin: 10rem auto;
 	// padding: 2rem 5rem;
 	width: 85%;
 }

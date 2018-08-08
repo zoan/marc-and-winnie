@@ -27,7 +27,7 @@
 - Some design/pattern for the background
 
 #### Registry
-- Crop photos to all be the same size
+- ~~Crop photos to all be the same size~~
 
 #### RSVP
 - Confirm disabled email functionality
