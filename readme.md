@@ -17,6 +17,8 @@
 - Compress images for faster loading
 
 #### Venue
+- As sidebar?
+- Multi-Section?
 - Information
 - Directions
 - Be Our Guest?
