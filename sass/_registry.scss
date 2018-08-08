@@ -1,4 +1,7 @@
 /** Registry **/
+.registry {
+	position: relative;
+}
 .registry .fp-tableCell {
 	vertical-align: middle;
 }
@@ -15,7 +18,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 8rem auto;
+	margin: 6rem auto;
 	// padding: 2rem 5rem;
 	width: 85%;
 }
@@ -61,4 +64,21 @@
 			cursor: pointer;
 		}
 	}
+}
+
+.scroll-png-left {
+	left: 5rem;
+	position: absolute;
+	top: 0;
+	transform: rotate(90deg);
+	transform-origin: left;
+	width: 40rem;
+}
+.scroll-png-right {
+	right: 5rem;
+	position: absolute;
+	top: 0;
+	transform: rotate(-90deg);
+	transform-origin: right;
+	width: 40rem;
 }

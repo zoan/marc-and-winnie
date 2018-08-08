@@ -452,6 +452,17 @@ h2 {
   background-position: center;
   background-size: cover;
   padding: 7rem 0 !important; }
+  .wedding-party .pink-flag-left {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 10; }
+  .wedding-party .pink-flag-right {
+    right: 0;
+    position: absolute;
+    top: 0;
+    transform: scale(-1, 1);
+    z-index: 10; }
 
 .wedding-party .fp-tableCell {
   vertical-align: unset; }
@@ -873,6 +884,9 @@ h2 {
       width: 100%; } }
 
 /** Registry **/
+.registry {
+  position: relative; }
+
 .registry .fp-tableCell {
   vertical-align: middle; }
 
@@ -887,7 +901,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 8rem auto;
+  margin: 6rem auto;
   width: 85%; }
 
 .registry-item {
@@ -924,6 +938,22 @@ h2 {
     .registry-item a:hover {
       background-color: #f7a6c7;
       cursor: pointer; }
+
+.scroll-png-left {
+  left: 5rem;
+  position: absolute;
+  top: 0;
+  transform: rotate(90deg);
+  transform-origin: left;
+  width: 40rem; }
+
+.scroll-png-right {
+  right: 5rem;
+  position: absolute;
+  top: 0;
+  transform: rotate(-90deg);
+  transform-origin: right;
+  width: 40rem; }
 
 .last {
   background-image: url("../img/last.jpg");
