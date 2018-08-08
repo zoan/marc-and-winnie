@@ -22,7 +22,7 @@
 - Be Our Guest?
 
 #### Story
-- Intro text section
+- ~~Intro text section~~
 - ~~Descriptors on polaroids~~
 - Some design/pattern for the background
 

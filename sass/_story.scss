@@ -21,6 +21,41 @@
 	p {
 		font-family: 'Merienda One', serif;
 	}
+	.story-text {
+    background: white;
+    border-radius: 50%;
+    height: 40rem;
+    margin: 5rem auto;
+    padding: 5rem;
+    position: relative;
+    width: 40rem;
+    .happily {
+    	margin-top: 10rem;
+    	text-align: right;
+    }
+    &::before {
+    	background: white;
+    	border-radius: 50%;
+    	content: '';
+    	height: 21rem;
+    	left: -16rem;
+    	position: absolute;
+    	top: -8rem;
+    	transform: rotate(139deg);
+    	width: 28rem;
+    }
+    &::after {
+    	background: white;
+    	border-radius: 50%;
+    	content: '';
+    	height: 21rem;
+    	right: -16rem;
+    	position: absolute;
+    	top: -8rem;
+    	transform: rotate(221deg);
+    	width: 28rem;
+    }
+	}
 	.content {
 		display: flex;
 		flex-wrap: wrap;

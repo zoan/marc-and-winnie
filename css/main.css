@@ -346,6 +346,38 @@ h2 {
 .our-story p {
   font-family: 'Merienda One', serif; }
 
+.our-story .story-text {
+  background: white;
+  border-radius: 50%;
+  height: 40rem;
+  margin: 5rem auto;
+  padding: 5rem;
+  position: relative;
+  width: 40rem; }
+  .our-story .story-text .happily {
+    margin-top: 10rem;
+    text-align: right; }
+  .our-story .story-text::before {
+    background: white;
+    border-radius: 50%;
+    content: '';
+    height: 21rem;
+    left: -16rem;
+    position: absolute;
+    top: -8rem;
+    transform: rotate(139deg);
+    width: 28rem; }
+  .our-story .story-text::after {
+    background: white;
+    border-radius: 50%;
+    content: '';
+    height: 21rem;
+    right: -16rem;
+    position: absolute;
+    top: -8rem;
+    transform: rotate(221deg);
+    width: 28rem; }
+
 .our-story .content {
   display: flex;
   flex-wrap: wrap;
@@ -855,15 +887,16 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 10rem auto;
+  margin: 8rem auto;
   width: 85%; }
 
 .registry-item {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
+  border-top: 5px solid pink;
   display: flex;
   flex-direction: column;
-  height: 16rem;
+  height: 17rem;
   justify-content: center;
   margin: 1rem 2rem;
   padding: 1rem;

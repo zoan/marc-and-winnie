@@ -15,7 +15,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 10rem auto;
+	margin: 8rem auto;
 	// padding: 2rem 5rem;
 	width: 85%;
 }
@@ -23,9 +23,10 @@
 .registry-item {
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.5);
+	border-top: 5px solid pink;
 	display: flex;
 	flex-direction: column;
-	height: 16rem;
+	height: 17rem;
 	justify-content: center;
 	margin: 1rem 2rem;
 	padding: 1rem;
