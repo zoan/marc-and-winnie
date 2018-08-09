@@ -4,14 +4,17 @@
 	padding-top: 0 !important;
 }
 .our-story .fp-tableCell {
-	background: pink;
+	// background: pink;
 	// background-image: url('../img/windy.jpg');
 	// background-position: center;
 	// background-size: cover;
 	vertical-align: unset;
 }
 
-.our-story { 	
+.our-story {
+	background-image: url('../img/ggb-night-compressor.jpg');
+	background-position: center;
+	background-size: cover;
 	h2 {
 		color: black;
 		font-size: 48px;

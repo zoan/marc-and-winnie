@@ -7,7 +7,6 @@
 ### To-Dos / Ideas
 #### General
 - Curved header
-- Venue address in a postcard image or something from Disney
 - Use horizontal sections for venue
 - ~~Update MailChimp account info w/ actual website URL and info~~
 - ~~Mobile styling~~
@@ -15,19 +14,28 @@
 - Find Disney designs/patterns
 - Mickey Mouse background pattern
 - Compress images for faster loading
+    + ~~Hero images~~
+    + Party images
+    + RSVP BG
 - ~~Google Analytics~~
 
+#### Header
+- find header hover bg
+
 #### Venue
-- As sidebar?
+- ~~As sidebar?~~
 - Multi-Section?
-- Information
+- ~~Information~~
 - Directions
+- Parking
+- Hotels
 - Be Our Guest?
 
 #### Story
 - ~~Intro text section~~
 - ~~Descriptors on polaroids~~
-- Some design/pattern for the background
+- ~~Some design/pattern for the background~~
+- Make story text section an image that's slightly transparent
 
 #### Registry
 - ~~Crop photos to all be the same size~~

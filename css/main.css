@@ -218,7 +218,7 @@ h3 {
 @media (min-width: 768px) {
   .page-header {
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
     border-radius: 0 0 1rem 1rem;
     display: flex;
     font-family: 'Muli', sans-serif;
@@ -230,6 +230,8 @@ h3 {
     top: 0;
     width: 75%;
     z-index: 100; }
+    .page-header:hover {
+      background-color: rgba(0, 0, 0, 0.9); }
     .page-header .mobile-menu,
     .page-header .hamburger-menu,
     .page-header .mobile-title {
@@ -298,18 +300,37 @@ h3 {
 .venue {
   background-image: url("../img/casa-real.jpg");
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  position: relative; }
 
 .venue .fp-tableCell {
   vertical-align: unset; }
 
 h2 {
-  color: white;
+  color: #31aaff;
+  font-family: 'Merienda One', cursive;
   font-size: 70px;
   letter-spacing: 1px;
-  padding-left: 1rem;
-  text-align: left;
-  text-shadow: 3px 2px 6px #1b1717; }
+  text-align: left; }
+
+.left-bar {
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  height: 100vh;
+  left: 0;
+  padding: 5rem;
+  position: absolute;
+  top: 0;
+  width: 35%; }
+  .left-bar h5 {
+    font-family: 'Muli', serif;
+    font-size: 20px;
+    font-weight: 600; }
+  .left-bar p {
+    font-family: 'Muli', serif; }
 
 .venue-right {
   float: right;
@@ -334,113 +355,112 @@ h2 {
   padding-top: 0 !important; }
 
 .our-story .fp-tableCell {
-  background: pink;
   vertical-align: unset; }
 
-.our-story h2 {
-  color: black;
-  font-size: 48px;
-  text-align: center;
-  text-shadow: none; }
-
-.our-story p {
-  font-family: 'Merienda One', serif; }
-
-.our-story .story-text {
-  background: white;
-  border-radius: 50%;
-  height: 40rem;
-  margin: 5rem auto;
-  padding: 5rem;
-  position: relative;
-  width: 40rem; }
-  .our-story .story-text .happily {
-    margin-top: 10rem;
-    text-align: right; }
-  .our-story .story-text::before {
+.our-story {
+  background-image: url("../img/ggb-night-compressor.jpg");
+  background-position: center;
+  background-size: cover; }
+  .our-story h2 {
+    color: black;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: none; }
+  .our-story p {
+    font-family: 'Merienda One', serif; }
+  .our-story .story-text {
     background: white;
     border-radius: 50%;
-    content: '';
-    height: 21rem;
-    left: -16rem;
-    position: absolute;
-    top: -8rem;
-    transform: rotate(139deg);
-    width: 28rem; }
-  .our-story .story-text::after {
-    background: white;
-    border-radius: 50%;
-    content: '';
-    height: 21rem;
-    right: -16rem;
-    position: absolute;
-    top: -8rem;
-    transform: rotate(221deg);
-    width: 28rem; }
-
-.our-story .content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 5rem auto;
-  text-align: center; }
-
-.our-story .polaroid {
-  background-color: white;
-  border-radius: 3px;
-  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  height: 20rem;
-  margin: 2rem;
-  padding: 1rem;
-  position: relative;
-  transition: all 0.5s;
-  width: 18rem; }
-  .our-story .polaroid .image-shine {
-    background-color: rgba(255, 255, 255, 0.2);
-    height: 200%;
+    height: 40rem;
+    margin: 5rem auto;
+    padding: 5rem;
     position: relative;
-    width: 200%;
-    z-index: 10;
-    transform: rotate(-63deg) translate(21rem, -6rem); }
-  .our-story .polaroid .image-container {
-    height: 15rem;
-    overflow: hidden;
-    position: relative;
-    margin: auto;
-    width: 95%; }
-    .our-story .polaroid .image-container img {
-      left: 0;
+    width: 40rem; }
+    .our-story .story-text .happily {
+      margin-top: 10rem;
+      text-align: right; }
+    .our-story .story-text::before {
+      background: white;
+      border-radius: 50%;
+      content: '';
+      height: 21rem;
+      left: -16rem;
       position: absolute;
-      top: -50%;
-      width: 100%; }
-      .our-story .polaroid .image-container img.boys {
-        top: -35%; }
-      .our-story .polaroid .image-container img.grad {
-        top: -20%; }
-      .our-story .polaroid .image-container img.hk-cake, .our-story .polaroid .image-container img.d232015, .our-story .polaroid .image-container img.d232017 {
-        top: 0; }
-      .our-story .polaroid .image-container img.vegas {
-        top: -10%; }
-      .our-story .polaroid .image-container img.fisheye {
-        left: -8rem;
-        top: 0;
-        width: 200%; }
-  .our-story .polaroid .polaroid-caption {
-    margin-top: 0.5rem; }
-  .our-story .polaroid .polaroid-date {
-    bottom: 0.5rem;
-    font-family: 'Merienda One', serif;
-    position: absolute;
-    right: 0.5rem; }
-  .our-story .polaroid.left-tilt {
-    transform: rotate(-3deg); }
-    .our-story .polaroid.left-tilt:hover {
-      transform: rotate(3deg) scale(1.1); }
-  .our-story .polaroid.right-tilt {
-    transform: rotate(3deg); }
-    .our-story .polaroid.right-tilt:hover {
-      transform: rotate(-3deg) scale(1.1); }
+      top: -8rem;
+      transform: rotate(139deg);
+      width: 28rem; }
+    .our-story .story-text::after {
+      background: white;
+      border-radius: 50%;
+      content: '';
+      height: 21rem;
+      right: -16rem;
+      position: absolute;
+      top: -8rem;
+      transform: rotate(221deg);
+      width: 28rem; }
+  .our-story .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem auto;
+    text-align: center; }
+  .our-story .polaroid {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    height: 20rem;
+    margin: 2rem;
+    padding: 1rem;
+    position: relative;
+    transition: all 0.5s;
+    width: 18rem; }
+    .our-story .polaroid .image-shine {
+      background-color: rgba(255, 255, 255, 0.2);
+      height: 200%;
+      position: relative;
+      width: 200%;
+      z-index: 10;
+      transform: rotate(-63deg) translate(21rem, -6rem); }
+    .our-story .polaroid .image-container {
+      height: 15rem;
+      overflow: hidden;
+      position: relative;
+      margin: auto;
+      width: 95%; }
+      .our-story .polaroid .image-container img {
+        left: 0;
+        position: absolute;
+        top: -50%;
+        width: 100%; }
+        .our-story .polaroid .image-container img.boys {
+          top: -35%; }
+        .our-story .polaroid .image-container img.grad {
+          top: -20%; }
+        .our-story .polaroid .image-container img.hk-cake, .our-story .polaroid .image-container img.d232015, .our-story .polaroid .image-container img.d232017 {
+          top: 0; }
+        .our-story .polaroid .image-container img.vegas {
+          top: -10%; }
+        .our-story .polaroid .image-container img.fisheye {
+          left: -8rem;
+          top: 0;
+          width: 200%; }
+    .our-story .polaroid .polaroid-caption {
+      margin-top: 0.5rem; }
+    .our-story .polaroid .polaroid-date {
+      bottom: 0.5rem;
+      font-family: 'Merienda One', serif;
+      position: absolute;
+      right: 0.5rem; }
+    .our-story .polaroid.left-tilt {
+      transform: rotate(-3deg); }
+      .our-story .polaroid.left-tilt:hover {
+        transform: rotate(3deg) scale(1.1); }
+    .our-story .polaroid.right-tilt {
+      transform: rotate(3deg); }
+      .our-story .polaroid.right-tilt:hover {
+        transform: rotate(-3deg) scale(1.1); }
 
 @media (min-width: 768px) {
   .windy {
