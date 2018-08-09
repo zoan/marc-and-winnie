@@ -372,10 +372,18 @@ h2 {
     background: white;
     border-radius: 50%;
     height: 40rem;
-    margin: 5rem auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: 15rem;
+    margin-top: 5rem;
     padding: 5rem;
     position: relative;
     width: 40rem; }
+    .our-story .story-text h3 {
+      color: #ff8f2dad;
+      font-family: 'Merienda One', cursive;
+      font-size: 48px;
+      letter-spacing: 1px; }
     .our-story .story-text .happily {
       margin-top: 10rem;
       text-align: right; }
@@ -926,8 +934,6 @@ h2 {
 
 .registry-item {
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-top: 5px solid pink;
   display: flex;
   flex-direction: column;
   height: 17rem;
@@ -943,9 +949,7 @@ h2 {
     color: #ff6ca9; }
   .registry-item a {
     align-items: center;
-    background-color: #ff6ca9;
     border: none;
-    color: white;
     display: flex;
     font-family: 'Muli', sans-serif;
     font-size: 14px;
@@ -953,10 +957,11 @@ h2 {
     height: 3rem;
     justify-content: center;
     text-decoration: none;
-    transition: 0.5s all;
+    transition: 0.5s background-color;
     width: 80%; }
     .registry-item a:hover {
       background-color: #f7a6c7;
+      color: white;
       cursor: pointer; }
 
 .scroll-png-left {

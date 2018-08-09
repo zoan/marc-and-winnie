@@ -18,9 +18,11 @@
     + Party images
     + RSVP BG
 - ~~Google Analytics~~
+- Check other wedding sites to confirm what details to include
 
 #### Header
-- find header hover bg
+- Find header hover bg
+- Change text color for each section on enter
 
 #### Venue
 - ~~As sidebar?~~
@@ -36,6 +38,13 @@
 - ~~Descriptors on polaroids~~
 - ~~Some design/pattern for the background~~
 - Make story text section an image that's slightly transparent
+- More pictures / better pictures
+
+#### Wedding Party
+- Move banners up a bit
+- Remove sixths bridesmaid for now
+- Evan & Dennis's pics
+- Handle mobile
 
 #### Registry
 - ~~Crop photos to all be the same size~~
@@ -45,6 +54,7 @@
 - ~~Bottom padding~~
 - Food allergy input
 - ~~RSVP Button styling~~
+- Update design to match Venue
 
 #### Mobile
 - Mobile Only section headers

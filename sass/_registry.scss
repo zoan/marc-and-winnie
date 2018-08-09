@@ -25,8 +25,8 @@
 
 .registry-item {
 	align-items: center;
-	background-color: rgba(0, 0, 0, 0.5);
-	border-top: 5px solid pink;
+	// background-color: rgba(0, 0, 0, 0.5);
+	// border-top: 5px solid pink;
 	display: flex;
 	flex-direction: column;
 	height: 17rem;
@@ -46,9 +46,9 @@
 	}
 	a {
 		align-items: center;
-		background-color: $font-pink;
+		// background-color: $font-pink;
 		border: none;
-		color: white;
+		// color: white;
 		display: flex;
 		font-family: 'Muli', sans-serif;
 		font-size: 14px;
@@ -56,11 +56,12 @@
 		height: 3rem;
 		justify-content: center;
 		text-decoration: none;
-		transition: 0.5s all;
+		transition: 0.5s background-color;
 		// transform: skew(-10deg);
 		width: 80%;
 		&:hover {
 			background-color: $font-pink-hover;
+			color: white;
 			cursor: pointer;
 		}
 	}
