@@ -274,23 +274,23 @@ h3 {
 
 /** Hero Section **/
 .hero {
-  background-image: url("../img/tree-tunnel.jpg");
+  background-image: url("../img/tree-tunnel-mobile.jpg");
   background-position: center;
   background-size: cover;
   transition: 1s background-image; }
   .hero.hand-in-hand {
-    background-image: url("../img/hand-in-hand.jpg"); }
+    background-image: url("../img/hand-in-hand-edit-mobile.jpg"); }
   .hero.ocean-side {
-    background-image: url("../img/ocean-side.jpg"); }
+    background-image: url("../img/ocean-side-mobile.jpg"); }
 
 @media (min-width: 768px) {
   .hero {
-    background-image: url("../img/tree-tunnel.jpg");
+    background-image: url("../img/tree-tunnel-2.jpg");
     background-position: center;
     background-size: cover;
     transition: 1s background-image; }
     .hero.hand-in-hand {
-      background-image: url("../img/hand-in-hand.jpg"); }
+      background-image: url("../img/hand-in-hand-edit.jpg"); }
     .hero.ocean-side {
       background-image: url("../img/ocean-side.jpg"); } }
 

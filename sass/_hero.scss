@@ -1,25 +1,25 @@
 /** Hero Section **/
 .hero {
-	background-image: url('../img/tree-tunnel.jpg');
+	background-image: url('../img/tree-tunnel-mobile.jpg');
 	background-position: center;
 	background-size: cover;
 	transition: 1s background-image;
 	&.hand-in-hand {
-		background-image: url('../img/hand-in-hand.jpg');
+		background-image: url('../img/hand-in-hand-edit-mobile.jpg');
 	}
 	&.ocean-side {
-		background-image: url('../img/ocean-side.jpg');
+		background-image: url('../img/ocean-side-mobile.jpg');
 	}
 }
 
 @media (min-width: $desktop) {
 	.hero {
-	background-image: url('../img/tree-tunnel.jpg');
+	background-image: url('../img/tree-tunnel-2.jpg');
 	background-position: center;
 	background-size: cover;
 	transition: 1s background-image;
 	&.hand-in-hand {
-		background-image: url('../img/hand-in-hand.jpg');
+		background-image: url('../img/hand-in-hand-edit.jpg');
 	}
 	&.ocean-side {
 		background-image: url('../img/ocean-side.jpg');
