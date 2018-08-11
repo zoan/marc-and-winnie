@@ -335,20 +335,17 @@ h2 {
   font-family: 'Merienda One', cursive;
   font-size: 70px;
   letter-spacing: 1px;
-  text-align: left; }
+  text-align: center; }
 
 .left-bar {
-  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
-  background: -o-linear-gradient(left, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: rgba(255, 255, 255, 0.85);
   height: 100vh;
   left: 0;
-  padding: 5rem;
+  padding: 2rem;
   position: absolute;
+  text-align: center;
   top: 0;
-  width: 35%; }
+  width: 100%; }
   .left-bar h5 {
     font-family: 'Muli', serif;
     font-size: 20px;
@@ -372,6 +369,54 @@ h2 {
 .venue .overlay {
   height: 100%;
   width: 100%; }
+
+@media (min-width: 768px) {
+  .venue {
+    background-image: url("../img/casa-real.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative; }
+  .venue .fp-tableCell {
+    vertical-align: unset; }
+  h2 {
+    color: #ff9b20;
+    font-family: 'Merienda One', cursive;
+    font-size: 70px;
+    letter-spacing: 1px;
+    text-align: left; }
+  .left-bar {
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    height: 100vh;
+    left: 0;
+    padding: 5rem;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    width: 35%; }
+    .left-bar h5 {
+      font-family: 'Muli', serif;
+      font-size: 20px;
+      font-weight: 600; }
+    .left-bar p {
+      font-family: 'Muli', serif; }
+  .venue-right {
+    float: right;
+    padding-right: 10rem; }
+  .venue-address {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    padding: 1rem; }
+  .venue .overlay {
+    height: 100%;
+    width: 100%; } }
 
 /** Our Story **/
 .our-story.fp-section {
@@ -397,25 +442,23 @@ h2 {
   .our-story .story-text {
     color: white;
     font-size: 24px;
-    height: 40rem;
+    height: 35rem;
     margin-bottom: 0;
     margin-left: auto;
-    margin-right: 5rem;
+    margin-right: auto;
     margin-top: 5rem;
     padding: 1.5rem;
     position: relative;
-    width: 50%; }
+    width: 90%; }
     .our-story .story-text .story-container {
       background: rgba(0, 0, 0, 0.5);
       margin-top: -4rem;
-      padding: 2rem;
-      transform: skew(10deg); }
+      padding: 2rem; }
       .our-story .story-text .story-container p {
         font-size: 18px;
         letter-spacing: 1px;
         line-height: 1.5;
-        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.85);
-        transform: skew(-10deg); }
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.85); }
     .our-story .story-text h3 {
       color: #ff8f2dad;
       font-family: 'Muli', sans-serif;
@@ -423,7 +466,7 @@ h2 {
       letter-spacing: 1px; }
     .our-story .story-text .once-udon {
       font-family: 'Merienda One', cursive;
-      margin-left: -3rem;
+      margin-left: -1rem;
       position: relative;
       z-index: 10; }
       .our-story .story-text .once-udon .big-o {
@@ -438,14 +481,11 @@ h2 {
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
         padding: 0.6rem 0.5rem 0 0.2rem;
         width: 4.5rem; }
-    .our-story .story-text .happily {
-      margin-top: 10rem;
-      text-align: right; }
   .our-story .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 5rem auto;
+    margin: 3rem auto;
     text-align: center; }
   .our-story .polaroid {
     background-color: white;
@@ -506,8 +546,131 @@ h2 {
         transform: rotate(-3deg) scale(1.1); }
 
 @media (min-width: 768px) {
-  .windy {
-    width: initial; } }
+  .our-story.fp-section {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important; }
+  .our-story .fp-tableCell {
+    vertical-align: unset; }
+  .our-story {
+    background-blend-mode: luminosity;
+    background-color: #9bc4ef;
+    background-image: url("../img/ggb-night-compressor.jpg");
+    background-position: center;
+    background-size: cover; }
+    .our-story h2 {
+      color: black;
+      font-size: 48px;
+      text-align: center;
+      text-shadow: none; }
+    .our-story p {
+      font-family: 'Muli', sans-serif; }
+    .our-story .story-text {
+      color: white;
+      font-size: 24px;
+      height: 40rem;
+      margin-bottom: 0;
+      margin-left: auto;
+      margin-right: 5rem;
+      margin-top: 5rem;
+      padding: 1.5rem;
+      position: relative;
+      width: 50%; }
+      .our-story .story-text .story-container {
+        background: rgba(0, 0, 0, 0.5);
+        margin-top: -4rem;
+        padding: 2rem;
+        transform: skew(10deg); }
+        .our-story .story-text .story-container p {
+          font-size: 18px;
+          letter-spacing: 1px;
+          line-height: 1.5;
+          text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.85);
+          transform: skew(-10deg); }
+      .our-story .story-text h3 {
+        color: #ff8f2dad;
+        font-family: 'Muli', sans-serif;
+        font-size: 48px;
+        letter-spacing: 1px; }
+      .our-story .story-text .once-udon {
+        font-family: 'Merienda One', cursive;
+        margin-left: -3rem;
+        position: relative;
+        z-index: 10; }
+        .our-story .story-text .once-udon .big-o {
+          background-color: #0069b3;
+          border: 3px double #eaeaea;
+          color: #eaeaea;
+          display: inline-block;
+          font-family: 'Great Vibes', cursive;
+          font-size: 60px;
+          margin-right: 0.2rem;
+          text-align: center;
+          text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+          padding: 0.6rem 0.5rem 0 0.2rem;
+          width: 4.5rem; }
+    .our-story .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 5rem auto;
+      text-align: center; }
+    .our-story .polaroid {
+      background-color: white;
+      border-radius: 3px;
+      box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+      height: 20rem;
+      margin: 2rem;
+      padding: 1rem;
+      position: relative;
+      transition: all 0.5s;
+      width: 18rem; }
+      .our-story .polaroid .image-shine {
+        background-color: rgba(255, 255, 255, 0.2);
+        height: 200%;
+        position: relative;
+        width: 200%;
+        z-index: 10;
+        transform: rotate(-63deg) translate(21rem, -6rem); }
+      .our-story .polaroid .image-container {
+        height: 15rem;
+        overflow: hidden;
+        position: relative;
+        margin: auto;
+        width: 95%; }
+        .our-story .polaroid .image-container img {
+          left: 0;
+          position: absolute;
+          top: -50%;
+          width: 100%; }
+          .our-story .polaroid .image-container img.boys {
+            top: -35%; }
+          .our-story .polaroid .image-container img.grad {
+            top: -20%; }
+          .our-story .polaroid .image-container img.hk-cake, .our-story .polaroid .image-container img.d232015, .our-story .polaroid .image-container img.d232017, .our-story .polaroid .image-container img.cosplay, .our-story .polaroid .image-container img.marculus-baby {
+            top: 0; }
+          .our-story .polaroid .image-container img.vegas {
+            top: -10%; }
+          .our-story .polaroid .image-container img.fisheye {
+            left: -8rem;
+            top: 0;
+            width: 200%; }
+      .our-story .polaroid .polaroid-caption {
+        font-family: 'Merienda One', serif;
+        margin-top: 0.5rem; }
+      .our-story .polaroid .polaroid-date {
+        bottom: 0.5rem;
+        font-family: 'Merienda One', serif;
+        position: absolute;
+        right: 0.5rem; }
+      .our-story .polaroid.left-tilt {
+        transform: rotate(-3deg); }
+        .our-story .polaroid.left-tilt:hover {
+          transform: rotate(3deg) scale(1.1); }
+      .our-story .polaroid.right-tilt {
+        transform: rotate(3deg); }
+        .our-story .polaroid.right-tilt:hover {
+          transform: rotate(-3deg) scale(1.1); } }
 
 /** Wedding Party **/
 .wedding-party {
@@ -517,17 +680,17 @@ h2 {
   padding: 7rem 0 !important; }
   .wedding-party .pink-flag-left {
     left: 0;
-    position: absolute;
-    top: -5rem;
+    top: 0;
     z-index: 10; }
   .wedding-party .pink-flag-right {
+    display: none;
     right: 0;
-    position: absolute;
-    top: -5rem;
+    top: 0;
     transform: scale(-1, 1);
     z-index: 10; }
 
 .wedding-party .fp-tableCell {
+  overflow-x: hidden;
   vertical-align: unset; }
 
 .wedding-party h2 {
@@ -540,7 +703,7 @@ h2 {
 .wedding-party-container {
   display: flex;
   flex-direction: column;
-  margin-top: 1rem; }
+  margin-top: 10rem; }
 
 .bridesmaids,
 .groomsmen {
@@ -623,8 +786,11 @@ h2 {
     padding-top: 3em !important;
     padding-bottom: 10px !important; }
     .wedding-party .pink-flag-left {
+      position: absolute;
       top: -0.5rem; }
     .wedding-party .pink-flag-right {
+      display: block;
+      position: absolute;
       top: -0.5rem; }
   .wedding-party .fp-tableCell {
     vertical-align: unset; }
@@ -884,17 +1050,14 @@ h2 {
     padding-top: 5rem;
     vertical-align: unset; }
   .rsvp .right-bar {
-    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
-    background: -o-linear-gradient(right, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
-    background: linear-gradient(to left, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: rgba(255, 255, 255, 0.8);
     height: 100vh;
     right: 0;
-    padding: 0 5rem;
+    padding: 1rem;
     position: absolute;
+    text-align: center;
     top: 0;
-    width: 35%; }
+    width: 100%; }
     .rsvp .right-bar h5 {
       font-family: 'Muli', serif;
       font-size: 20px;
@@ -906,6 +1069,7 @@ h2 {
     color: black;
     height: 100%;
     margin-left: auto;
+    margin-right: auto;
     margin-top: 0;
     text-align: center;
     width: 85%; }
@@ -949,6 +1113,7 @@ h2 {
       text-shadow: 1px 1px 1px white; }
     .rsvp #mc_embed_signup .button {
       background: #ff8398;
+      color: white;
       font-size: 20px;
       height: 3rem;
       width: 100%; }
@@ -963,6 +1128,24 @@ h2 {
   .rsvp .fp-tableCell {
     background: none;
     padding-top: 0; }
+  .rsvp .right-bar {
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(right, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    height: 100vh;
+    right: 0;
+    padding: 0 5rem;
+    position: absolute;
+    top: 0;
+    width: 35%; }
+    .rsvp .right-bar h5 {
+      font-family: 'Muli', serif;
+      font-size: 20px;
+      font-weight: 600; }
+    .rsvp .right-bar p {
+      font-family: 'Muli', serif; }
   .rsvp #mc_embed_signup {
     padding: 1rem 3.5rem;
     width: 28rem; }
@@ -1042,20 +1225,28 @@ h2 {
       cursor: pointer; }
 
 .scroll-png-left {
-  left: 5rem;
-  position: absolute;
-  top: 0;
-  transform: rotate(90deg);
-  transform-origin: left;
-  width: 40rem; }
+  display: none; }
 
 .scroll-png-right {
-  right: 5rem;
-  position: absolute;
-  top: 0;
-  transform: rotate(-90deg);
-  transform-origin: right;
-  width: 40rem; }
+  display: none; }
+
+@media (min-width: 768px) {
+  .scroll-png-left {
+    display: block;
+    left: 5rem;
+    position: absolute;
+    top: 0;
+    transform: rotate(90deg);
+    transform-origin: left;
+    width: 40rem; }
+  .scroll-png-right {
+    display: block;
+    right: 5rem;
+    position: absolute;
+    top: 0;
+    transform: rotate(-90deg);
+    transform-origin: right;
+    width: 40rem; } }
 
 .last {
   background-image: url("../img/last.jpg");

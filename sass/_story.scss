@@ -4,10 +4,6 @@
 	padding-top: 0 !important;
 }
 .our-story .fp-tableCell {
-	// background: pink;
-	// background-image: url('../img/windy.jpg');
-	// background-position: center;
-	// background-size: cover;
 	vertical-align: unset;
 }
 
@@ -27,31 +23,26 @@
 		font-family: 'Muli', sans-serif;
 	}
 	.story-text {
-    // background: #ffc284;
-    // border: 20px solid #1f1f1f;
-    // border-radius: 50%;
     color: white;
     font-size: 24px;
-    height: 40rem;
+    height: 35rem;
     margin-bottom: 0;
     margin-left: auto;
-    margin-right: 5rem;
+    margin-right: auto;
     margin-top: 5rem;
     padding: 1.5rem;
     position: relative;
-    width: 50%;
+    width: 90%;
     .story-container {
     	background: rgba(0, 0, 0, 0.5);
-    	// border-right: 5px solid #9bc4ef;
     	margin-top: -4rem;
     	padding: 2rem;
-    	transform: skew(10deg);
     	p {
     		font-size: 18px;
     		letter-spacing: 1px;
     		line-height: 1.5;
     		text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.85);
-    		transform: skew(-10deg);
+
     	}
     }
     h3 {
@@ -62,7 +53,7 @@
     }
     .once-udon {
     	font-family: 'Merienda One', cursive;
-    	margin-left: -3rem;
+    	margin-left: -1rem;
     	position: relative;
     	z-index: 10;
     	.big-o {
@@ -79,40 +70,12 @@
     		width: 4.5rem;
     	}
     }
-    .happily {
-    	margin-top: 10rem;
-    	text-align: right;
-    }
-    // &::before {
-    // 	background: #ffc284;
-    // 	border-radius: 50%;
-    // 	content: '';
-    // 	height: 21rem;
-    // 	left: -16rem;
-    // 	position: absolute;
-    // 	top: -8rem;
-    // 	transform: rotate(139deg);
-    // 	width: 28rem;
-    // 	z-index: -1;
-    // }
-    // &::after {
-    // 	background: #ffc284;
-    // 	border-radius: 50%;
-    // 	content: '';
-    // 	height: 21rem;
-    // 	right: -16rem;
-    // 	position: absolute;
-    // 	top: -8rem;
-    // 	transform: rotate(221deg);
-    // 	width: 28rem;
-    // 	z-index: -1;
-    // }
 	}
 	.content {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		margin: 5rem auto;
+		margin: 3rem auto;
 		text-align: center;
 	}
 	.polaroid {
@@ -195,7 +158,161 @@
 
 
 @media (min-width: $desktop) {
-	.windy {
-		width: initial;
+	.our-story.fp-section {
+		padding-bottom: 0 !important;
+		padding-top: 0 !important;
+	}
+	.our-story .fp-tableCell {
+		vertical-align: unset;
+	}
+
+	.our-story {
+		background-blend-mode: luminosity;
+		background-color: #9bc4ef;
+		background-image: url('../img/ggb-night-compressor.jpg');
+		background-position: center;
+		background-size: cover;
+		h2 {
+			color: black;
+			font-size: 48px;
+			text-align: center;
+			text-shadow: none;
+		}
+		p {
+			font-family: 'Muli', sans-serif;
+		}
+		.story-text {
+	    color: white;
+	    font-size: 24px;
+	    height: 40rem;
+	    margin-bottom: 0;
+	    margin-left: auto;
+	    margin-right: 5rem;
+	    margin-top: 5rem;
+	    padding: 1.5rem;
+	    position: relative;
+	    width: 50%;
+	    .story-container {
+	    	background: rgba(0, 0, 0, 0.5);
+	    	margin-top: -4rem;
+	    	padding: 2rem;
+	    	transform: skew(10deg);
+	    	p {
+	    		font-size: 18px;
+	    		letter-spacing: 1px;
+	    		line-height: 1.5;
+	    		text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.85);
+	    		transform: skew(-10deg);
+	    	}
+	    }
+	    h3 {
+	    	color: #ff8f2dad;
+	    	font-family: 'Muli', sans-serif;
+	    	font-size: 48px;
+	    	letter-spacing: 1px;
+	    }
+	    .once-udon {
+	    	font-family: 'Merienda One', cursive;
+	    	margin-left: -3rem;
+	    	position: relative;
+	    	z-index: 10;
+	    	.big-o {
+	    		background-color: #0069b3;
+	    		border: 3px double #eaeaea;
+	    		color: #eaeaea;
+	    		display: inline-block;
+	    		font-family: 'Great Vibes', cursive;
+	    		font-size: 60px;
+	    		margin-right: 0.2rem;
+	    		text-align: center;
+	    		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	    		padding: 0.6rem 0.5rem 0 0.2rem;
+	    		width: 4.5rem;
+	    	}
+	    }
+		}
+		.content {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 5rem auto;
+			text-align: center;
+		}
+		.polaroid {
+			background-color: white;
+			border-radius: 3px;
+			box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
+			cursor: pointer;
+			height: 20rem;
+			margin: 2rem;
+			padding: 1rem;
+			position: relative;
+			transition: all 0.5s;
+			width: 18rem;
+			.image-shine {
+		    background-color: rgba(255, 255, 255, 0.2);
+		    height: 200%;
+		    position: relative;
+		    width: 200%;
+		    z-index: 10;
+		    transform: rotate(-63deg) translate(21rem, -6rem);
+			}
+			.image-container {
+				height: 15rem;
+				overflow: hidden;
+				position: relative;
+				margin: auto;	
+				width: 95%;
+				img {
+					left: 0;
+					position: absolute;
+					top: -50%;
+					width: 100%;
+					&.boys {
+						top: -35%;
+					}
+					&.grad {
+						top: -20%;
+					}
+					&.hk-cake,
+					&.d232015,
+					&.d232017,
+					&.cosplay,
+					&.marculus-baby {
+						top: 0;
+					}
+					&.vegas {
+						top: -10%;
+					}
+					&.fisheye {
+						left: -8rem;
+						top: 0;
+						width: 200%;
+					}
+				}
+			}
+			.polaroid-caption {
+				font-family: 'Merienda One', serif;
+				margin-top: 0.5rem;
+			}
+			.polaroid-date {
+				bottom: 0.5rem;
+				font-family: 'Merienda One', serif;
+				position: absolute;
+				right: 0.5rem;
+			}
+			&.left-tilt {
+				transform: rotate(-3deg);
+				&:hover {
+				transform: rotate(3deg) scale(1.1);
+				}
+			}
+			&.right-tilt {
+				transform: rotate(3deg);
+				&:hover {
+					transform: rotate(-3deg) scale(1.1);
+				}
+			}
+		}
 	}
 }
