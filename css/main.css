@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Merienda+One|Muli|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Merienda+One|Muli|Roboto|Great+Vibes");
 body {
   background-color: white; }
 
@@ -238,12 +238,12 @@ h3 {
         .page-header .main-menu li.active-link-pink a {
           color: white !important; }
       .page-header .main-menu li.active-link-orange {
-        background: orange;
+        background: #ff9b20;
         box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
         .page-header .main-menu li.active-link-orange a {
           color: white !important; }
       .page-header .main-menu li.active-link-blue {
-        background: #31aaff;
+        background: #0089ff;
         box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
         .page-header .main-menu li.active-link-blue a {
           color: white !important; }
@@ -331,7 +331,7 @@ h3 {
   vertical-align: unset; }
 
 h2 {
-  color: #31aaff;
+  color: #ff9b20;
   font-family: 'Merienda One', cursive;
   font-size: 70px;
   letter-spacing: 1px;
@@ -383,7 +383,7 @@ h2 {
 
 .our-story {
   background-blend-mode: luminosity;
-  background-color: orange;
+  background-color: #9bc4ef;
   background-image: url("../img/ggb-night-compressor.jpg");
   background-position: center;
   background-size: cover; }
@@ -393,47 +393,54 @@ h2 {
     text-align: center;
     text-shadow: none; }
   .our-story p {
-    font-family: 'Merienda One', serif; }
+    font-family: 'Muli', sans-serif; }
   .our-story .story-text {
-    background: #ffc284;
-    border: 20px solid #1f1f1f;
-    border-radius: 50%;
+    color: white;
+    font-size: 24px;
     height: 40rem;
     margin-bottom: 0;
     margin-left: auto;
-    margin-right: 15rem;
+    margin-right: 5rem;
     margin-top: 5rem;
-    padding: 5rem;
+    padding: 1.5rem;
     position: relative;
-    width: 40rem; }
+    width: 50%; }
+    .our-story .story-text .story-container {
+      background: rgba(0, 0, 0, 0.5);
+      margin-top: -4rem;
+      padding: 2rem;
+      transform: skew(10deg); }
+      .our-story .story-text .story-container p {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.85);
+        transform: skew(-10deg); }
     .our-story .story-text h3 {
       color: #ff8f2dad;
       font-family: 'Muli', sans-serif;
       font-size: 48px;
       letter-spacing: 1px; }
+    .our-story .story-text .once-udon {
+      font-family: 'Merienda One', cursive;
+      margin-left: -3rem;
+      position: relative;
+      z-index: 10; }
+      .our-story .story-text .once-udon .big-o {
+        background-color: #0069b3;
+        border: 3px double #eaeaea;
+        color: #eaeaea;
+        display: inline-block;
+        font-family: 'Great Vibes', cursive;
+        font-size: 60px;
+        margin-right: 0.2rem;
+        text-align: center;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+        padding: 0.6rem 0.5rem 0 0.2rem;
+        width: 4.5rem; }
     .our-story .story-text .happily {
       margin-top: 10rem;
       text-align: right; }
-    .our-story .story-text::before {
-      background: #ffc284;
-      border-radius: 50%;
-      content: '';
-      height: 21rem;
-      left: -16rem;
-      position: absolute;
-      top: -8rem;
-      transform: rotate(139deg);
-      width: 28rem; }
-    .our-story .story-text::after {
-      background: #ffc284;
-      border-radius: 50%;
-      content: '';
-      height: 21rem;
-      right: -16rem;
-      position: absolute;
-      top: -8rem;
-      transform: rotate(221deg);
-      width: 28rem; }
   .our-story .content {
     display: flex;
     flex-wrap: wrap;

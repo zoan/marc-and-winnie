@@ -13,7 +13,7 @@
 
 .our-story {
 	background-blend-mode: luminosity;
-	background-color: orange;
+	background-color: #9bc4ef;
 	background-image: url('../img/ggb-night-compressor.jpg');
 	background-position: center;
 	background-size: cover;
@@ -24,52 +24,89 @@
 		text-shadow: none;
 	}
 	p {
-		font-family: 'Merienda One', serif;
+		font-family: 'Muli', sans-serif;
 	}
 	.story-text {
-    background: #ffc284;
-    border: 20px solid #1f1f1f;
-    border-radius: 50%;
+    // background: #ffc284;
+    // border: 20px solid #1f1f1f;
+    // border-radius: 50%;
+    color: white;
+    font-size: 24px;
     height: 40rem;
     margin-bottom: 0;
     margin-left: auto;
-    margin-right: 15rem;
+    margin-right: 5rem;
     margin-top: 5rem;
-    padding: 5rem;
+    padding: 1.5rem;
     position: relative;
-    width: 40rem;
+    width: 50%;
+    .story-container {
+    	background: rgba(0, 0, 0, 0.5);
+    	// border-right: 5px solid #9bc4ef;
+    	margin-top: -4rem;
+    	padding: 2rem;
+    	transform: skew(10deg);
+    	p {
+    		font-size: 18px;
+    		letter-spacing: 1px;
+    		line-height: 1.5;
+    		text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.85);
+    		transform: skew(-10deg);
+    	}
+    }
     h3 {
     	color: #ff8f2dad;
     	font-family: 'Muli', sans-serif;
     	font-size: 48px;
     	letter-spacing: 1px;
     }
+    .once-udon {
+    	font-family: 'Merienda One', cursive;
+    	margin-left: -3rem;
+    	position: relative;
+    	z-index: 10;
+    	.big-o {
+    		background-color: #0069b3;
+    		border: 3px double #eaeaea;
+    		color: #eaeaea;
+    		display: inline-block;
+    		font-family: 'Great Vibes', cursive;
+    		font-size: 60px;
+    		margin-right: 0.2rem;
+    		text-align: center;
+    		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    		padding: 0.6rem 0.5rem 0 0.2rem;
+    		width: 4.5rem;
+    	}
+    }
     .happily {
     	margin-top: 10rem;
     	text-align: right;
     }
-    &::before {
-    	background: #ffc284;
-    	border-radius: 50%;
-    	content: '';
-    	height: 21rem;
-    	left: -16rem;
-    	position: absolute;
-    	top: -8rem;
-    	transform: rotate(139deg);
-    	width: 28rem;
-    }
-    &::after {
-    	background: #ffc284;
-    	border-radius: 50%;
-    	content: '';
-    	height: 21rem;
-    	right: -16rem;
-    	position: absolute;
-    	top: -8rem;
-    	transform: rotate(221deg);
-    	width: 28rem;
-    }
+    // &::before {
+    // 	background: #ffc284;
+    // 	border-radius: 50%;
+    // 	content: '';
+    // 	height: 21rem;
+    // 	left: -16rem;
+    // 	position: absolute;
+    // 	top: -8rem;
+    // 	transform: rotate(139deg);
+    // 	width: 28rem;
+    // 	z-index: -1;
+    // }
+    // &::after {
+    // 	background: #ffc284;
+    // 	border-radius: 50%;
+    // 	content: '';
+    // 	height: 21rem;
+    // 	right: -16rem;
+    // 	position: absolute;
+    // 	top: -8rem;
+    // 	transform: rotate(221deg);
+    // 	width: 28rem;
+    // 	z-index: -1;
+    // }
 	}
 	.content {
 		display: flex;

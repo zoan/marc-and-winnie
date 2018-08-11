@@ -87,11 +87,11 @@ $(document).ready(function() {
 					break;
 				case slides.venue:
 					menuLinks.map(el => menuLinks[el].style.color = 'white');
-					$('.menu-venue').addClass('active-link-blue');
+					$('.menu-venue').addClass('active-link-orange');
 					break;
 				case slides.story:
-					menuLinks.map(el => menuLinks[el].style.color = 'orange');
-					$('.menu-story').addClass('active-link-orange');
+					menuLinks.map(el => menuLinks[el].style.color = '#0089ff');
+					$('.menu-story').addClass('active-link-blue');
 					break;
 				case slides.party:
 					menuLinks.map(el => menuLinks[el].style.color = 'white');
