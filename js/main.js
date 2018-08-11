@@ -77,6 +77,8 @@ $(document).ready(function() {
 			const menuLinks = $('.main-menu a');
 			$('.main-menu li').removeClass('active-link-pink');
 			$('.main-menu li').removeClass('active-link-orange');
+			$('.main-menu li').removeClass('active-link-blue');
+			$('.main-menu li').removeClass('active-link-black');
 
 			switch(nextIndex) {
 				case slides.hero:
@@ -85,7 +87,7 @@ $(document).ready(function() {
 					break;
 				case slides.venue:
 					menuLinks.map(el => menuLinks[el].style.color = 'white');
-					$('.menu-venue').addClass('active-link-pink');
+					$('.menu-venue').addClass('active-link-blue');
 					break;
 				case slides.story:
 					menuLinks.map(el => menuLinks[el].style.color = 'orange');
@@ -97,13 +99,14 @@ $(document).ready(function() {
 					break;
 				case slides.registry:
 					menuLinks.map(el => menuLinks[el].style.color = 'black');
-					$('.menu-registry').addClass('active-link-pink');
+					$('.menu-registry').addClass('active-link-black');
 					break;
 				case slides.rsvp:
 					menuLinks.map(el => menuLinks[el].style.color = 'white');
 					$('.menu-rsvp').addClass('active-link-pink');
 					break;
 				default:
+					menuLinks.map(el => menuLinks[el].style.color = 'pink');
 					console.log('nothing yet');
 			}
 		},

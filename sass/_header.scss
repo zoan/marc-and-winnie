@@ -83,9 +83,11 @@
 	.main-menu {
 		li {
 			padding: 0.5rem;
-			transition: all 0.5s;
+			transform: skew(-10deg);
+			transition: background 0.5s;
 			&.active-link-pink {
 				background: pink;
+				
 				a {
 					color: white !important;
 				}
@@ -96,8 +98,22 @@
 					color: white !important;
 				}
 			}
+			&.active-link-blue {
+				background: #31aaff;
+				a {
+					color: white !important;
+				}
+			}
+			&.active-link-black {
+				background: #949494;
+				a {
+					color: white !important;
+				}
+			}
 		}
 		a {
+			display: block;
+			transform: skew(10deg);
 			transition: color 0.5s;
 		}
 	}

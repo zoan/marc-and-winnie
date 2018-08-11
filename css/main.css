@@ -230,7 +230,8 @@ h3 {
     z-index: 100; }
     .page-header .main-menu li {
       padding: 0.5rem;
-      transition: all 0.5s; }
+      transform: skew(-10deg);
+      transition: background 0.5s; }
       .page-header .main-menu li.active-link-pink {
         background: pink; }
         .page-header .main-menu li.active-link-pink a {
@@ -239,7 +240,17 @@ h3 {
         background: orange; }
         .page-header .main-menu li.active-link-orange a {
           color: white !important; }
+      .page-header .main-menu li.active-link-blue {
+        background: #31aaff; }
+        .page-header .main-menu li.active-link-blue a {
+          color: white !important; }
+      .page-header .main-menu li.active-link-black {
+        background: #949494; }
+        .page-header .main-menu li.active-link-black a {
+          color: white !important; }
     .page-header .main-menu a {
+      display: block;
+      transform: skew(10deg);
       transition: color 0.5s; }
     .page-header .mobile-menu,
     .page-header .hamburger-menu,
@@ -378,7 +389,7 @@ h2 {
   .our-story p {
     font-family: 'Merienda One', serif; }
   .our-story .story-text {
-    background: white;
+    background: #ffc284;
     border-radius: 50%;
     height: 40rem;
     margin-bottom: 0;
@@ -397,7 +408,7 @@ h2 {
       margin-top: 10rem;
       text-align: right; }
     .our-story .story-text::before {
-      background: white;
+      background: #ffc284;
       border-radius: 50%;
       content: '';
       height: 21rem;
@@ -407,7 +418,7 @@ h2 {
       transform: rotate(139deg);
       width: 28rem; }
     .our-story .story-text::after {
-      background: white;
+      background: #ffc284;
       border-radius: 50%;
       content: '';
       height: 21rem;
