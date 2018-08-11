@@ -22,7 +22,7 @@
 
 #### Header
 - Find header hover bg
-- Change text color for each section on enter
+- ~~Change text color for each section on enter~~
 
 #### Venue
 - ~~As sidebar?~~

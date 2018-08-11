@@ -177,8 +177,6 @@ h3 {
   transition: all 0.5s;
   width: 100%;
   z-index: 100; }
-  .page-header:hover {
-    background-color: rgba(0, 0, 0, 0.9); }
   .page-header ul {
     display: none; }
   .page-header .hamburger-menu {
@@ -230,8 +228,19 @@ h3 {
     top: 0;
     width: 75%;
     z-index: 100; }
-    .page-header:hover {
-      background-color: rgba(0, 0, 0, 0.9); }
+    .page-header .main-menu li {
+      padding: 0.5rem;
+      transition: all 0.5s; }
+      .page-header .main-menu li.active-link-pink {
+        background: pink; }
+        .page-header .main-menu li.active-link-pink a {
+          color: white !important; }
+      .page-header .main-menu li.active-link-orange {
+        background: orange; }
+        .page-header .main-menu li.active-link-orange a {
+          color: white !important; }
+    .page-header .main-menu a {
+      transition: color 0.5s; }
     .page-header .mobile-menu,
     .page-header .hamburger-menu,
     .page-header .mobile-title {

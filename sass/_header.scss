@@ -15,7 +15,7 @@
 	width: 100%;
 	z-index: 100;
 	&:hover {
-		background-color: rgba(0, 0, 0, 0.9);
+		// background-color: rgba(0, 0, 0, 0.9);
 	}
 	ul {
 		display: none;
@@ -78,7 +78,28 @@
 	width: 75%;
 	z-index: 100;
 	&:hover {
-		background-color: rgba(0, 0, 0, 0.9);
+		// background-color: rgba(0, 0, 0, 0.9);
+	}
+	.main-menu {
+		li {
+			padding: 0.5rem;
+			transition: all 0.5s;
+			&.active-link-pink {
+				background: pink;
+				a {
+					color: white !important;
+				}
+			}
+			&.active-link-orange {
+				background: orange;
+				a {
+					color: white !important;
+				}
+			}
+		}
+		a {
+			transition: color 0.5s;
+		}
 	}
 	.mobile-menu,
 	.hamburger-menu,

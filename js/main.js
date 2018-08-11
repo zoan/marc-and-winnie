@@ -1,4 +1,13 @@
 $(document).ready(function() {
+	const slides = {
+		'hero': 1,
+		'venue': 2,
+		'story': 3,
+		'party': 4,
+		'registry': 5,
+		'rsvp': 6,
+		'last': 7
+	};
 	$('#fullpage').fullpage({
 		//Navigation
 		menu: '#menu',
@@ -64,7 +73,40 @@ $(document).ready(function() {
 		lazyLoading: true,
 
 		//events
-		onLeave: function(index, nextIndex, direction){},
+		onLeave: function(index, nextIndex, direction){
+			const menuLinks = $('.main-menu a');
+			$('.main-menu li').removeClass('active-link-pink');
+			$('.main-menu li').removeClass('active-link-orange');
+
+			switch(nextIndex) {
+				case slides.hero:
+					menuLinks.map(el => menuLinks[el].style.color = 'pink');
+					$('.menu-hero').addClass('active-link-pink');
+					break;
+				case slides.venue:
+					menuLinks.map(el => menuLinks[el].style.color = 'white');
+					$('.menu-venue').addClass('active-link-pink');
+					break;
+				case slides.story:
+					menuLinks.map(el => menuLinks[el].style.color = 'orange');
+					$('.menu-story').addClass('active-link-orange');
+					break;
+				case slides.party:
+					menuLinks.map(el => menuLinks[el].style.color = 'white');
+					$('.menu-party').addClass('active-link-pink');
+					break;
+				case slides.registry:
+					menuLinks.map(el => menuLinks[el].style.color = 'black');
+					$('.menu-registry').addClass('active-link-pink');
+					break;
+				case slides.rsvp:
+					menuLinks.map(el => menuLinks[el].style.color = 'white');
+					$('.menu-rsvp').addClass('active-link-pink');
+					break;
+				default:
+					console.log('nothing yet');
+			}
+		},
 		afterLoad: function(anchorLink, index){},
 		afterRender: function(){},
 		afterResize: function(){},
