@@ -454,6 +454,8 @@ h2 {
           left: -8rem;
           top: 0;
           width: 200%; }
+        .our-story .polaroid .image-container img.cosplay {
+          top: 0; }
     .our-story .polaroid .polaroid-caption {
       margin-top: 0.5rem; }
     .our-story .polaroid .polaroid-date {
@@ -483,12 +485,12 @@ h2 {
   .wedding-party .pink-flag-left {
     left: 0;
     position: absolute;
-    top: 0;
+    top: -5rem;
     z-index: 10; }
   .wedding-party .pink-flag-right {
     right: 0;
     position: absolute;
-    top: 0;
+    top: -5rem;
     transform: scale(-1, 1);
     z-index: 10; }
 
@@ -507,75 +509,72 @@ h2 {
   flex-direction: column;
   margin-top: 1rem; }
 
-.bridesmaids .bridesmaid,
-.bridesmaids .groomsman,
-.groomsmen .bridesmaid,
-.groomsmen .groomsman {
-  display: flex;
-  max-height: 7rem;
-  margin: 1rem; }
-
-.bridesmaids .bridesmaid-info,
-.bridesmaids .groomsman-info,
-.groomsmen .bridesmaid-info,
-.groomsmen .groomsman-info {
-  background: rgba(0, 0, 0, 0.5);
-  border: 1px solid pink;
-  border-left: 5px solid pink;
-  border-right: 0;
-  padding: 1rem 0;
-  width: 70%; }
-  .bridesmaids .bridesmaid-info h3,
-  .bridesmaids .groomsman-info h3,
-  .groomsmen .bridesmaid-info h3,
-  .groomsmen .groomsman-info h3 {
-    color: pink;
-    font-size: 30px;
-    margin: 0;
-    margin-left: 1.5rem;
-    letter-spacing: 3px;
-    text-align: left; }
-  .bridesmaids .bridesmaid-info h5,
-  .bridesmaids .groomsman-info h5,
-  .groomsmen .bridesmaid-info h5,
-  .groomsmen .groomsman-info h5 {
-    color: white;
-    font-family: 'Muli', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    margin: 0;
-    margin-left: 1rem; }
-  .bridesmaids .bridesmaid-info p,
-  .bridesmaids .groomsman-info p,
-  .groomsmen .bridesmaid-info p,
-  .groomsmen .groomsman-info p {
+.bridesmaids,
+.groomsmen {
+  margin-top: 3rem; }
+  .bridesmaids .bridesmaid,
+  .bridesmaids .groomsman,
+  .groomsmen .bridesmaid,
+  .groomsmen .groomsman {
+    display: flex;
+    max-height: 9rem;
     margin: 0; }
-
-.bridesmaids .groomsman-info,
-.groomsmen .groomsman-info {
-  border-left: 0;
-  border: 1px solid lightblue;
-  border-right: 5px solid lightblue;
-  border-left: 0;
-  color: lightblue; }
-  .bridesmaids .groomsman-info h3,
-  .groomsmen .groomsman-info h3 {
-    color: lightblue;
-    margin-left: 0;
-    margin-right: 1.5rem;
-    text-align: right; }
-  .bridesmaids .groomsman-info h5,
-  .groomsmen .groomsman-info h5 {
-    color: white;
-    margin-right: 1rem;
-    text-align: right; }
+  .bridesmaids .bridesmaid-info,
+  .bridesmaids .groomsman-info,
+  .groomsmen .bridesmaid-info,
+  .groomsmen .groomsman-info {
+    background: rgba(0, 0, 0, 0.8);
+    border-left: 5px solid pink;
+    border-right: 0;
+    padding: 1rem 0;
+    width: 70%; }
+    .bridesmaids .bridesmaid-info h3,
+    .bridesmaids .groomsman-info h3,
+    .groomsmen .bridesmaid-info h3,
+    .groomsmen .groomsman-info h3 {
+      color: pink;
+      font-size: 30px;
+      margin: 0;
+      margin-left: 1.5rem;
+      letter-spacing: 3px;
+      text-align: left; }
+    .bridesmaids .bridesmaid-info h5,
+    .bridesmaids .groomsman-info h5,
+    .groomsmen .bridesmaid-info h5,
+    .groomsmen .groomsman-info h5 {
+      color: white;
+      font-family: 'Muli', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      margin: 0;
+      margin-left: 1rem; }
+    .bridesmaids .bridesmaid-info p,
+    .bridesmaids .groomsman-info p,
+    .groomsmen .bridesmaid-info p,
+    .groomsmen .groomsman-info p {
+      margin: 0; }
+  .bridesmaids .groomsman-info,
+  .groomsmen .groomsman-info {
+    border-left: 0;
+    border-right: 5px solid lightblue;
+    border-left: 0;
+    color: lightblue; }
+    .bridesmaids .groomsman-info h3,
+    .groomsmen .groomsman-info h3 {
+      color: lightblue;
+      margin-left: 0;
+      margin-right: 1.5rem;
+      text-align: right; }
+    .bridesmaids .groomsman-info h5,
+    .groomsmen .groomsman-info h5 {
+      color: white;
+      margin-right: 1rem;
+      text-align: right; }
 
 .bridesmaid-img,
 .groomsman-img {
-  border: 1px solid pink;
-  border-radius: 0 1rem 1rem 0;
   overflow: hidden;
-  width: 30%; }
+  width: 50%; }
   .bridesmaid-img img,
   .groomsman-img img {
     width: 100%; }
@@ -584,14 +583,16 @@ h2 {
   border-left: 0; }
 
 .groomsman-img {
-  border: 1px solid lightblue;
-  border-right: 0;
-  border-radius: 1rem 0 0 1rem; }
+  border-right: 0; }
 
 @media (min-width: 768px) {
   .wedding-party {
     padding-top: 3em !important;
     padding-bottom: 10px !important; }
+    .wedding-party .pink-flag-left {
+      top: -0.5rem; }
+    .wedding-party .pink-flag-right {
+      top: -0.5rem; }
   .wedding-party .fp-tableCell {
     vertical-align: unset; }
   .wedding-party h2 {
@@ -697,12 +698,17 @@ h2 {
       margin-right: -5rem; }
       .bridesmaids .evan .groomsman-img img,
       .groomsmen .evan .groomsman-img img {
-        right: -1rem;
-        top: -4rem;
-        width: 120%; }
+        right: -0.3rem;
+        top: -1.3rem;
+        width: 110%; }
     .bridesmaids .dennis,
     .groomsmen .dennis {
       margin-right: -3.2rem; }
+      .bridesmaids .dennis .groomsman-img img,
+      .groomsmen .dennis .groomsman-img img {
+        right: -0.3rem;
+        top: -1.3rem;
+        width: 110%; }
     .bridesmaids .michael,
     .groomsmen .michael {
       margin-right: -1.5rem; }
@@ -724,7 +730,7 @@ h2 {
       margin-right: 2rem; }
       .bridesmaids .josh .groomsman-img img,
       .groomsmen .josh .groomsman-img img {
-        right: -0.9rem;
+        right: -1.1rem;
         top: -0.9rem;
         width: 120%; }
     .bridesmaids .alan,
@@ -732,8 +738,9 @@ h2 {
       margin-right: 3.8rem; }
       .bridesmaids .alan .groomsman-img img,
       .groomsmen .alan .groomsman-img img {
-        right: -2rem;
-        top: -3rem; }
+        right: -0.6rem;
+        top: -1.4rem;
+        width: 120%; }
     .bridesmaids .placeholder .bridesmaid-img,
     .bridesmaids .placeholder .groomsman-img,
     .groomsmen .placeholder .bridesmaid-img,

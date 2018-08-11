@@ -8,13 +8,13 @@
 	.pink-flag-left {
 		left: 0;
 		position: absolute;
-		top: 0;
+		top: -5rem;
 		z-index: 10;
 	}
 	.pink-flag-right {
 		right: 0;
 		position: absolute;
-		top: 0;
+		top: -5rem;
 		transform: scale(-1, 1);
 		z-index: 10;
 	}
@@ -39,16 +39,18 @@
 
 .bridesmaids,
 .groomsmen {
+	margin-top: 3rem;
 	.bridesmaid,
 	.groomsman {
 		display: flex;
-		max-height: 7rem;
-		margin: 1rem;
+		max-height: 9rem;
+		margin: 0;
+		// margin-bottom: 0.1rem;
 	}
 	.bridesmaid-info,
 	.groomsman-info {
-		background: rgba(0, 0, 0, 0.5);
-		border: 1px solid pink;
+		background: rgba(0, 0, 0, 0.8);
+		// border: 1px solid pink;
 		border-left: 5px solid pink;
 		border-right: 0;
 		padding: 1rem 0;
@@ -77,7 +79,7 @@
 	}
 	.groomsman-info {
 		border-left: 0;
-		border: 1px solid lightblue;
+		// border: 1px solid lightblue;
 		border-right: 5px solid lightblue;
 		border-left: 0;
 		color: lightblue;
@@ -100,10 +102,10 @@
 
 .bridesmaid-img,
 .groomsman-img {
-	border: 1px solid pink;
-	border-radius: 0 1rem 1rem 0;
+	// border: 1px solid pink;
+	// border-radius: 0 1rem 1rem 0;
 	overflow: hidden;
-	width: 30%;
+	width: 50%;
 	img {
 		width: 100%;
 	}
@@ -114,15 +116,21 @@
 }
 
 .groomsman-img {
-	border: 1px solid lightblue;
+	// border: 1px solid lightblue;
 	border-right: 0;
-	border-radius: 1rem 0 0 1rem;
+	// border-radius: 1rem 0 0 1rem;
 }
 
 @media (min-width: $desktop) {
 	.wedding-party {
 	padding-top: 3em !important;
 	padding-bottom: 10px !important;
+	.pink-flag-left {
+		top: -0.5rem;
+	}
+	.pink-flag-right {
+		top: -0.5rem;
+	}
 }
 .wedding-party .fp-tableCell {
 	vertical-align: unset;
@@ -233,14 +241,21 @@
 		margin-right: -5rem;
 		.groomsman-img {
 			img {
-				right: -1rem;
-   			top: -4rem;
-    		width: 120%;
+				right: -0.3rem;
+   			top: -1.3rem;
+    		width: 110%;
 			}
 		}
 	}
 	.dennis {
 		margin-right: -3.2rem;
+		.groomsman-img {
+			img {
+				right: -0.3rem;
+   			top: -1.3rem;
+    		width: 110%;
+			}
+		}
 	}
 	.michael {
 		margin-right: -1.5rem;
@@ -266,7 +281,7 @@
 		margin-right: 2rem;
 		.groomsman-img {
 			img {
-				right: -0.9rem;
+				right: -1.1rem;
    			top: -0.9rem;
     		width: 120%;
 			}
@@ -276,8 +291,9 @@
 		margin-right: 3.8rem;
 		.groomsman-img {
 			img {
-				right: -2rem;
-				top: -3rem;
+				right: -0.6rem;
+				top: -1.4rem;
+				width: 120%;
 			}
 		}
 	}

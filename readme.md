@@ -41,9 +41,9 @@
 - More pictures / better pictures
 
 #### Wedding Party
-- Move banners up a bit
-- Remove sixths bridesmaid for now
-- Evan & Dennis's pics
+- ~~Move banners up a bit~~
+- ~~Remove sixths bridesmaid for now~~
+- ~~Evan & Dennis's pics~~
 - Handle mobile
 
 #### Registry
