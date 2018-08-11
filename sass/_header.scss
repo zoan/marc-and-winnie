@@ -87,6 +87,7 @@
 			transition: background 0.5s;
 			&.active-link-pink {
 				background: pink;
+				box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
 				
 				a {
 					color: white !important;
@@ -94,18 +95,21 @@
 			}
 			&.active-link-orange {
 				background: orange;
+				box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
 				a {
 					color: white !important;
 				}
 			}
 			&.active-link-blue {
 				background: #31aaff;
+				box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
 				a {
 					color: white !important;
 				}
 			}
 			&.active-link-black {
 				background: #949494;
+				box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
 				a {
 					color: white !important;
 				}

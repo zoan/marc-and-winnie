@@ -12,6 +12,8 @@
 }
 
 .our-story {
+	background-blend-mode: luminosity;
+	background-color: orange;
 	background-image: url('../img/ggb-night-compressor.jpg');
 	background-position: center;
 	background-size: cover;
@@ -26,6 +28,7 @@
 	}
 	.story-text {
     background: #ffc284;
+    border: 20px solid #1f1f1f;
     border-radius: 50%;
     height: 40rem;
     margin-bottom: 0;
@@ -37,7 +40,7 @@
     width: 40rem;
     h3 {
     	color: #ff8f2dad;
-    	font-family: 'Merienda One', cursive;
+    	font-family: 'Muli', sans-serif;
     	font-size: 48px;
     	letter-spacing: 1px;
     }

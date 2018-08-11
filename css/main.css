@@ -233,19 +233,23 @@ h3 {
       transform: skew(-10deg);
       transition: background 0.5s; }
       .page-header .main-menu li.active-link-pink {
-        background: pink; }
+        background: pink;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
         .page-header .main-menu li.active-link-pink a {
           color: white !important; }
       .page-header .main-menu li.active-link-orange {
-        background: orange; }
+        background: orange;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
         .page-header .main-menu li.active-link-orange a {
           color: white !important; }
       .page-header .main-menu li.active-link-blue {
-        background: #31aaff; }
+        background: #31aaff;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
         .page-header .main-menu li.active-link-blue a {
           color: white !important; }
       .page-header .main-menu li.active-link-black {
-        background: #949494; }
+        background: #949494;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
         .page-header .main-menu li.active-link-black a {
           color: white !important; }
     .page-header .main-menu a {
@@ -378,6 +382,8 @@ h2 {
   vertical-align: unset; }
 
 .our-story {
+  background-blend-mode: luminosity;
+  background-color: orange;
   background-image: url("../img/ggb-night-compressor.jpg");
   background-position: center;
   background-size: cover; }
@@ -390,6 +396,7 @@ h2 {
     font-family: 'Merienda One', serif; }
   .our-story .story-text {
     background: #ffc284;
+    border: 20px solid #1f1f1f;
     border-radius: 50%;
     height: 40rem;
     margin-bottom: 0;
@@ -401,7 +408,7 @@ h2 {
     width: 40rem; }
     .our-story .story-text h3 {
       color: #ff8f2dad;
-      font-family: 'Merienda One', cursive;
+      font-family: 'Muli', sans-serif;
       font-size: 48px;
       letter-spacing: 1px; }
     .our-story .story-text .happily {
