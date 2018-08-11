@@ -31,13 +31,11 @@
 - Directions
 - Parking
 - Hotels
-- Be Our Guest?
 
 #### Story
 - ~~Intro text section~~
 - ~~Descriptors on polaroids~~
 - ~~Some design/pattern for the background~~
-- Make story text section an image that's slightly transparent
 - More pictures / better pictures
 
 #### Wedding Party
@@ -52,9 +50,9 @@
 #### RSVP
 - Confirm disabled email functionality
 - ~~Bottom padding~~
-- Food allergy input
+- ~~Food allergy input~~
 - ~~RSVP Button styling~~
-- Update design to match Venue
+- ~~Update design to match Venue~~
 
 #### Mobile
 - Mobile Only section headers

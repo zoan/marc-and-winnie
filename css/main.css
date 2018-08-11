@@ -480,7 +480,7 @@ h2 {
           top: -35%; }
         .our-story .polaroid .image-container img.grad {
           top: -20%; }
-        .our-story .polaroid .image-container img.hk-cake, .our-story .polaroid .image-container img.d232015, .our-story .polaroid .image-container img.d232017 {
+        .our-story .polaroid .image-container img.hk-cake, .our-story .polaroid .image-container img.d232015, .our-story .polaroid .image-container img.d232017, .our-story .polaroid .image-container img.cosplay, .our-story .polaroid .image-container img.marculus-baby {
           top: 0; }
         .our-story .polaroid .image-container img.vegas {
           top: -10%; }
@@ -488,8 +488,6 @@ h2 {
           left: -8rem;
           top: 0;
           width: 200%; }
-        .our-story .polaroid .image-container img.cosplay {
-          top: 0; }
     .our-story .polaroid .polaroid-caption {
       margin-top: 0.5rem; }
     .our-story .polaroid .polaroid-date {
