@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	// variables
 	const slides = {
 		'hero': 1,
 		'venue': 2,
@@ -8,6 +9,12 @@ $(document).ready(function() {
 		'rsvp': 6,
 		'last': 7
 	};
+	const sitePink = '#ff8398';
+	const siteOrange = '#ff9b20';
+	const siteBlue = '#0089ff';
+	const siteBlack = '#3e3e3e';
+
+	// start full page
 	$('#fullpage').fullpage({
 		//Navigation
 		menu: '#menu',
@@ -75,6 +82,7 @@ $(document).ready(function() {
 		//events
 		onLeave: function(index, nextIndex, direction){
 			const menuLinks = $('.main-menu a');
+			const dots = $('#fp-nav ul li a span');
 			$('.main-menu li').removeClass('active-link-pink');
 			$('.main-menu li').removeClass('active-link-orange');
 			$('.main-menu li').removeClass('active-link-blue');
@@ -82,31 +90,37 @@ $(document).ready(function() {
 
 			switch(nextIndex) {
 				case slides.hero:
-					menuLinks.map(el => menuLinks[el].style.color = 'pink');
+					menuLinks.map(el => menuLinks[el].style.color = sitePink);
+					dots.map(el => dots[el].style.backgroundColor = sitePink);
 					$('.menu-hero').addClass('active-link-pink');
 					break;
 				case slides.venue:
 					menuLinks.map(el => menuLinks[el].style.color = 'white');
+					dots.map(el => dots[el].style.backgroundColor = siteOrange);
 					$('.menu-venue').addClass('active-link-orange');
 					break;
 				case slides.story:
 					menuLinks.map(el => menuLinks[el].style.color = '#0089ff');
+					dots.map(el => dots[el].style.backgroundColor = siteBlue);
 					$('.menu-story').addClass('active-link-blue');
 					break;
 				case slides.party:
 					menuLinks.map(el => menuLinks[el].style.color = 'white');
+					dots.map(el => dots[el].style.backgroundColor = sitePink);
 					$('.menu-party').addClass('active-link-pink');
 					break;
 				case slides.registry:
 					menuLinks.map(el => menuLinks[el].style.color = 'black');
+					dots.map(el => dots[el].style.backgroundColor = siteBlack);
 					$('.menu-registry').addClass('active-link-black');
 					break;
 				case slides.rsvp:
 					menuLinks.map(el => menuLinks[el].style.color = 'white');
+					dots.map(el => dots[el].style.backgroundColor = sitePink);
 					$('.menu-rsvp').addClass('active-link-pink');
 					break;
 				default:
-					menuLinks.map(el => menuLinks[el].style.color = 'pink');
+					menuLinks.map(el => menuLinks[el].style.color = sitePink);
 					console.log('nothing yet');
 			}
 		},
@@ -117,6 +131,12 @@ $(document).ready(function() {
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
 		onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
 	});
+
+
+	// set initial dots color
+	const dots = $('#fp-nav ul li a span');
+	dots.map(el => dots[el].style.backgroundColor = sitePink);
+
 
 	var heroClasses = ['hand-in-hand', 'ocean-side', 'init'];
 	var heroIndex = 0;

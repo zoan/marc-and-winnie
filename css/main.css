@@ -45,11 +45,11 @@ h3 {
   max-width: 20rem; }
 
 #fp-nav ul li a span {
-  background: pink !important; }
+  background-color: #ff8398; }
 
 .caption-block {
   background-color: rgba(0, 0, 0, 0.5);
-  border-left: 3px solid pink;
+  border-left: 3px solid #ff8398;
   bottom: 0;
   box-sizing: border-box;
   color: white;
@@ -63,7 +63,7 @@ h3 {
   width: 100%; }
   .caption-block:hover {
     background-color: rgba(0, 0, 0, 0.7);
-    border-left: 8px solid pink; }
+    border-left: 8px solid #ff8398; }
   .caption-block p {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem; }
@@ -233,7 +233,7 @@ h3 {
       transform: skew(-10deg);
       transition: background 0.5s; }
       .page-header .main-menu li.active-link-pink {
-        background: pink;
+        background: #ff8398;
         box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
         .page-header .main-menu li.active-link-pink a {
           color: white !important; }
@@ -266,17 +266,17 @@ h3 {
       list-style-type: none;
       margin: 0.7rem; }
     .page-header li {
-      color: pink;
+      color: #ff8398;
       font-size: 18px;
       font-weight: 600;
       margin: 0 1.5rem; }
       .page-header li a {
-        color: pink;
+        color: #ff8398;
         text-decoration: none; }
         .page-header li a:hover {
           text-decoration: underline; }
         .page-header li a:visited {
-          color: pink; }
+          color: #ff8398; }
     .page-header .left-angle {
       border-left: 5.5rem solid transparent;
       border-right: 5.5rem solid white;
@@ -489,6 +489,7 @@ h2 {
           top: 0;
           width: 200%; }
     .our-story .polaroid .polaroid-caption {
+      font-family: 'Merienda One', serif;
       margin-top: 0.5rem; }
     .our-story .polaroid .polaroid-date {
       bottom: 0.5rem;
@@ -913,7 +914,7 @@ h2 {
       margin: auto;
       padding-left: 0; }
       .rsvp #mc_embed_signup form label {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 500; }
       .rsvp #mc_embed_signup form input,
       .rsvp #mc_embed_signup form select {
@@ -927,7 +928,7 @@ h2 {
       .rsvp #mc_embed_signup form select {
         height: 2.5rem; }
       .rsvp #mc_embed_signup form .radio-group {
-        font-size: 18px; }
+        font-size: 14px; }
         .rsvp #mc_embed_signup form .radio-group ul {
           display: flex;
           justify-content: space-around;
@@ -936,8 +937,10 @@ h2 {
             align-items: center;
             display: flex;
             width: 50%; }
+            .rsvp #mc_embed_signup form .radio-group ul li label {
+              font-size: 16px; }
     .rsvp #mc_embed_signup h2 {
-      color: pink;
+      color: #ff8398;
       font-family: 'Merienda One', cursive;
       font-size: 60px;
       letter-spacing: 1px;
@@ -945,12 +948,12 @@ h2 {
       text-align: center;
       text-shadow: 1px 1px 1px white; }
     .rsvp #mc_embed_signup .button {
-      background: pink;
+      background: #ff8398;
       font-size: 20px;
       height: 3rem;
       width: 100%; }
       .rsvp #mc_embed_signup .button:hover {
-        background-color: #ffd5dd; }
+        background-color: #ffa5b4; }
     .rsvp #mc_embed_signup .indicates-required {
       display: none; }
 

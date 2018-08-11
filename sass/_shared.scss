@@ -1,6 +1,6 @@
 .caption-block {
 		background-color: rgba(0, 0, 0, 0.5);
-		border-left: 3px solid pink;
+		border-left: 3px solid $site-pink;
 		bottom: 0;
 		box-sizing: border-box;
 		color: white;
@@ -15,7 +15,7 @@
 		width: 100%;
 		&:hover {
 			background-color: rgba(0, 0, 0, 0.7);
-			border-left: 8px solid pink;
+			border-left: 8px solid $site-pink;
 		}
 		p {
 			margin-bottom: 0.5rem;
