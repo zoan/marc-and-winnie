@@ -859,43 +859,68 @@ h2 {
     background: rgba(0, 0, 0, 0.5);
     padding-top: 5rem;
     vertical-align: unset; }
-  .rsvp h2 {
-    color: white;
-    text-shadow: 2px 2px 1px black; }
+  .rsvp .right-bar {
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(right, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    height: 100vh;
+    right: 0;
+    padding: 0 5rem;
+    position: absolute;
+    top: 0;
+    width: 35%; }
+    .rsvp .right-bar h5 {
+      font-family: 'Muli', serif;
+      font-size: 20px;
+      font-weight: 600; }
+    .rsvp .right-bar p {
+      font-family: 'Muli', serif; }
   .rsvp #mc_embed_signup {
     background: transparent;
-    color: white;
+    color: black;
+    height: 100%;
     margin-left: auto;
-    margin-right: auto;
     margin-top: 0;
     text-align: center;
     width: 85%; }
     .rsvp #mc_embed_signup form {
-      font-family: 'Merienda One', sans-serif;
+      font-family: 'Muli', sans-serif;
       margin: auto;
       padding-left: 0; }
       .rsvp #mc_embed_signup form label {
-        font-size: 12px;
-        text-shadow: 2px 2px 1px black; }
+        font-size: 18px;
+        font-weight: 500; }
       .rsvp #mc_embed_signup form input,
       .rsvp #mc_embed_signup form select {
-        background: rgba(138, 138, 138, 0.45);
+        background: rgba(255, 255, 255, 0.33);
         border: 0;
-        color: white;
-        font-family: 'Merienda One', sans-serif;
-        font-size: 14px;
-        margin-bottom: 1rem;
-        text-shadow: 2px 2px 1px black; }
+        color: black;
+        font-family: 'Muli', sans-serif;
+        font-size: 15px;
+        height: 2.5rem;
+        margin-bottom: 1rem; }
       .rsvp #mc_embed_signup form select {
         height: 2.5rem; }
+      .rsvp #mc_embed_signup form .radio-group {
+        font-size: 18px; }
+        .rsvp #mc_embed_signup form .radio-group ul {
+          display: flex;
+          justify-content: space-around;
+          padding: 0; }
+          .rsvp #mc_embed_signup form .radio-group ul li {
+            align-items: center;
+            display: flex;
+            width: 50%; }
     .rsvp #mc_embed_signup h2 {
-      border-left: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-      color: white;
-      font-family: 'Merienda One', sans-serif;
-      font-size: 32px;
-      padding-left: 1rem;
-      text-align: center; }
+      color: pink;
+      font-family: 'Merienda One', cursive;
+      font-size: 60px;
+      letter-spacing: 1px;
+      line-height: 1.1;
+      text-align: center;
+      text-shadow: 1px 1px 1px white; }
     .rsvp #mc_embed_signup .button {
       background: pink;
       font-size: 20px;
@@ -913,17 +938,27 @@ h2 {
     background: none;
     padding-top: 0; }
   .rsvp #mc_embed_signup {
-    background: rgba(0, 0, 0, 0.5);
-    border-right: 5px solid pink;
-    margin-right: 5rem;
-    margin-top: calc(50vh - 18rem);
     padding: 1rem 3.5rem;
-    width: 25rem; }
+    width: 28rem; }
     .rsvp #mc_embed_signup form {
+      height: 100%;
       margin-bottom: 2rem; }
       .rsvp #mc_embed_signup form input,
       .rsvp #mc_embed_signup form select {
         margin-bottom: 0; }
+      .rsvp #mc_embed_signup form .clear {
+        width: 100%; }
+      .rsvp #mc_embed_signup form .button {
+        color: white;
+        margin-top: 1rem;
+        width: 100%; }
+    .rsvp #mc_embed_signup #mc_embed_signup_scroll {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: center;
+      padding-bottom: 5rem; }
     .rsvp #mc_embed_signup .mc-field-group {
       width: 100%; } }
 

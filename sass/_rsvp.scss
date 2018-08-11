@@ -11,50 +11,79 @@
 		padding-top: 5rem;
 		vertical-align: unset;
 	}
-	h2 {
-		color: white;
-		text-shadow: 2px 2px 1px black;
+	
+	.right-bar {
+	// background: rgba(255, 255, 255, 0.8); /* FF3.6-15 */
+	background: -webkit-linear-gradient(right, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0.7) 70%, rgba(255,255,255,0.4) 90%, rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(right, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0.7) 70%, rgba(255,255,255,0.4) 90%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to left, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0.7) 70%, rgba(255,255,255,0.4) 90%, rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	height: 100vh;
+	right: 0;
+	padding: 0 5rem;
+	position: absolute;
+	top: 0;
+	width: 35%;
+	h5 {
+		font-family: 'Muli', serif;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	p {
+		font-family: 'Muli', serif;
+	}
 	}
 	#mc_embed_signup {
 		// background: rgba(0, 0, 0, 0.7);
 		background: transparent;
-		color: white;
+		color: black;
+		height: 100%;
 		margin-left: auto;
-		margin-right: auto;
 		margin-top: 0;
 		text-align: center;
 		width: 85%;
 		form {
-			font-family: 'Merienda One', sans-serif;
+			font-family: 'Muli', sans-serif;
 			margin: auto;
 			padding-left: 0;
 			label {
-				font-size: 12px;
-				text-shadow: 2px 2px 1px black;
+				font-size: 18px;
+				font-weight: 500;
 			}
 			input,
 			select {
-				background: rgba(138, 138, 138, 0.45);
+				background: rgba(255, 255, 255, 0.33);
 				border: 0;
-				color: white;
-				font-family: 'Merienda One', sans-serif;
-				font-size: 14px;
+				color: black;
+				font-family: 'Muli', sans-serif;
+				font-size: 15px;
+				height: 2.5rem;
 				margin-bottom: 1rem;
-				text-shadow: 2px 2px 1px black;
 			}
 			select {
 				height: 2.5rem;
 			}
+			.radio-group {
+				font-size: 18px;
+				ul {
+					display: flex;
+					justify-content: space-around;
+					padding: 0;
+					li {
+						align-items: center;
+						display: flex;
+						width: 50%;
+					}
+				}
+			}
 		}
 		h2 {
-			border-left: none;
-			border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-			color: white;
-			font-family: 'Merienda One', sans-serif;
-			font-size: 32px;
-			// padding-bottom: 1rem;
-			padding-left: 1rem;
+			color: pink;
+			font-family: 'Merienda One', cursive;
+			font-size: 60px;
+			letter-spacing: 1px;
+			line-height: 1.1;
 			text-align: center;
+			text-shadow: 1px 1px 1px white;
 		}
 		.button {
 			background: pink;
@@ -81,20 +110,32 @@
 			padding-top: 0;
 		}
 		#mc_embed_signup {
-			background: rgba(0, 0, 0, 0.5);
-			border-right: 5px solid pink;
-			margin-right: 5rem;
-			margin-top: calc(50vh - 18rem);
+			// margin-right: 5rem;
 			padding: 1rem 3.5rem;
-			// transform: skew(-10deg);
-			width: 25rem;
+			width: 28rem;
 			form {
-				// transform: skew(10deg);
+				height: 100%;
 				margin-bottom: 2rem;
 				input,
 				select {
 					margin-bottom: 0;
 				}
+				.clear {
+					width: 100%;
+				}
+				.button {
+					color: white;
+					margin-top: 1rem;
+					width: 100%;
+				}
+			}
+			#mc_embed_signup_scroll {
+				align-items: center;
+				display: flex;
+				flex-direction: column;
+				height: 100%;
+				justify-content: center;
+				padding-bottom: 5rem;
 			}
 			.mc-field-group {
 				width: 100%;
