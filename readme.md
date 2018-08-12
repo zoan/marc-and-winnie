@@ -6,8 +6,6 @@
 
 ### To-Dos / Ideas
 #### General
-- Curved header
-- Use horizontal sections for venue
 - ~~Update MailChimp account info w/ actual website URL and info~~
 - ~~Mobile styling~~
 - ~~Wedding Party pictures~~
@@ -23,6 +21,9 @@
 #### Header
 - Find header hover bg
 - ~~Change text color for each section on enter~~
+
+#### Home
+- scroll indicator
 
 #### Venue
 - ~~As sidebar?~~

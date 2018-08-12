@@ -144,13 +144,16 @@
 	padding-bottom: 10px !important;
 	.pink-flag-left {
 		margin-left: 0;
+		margin-top: 0;
 		position: absolute;
 		top: -0.5rem;
+		z-index: 0;
 	}
 	.pink-flag-right {
 		display: block;
 		position: absolute;
 		top: -0.5rem;
+		z-index: 0;
 	}
 }
 .wedding-party .fp-tableCell {

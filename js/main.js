@@ -13,6 +13,7 @@ $(document).ready(function() {
 	const siteOrange = '#ff9b20';
 	const siteBlue = '#0089ff';
 	const siteBlack = '#3e3e3e';
+	const venueBlue = '#31aaff';
 
 	// start full page
 	$('#fullpage').fullpage({
