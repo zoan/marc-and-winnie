@@ -9,11 +9,12 @@
 - ~~Update MailChimp account info w/ actual website URL and info~~
 - ~~Mobile styling~~
 - ~~Wedding Party pictures~~
-- Find Disney designs/patterns
+- ~~Make Disney icons~~
 - Mickey Mouse background pattern
+- Confirm correct images used
 - Compress images for faster loading
     + ~~Hero images~~
-    + Party images
+    + ~~Party images~~
     + RSVP BG
 - ~~Google Analytics~~
 - Check other wedding sites to confirm what details to include
