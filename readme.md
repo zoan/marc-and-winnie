@@ -19,7 +19,6 @@
 - Check other wedding sites to confirm what details to include
 
 #### Header
-- Find header hover bg
 - ~~Change text color for each section on enter~~
 
 #### Home
@@ -27,11 +26,10 @@
 
 #### Venue
 - ~~As sidebar?~~
-- Multi-Section?
 - ~~Information~~
-- Directions
-- Parking
-- Hotels
+- ~~Directions~~
+- ~~Parking~~
+- ~~Hotels~~
 
 #### Story
 - ~~Intro text section~~
@@ -56,7 +54,7 @@
 - ~~Update design to match Venue~~
 
 #### Mobile
-- Mobile Only section headers
+- ~~Mobile Only section headers~~
 
 #### Invite Email
 - Confirm correct pictures & layout
