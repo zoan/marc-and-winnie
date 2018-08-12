@@ -1203,6 +1203,17 @@ h2 {
 /** Registry **/
 .registry {
   position: relative; }
+  .registry .registry-header {
+    background: #ff8398;
+    font-family: 'Muli', sans-serif;
+    font-size: 32px;
+    margin: 5rem auto 0;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    width: 16rem; }
+    .registry .registry-header h4 {
+      color: white;
+      margin: 0; }
 
 .registry .fp-tableCell {
   vertical-align: middle; }
