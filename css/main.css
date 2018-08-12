@@ -105,6 +105,8 @@ h3 {
   width: 2rem; }
 
 @media (min-width: 768px) {
+  .mobile-only {
+    display: none; }
   .caption-block {
     background-color: rgba(0, 0, 0, 0.5);
     border-left: 3px solid pink;
@@ -381,21 +383,9 @@ h2 {
   .left-bar p {
     font-family: 'Muli', serif; }
 
-.venue-right {
-  float: right;
-  padding-right: 10rem; }
-
-.venue-address {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 16px;
-  margin-left: 5rem;
-  margin-top: 1rem;
-  padding: 1rem; }
-
-.venue .overlay {
-  height: 100%;
+.venue-map {
+  border: 5px solid #ff9b2094 !important;
+  margin: 5rem 0;
   width: 100%; }
 
 @media (min-width: 768px) {
@@ -448,8 +438,8 @@ h2 {
 
 /** Our Story **/
 .our-story.fp-section {
-  padding-bottom: 0 !important;
-  padding-top: 0 !important; }
+  padding-bottom: 5rem !important;
+  padding-top: 5rem !important; }
 
 .our-story .fp-tableCell {
   vertical-align: unset; }
@@ -705,8 +695,23 @@ h2 {
   background-position: center;
   background-size: cover;
   padding: 7rem 0 !important; }
+  .wedding-party.fp-section {
+    padding-top: 0 !important; }
+  .wedding-party .party-header {
+    background: #ff8398;
+    font-family: 'Muli', sans-serif;
+    font-size: 32px;
+    margin: 5rem auto 0;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    width: 16rem; }
+    .wedding-party .party-header h4 {
+      color: white;
+      margin: 0; }
   .wedding-party .pink-flag-left {
     left: 0;
+    margin-left: -1rem;
+    margin-top: -5rem;
     top: 0;
     z-index: 10; }
   .wedding-party .pink-flag-right {
@@ -729,8 +734,7 @@ h2 {
 
 .wedding-party-container {
   display: flex;
-  flex-direction: column;
-  margin-top: 10rem; }
+  flex-direction: column; }
 
 .bridesmaids,
 .groomsmen {
@@ -813,6 +817,7 @@ h2 {
     padding-top: 3em !important;
     padding-bottom: 10px !important; }
     .wedding-party .pink-flag-left {
+      margin-left: 0;
       position: absolute;
       top: -0.5rem; }
     .wedding-party .pink-flag-right {

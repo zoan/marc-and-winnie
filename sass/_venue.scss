@@ -45,23 +45,9 @@ h2 {
 	}
 }
 
-.venue-right {
-	float: right;
-	padding-right: 10rem;
-}
-
-.venue-address {
-	background-color: rgba(0, 0, 0, 0.5);
-	color: white;
-	font-family: 'Fira Sans', sans-serif;
-	font-size: 16px;
-	margin-left: 5rem;
-	margin-top: 1rem;
-	padding: 1rem;
-}
-
-.venue .overlay {
-	height: 100%;
+.venue-map {
+	border: 5px solid #ff9b2094 !important;
+	margin: 5rem 0;
 	width: 100%;
 }
 
