@@ -42,12 +42,15 @@ h2 {
 	}
 	p {
 		font-family: 'Muli', serif;
+		strong {
+			font-size: 18px
+		}
 	}
 }
 
 .venue-map {
 	border: 5px solid #ff9b2094 !important;
-	margin: 5rem 0;
+	margin: 2rem 0;
 	width: 100%;
 }
 

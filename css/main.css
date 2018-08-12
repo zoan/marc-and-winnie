@@ -382,10 +382,12 @@ h2 {
     font-weight: 600; }
   .left-bar p {
     font-family: 'Muli', serif; }
+    .left-bar p strong {
+      font-size: 18px; }
 
 .venue-map {
   border: 5px solid #ff9b2094 !important;
-  margin: 5rem 0;
+  margin: 2rem 0;
   width: 100%; }
 
 @media (min-width: 768px) {
@@ -1138,6 +1140,7 @@ h2 {
       font-size: 60px;
       letter-spacing: 1px;
       line-height: 1.1;
+      margin-bottom: 3rem;
       text-align: center;
       text-shadow: 1px 1px 1px white; }
     .rsvp #mc_embed_signup .button {
@@ -1145,6 +1148,7 @@ h2 {
       color: white;
       font-size: 20px;
       height: 3rem;
+      margin-top: 2rem;
       width: 100%; }
       .rsvp #mc_embed_signup .button:hover {
         background-color: #ffa5b4; }
