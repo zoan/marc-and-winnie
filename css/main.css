@@ -228,6 +228,30 @@ h3 {
     top: 0;
     width: 75%;
     z-index: 100; }
+    .page-header .main-menu .menu-hero:hover,
+    .page-header .main-menu .menu-party:hover,
+    .page-header .main-menu .menu-rsvp:hover {
+      background: #ff8398;
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+      .page-header .main-menu .menu-hero:hover a,
+      .page-header .main-menu .menu-party:hover a,
+      .page-header .main-menu .menu-rsvp:hover a {
+        color: white !important; }
+    .page-header .main-menu .menu-venue:hover {
+      background: #ff9b20;
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+      .page-header .main-menu .menu-venue:hover a {
+        color: white !important; }
+    .page-header .main-menu .menu-story:hover {
+      background: #0089ff;
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+      .page-header .main-menu .menu-story:hover a {
+        color: white !important; }
+    .page-header .main-menu .menu-registry:hover {
+      background: #3e3e3e;
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+      .page-header .main-menu .menu-registry:hover a {
+        color: white !important; }
     .page-header .main-menu li {
       padding: 0.5rem;
       transform: skew(-10deg);
@@ -256,6 +280,8 @@ h3 {
       display: block;
       transform: skew(10deg);
       transition: color 0.5s; }
+      .page-header .main-menu a:hover {
+        text-decoration: none; }
     .page-header .mobile-menu,
     .page-header .hamburger-menu,
     .page-header .mobile-title {

@@ -81,6 +81,46 @@
 		// background-color: rgba(0, 0, 0, 0.9);
 	}
 	.main-menu {
+		// lazy hover styling
+		.menu-hero,
+		.menu-party,
+		.menu-rsvp {
+			&:hover {
+				background: $site-pink;
+				box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+				
+				a {
+					color: white !important;
+				}
+			}
+		}
+		.menu-venue {
+			&:hover {
+			background: #ff9b20;
+				box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+				a {
+					color: white !important;
+				}
+			}
+		}
+		.menu-story {
+			&:hover {
+				background: #0089ff;
+				box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+				a {
+					color: white !important;
+				}
+			}
+		}
+		.menu-registry {
+			&:hover {
+				background: #3e3e3e;
+				box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+				a {
+					color: white !important;
+				}
+			}
+		}
 		li {
 			padding: 0.5rem;
 			transform: skew(-10deg);
@@ -119,6 +159,9 @@
 			display: block;
 			transform: skew(10deg);
 			transition: color 0.5s;
+			&:hover {
+				text-decoration: none;
+			}
 		}
 	}
 	.mobile-menu,

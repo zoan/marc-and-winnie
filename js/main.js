@@ -138,6 +138,12 @@ $(document).ready(function() {
 	dots.map(el => dots[el].style.backgroundColor = sitePink);
 
 
+	// header hover logic
+	// $('.menu-hero').hover(
+	// 		function(){ if (!$(this).hasClass('active-link-pink')) $(this).toggleClass('active-link-pink')}
+	// 	);
+
+
 	var heroClasses = ['hand-in-hand', 'ocean-side', 'init'];
 	var heroIndex = 0;
 
