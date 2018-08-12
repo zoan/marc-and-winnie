@@ -71,7 +71,21 @@
 		border-left: 5px solid pink;
 		border-right: 0;
 		padding: 1rem 0;
+		position: relative;
 		width: 70%;
+		.mickey-icon {
+			bottom: 0.3rem;
+			left: unset;
+			right: 1rem;
+			transform: skew(0deg);
+			width: 1.5rem;
+			&.blue {
+				background-image: url('../img/mickey-blue.png');
+				left: 1rem;
+				right: unset;
+				transform: skew(0deg);
+			}
+		}
 		h3 {
 			color: pink;
 			font-size: 30px;
@@ -365,6 +379,19 @@
 		padding: 0.7rem;
 		transform: skew(10deg);
 		width: 20rem;
+		.mickey-icon {
+			bottom: 0.3rem;
+			left: unset;
+			right: 1rem;
+			transform: skew(-10deg);
+			width: 1.5rem;
+			&.blue {
+				background-image: url('../img/mickey-blue.png');
+				left: 1rem;
+				right: unset;
+				transform: skew(10deg);
+			}
+		}
 		h3 {
 			color: pink;
 			font-size: 30px;

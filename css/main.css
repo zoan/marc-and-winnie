@@ -93,7 +93,7 @@ h3 {
     text-shadow: 3px 3px 2px black; }
 
 .mickey-icon {
-  background-image: url("../img/mickey-mouse-pink.png");
+  background-image: url("../img/mickey.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -154,7 +154,7 @@ h3 {
       right: 3rem;
       text-shadow: 3px 3px 2px black; }
   .mickey-icon {
-    background-image: url("../img/mickey-mouse-pink.png");
+    background-image: url("../img/mickey.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -746,7 +746,25 @@ h2 {
     border-left: 5px solid pink;
     border-right: 0;
     padding: 1rem 0;
+    position: relative;
     width: 70%; }
+    .bridesmaids .bridesmaid-info .mickey-icon,
+    .bridesmaids .groomsman-info .mickey-icon,
+    .groomsmen .bridesmaid-info .mickey-icon,
+    .groomsmen .groomsman-info .mickey-icon {
+      bottom: 0.3rem;
+      left: unset;
+      right: 1rem;
+      transform: skew(0deg);
+      width: 1.5rem; }
+      .bridesmaids .bridesmaid-info .mickey-icon.blue,
+      .bridesmaids .groomsman-info .mickey-icon.blue,
+      .groomsmen .bridesmaid-info .mickey-icon.blue,
+      .groomsmen .groomsman-info .mickey-icon.blue {
+        background-image: url("../img/mickey-blue.png");
+        left: 1rem;
+        right: unset;
+        transform: skew(0deg); }
     .bridesmaids .bridesmaid-info h3,
     .bridesmaids .groomsman-info h3,
     .groomsmen .bridesmaid-info h3,
@@ -1017,6 +1035,23 @@ h2 {
       padding: 0.7rem;
       transform: skew(10deg);
       width: 20rem; }
+      .bridesmaids .bridesmaid-info .mickey-icon,
+      .bridesmaids .groomsman-info .mickey-icon,
+      .groomsmen .bridesmaid-info .mickey-icon,
+      .groomsmen .groomsman-info .mickey-icon {
+        bottom: 0.3rem;
+        left: unset;
+        right: 1rem;
+        transform: skew(-10deg);
+        width: 1.5rem; }
+        .bridesmaids .bridesmaid-info .mickey-icon.blue,
+        .bridesmaids .groomsman-info .mickey-icon.blue,
+        .groomsmen .bridesmaid-info .mickey-icon.blue,
+        .groomsmen .groomsman-info .mickey-icon.blue {
+          background-image: url("../img/mickey-blue.png");
+          left: 1rem;
+          right: unset;
+          transform: skew(10deg); }
       .bridesmaids .bridesmaid-info h3,
       .bridesmaids .groomsman-info h3,
       .groomsmen .bridesmaid-info h3,
