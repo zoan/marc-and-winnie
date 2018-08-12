@@ -352,9 +352,12 @@ h3 {
   background-position: center;
   background-size: cover;
   position: relative; }
+  .venue.fp-section {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important; }
 
 .venue .fp-tableCell {
-  vertical-align: unset; }
+  padding-top: 0; }
 
 h2 {
   color: #ff9b20;
@@ -365,10 +368,9 @@ h2 {
 
 .left-bar {
   background: rgba(255, 255, 255, 0.85);
-  height: 100vh;
+  height: 100%;
   left: 0;
-  padding: 2rem;
-  position: absolute;
+  padding: 3rem 2rem 8rem;
   text-align: center;
   top: 0;
   width: 100%; }
@@ -468,7 +470,6 @@ h2 {
   .our-story .story-text {
     color: white;
     font-size: 24px;
-    height: 35rem;
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
@@ -1073,14 +1074,11 @@ h2 {
     padding: 0 !important; }
   .rsvp .fp-tableCell {
     background: rgba(0, 0, 0, 0.5);
-    padding-top: 5rem;
     vertical-align: unset; }
   .rsvp .right-bar {
     background: rgba(255, 255, 255, 0.8);
-    height: 100vh;
     right: 0;
-    padding: 1rem;
-    position: absolute;
+    padding: 8rem 1rem;
     text-align: center;
     top: 0;
     width: 100%; }

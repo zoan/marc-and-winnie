@@ -4,10 +4,15 @@
 	background-position: center;
 	background-size: cover;
 	position: relative;
+	&.fp-section {
+		padding-bottom: 0 !important;
+		padding-top: 0 !important;
+	}
 }
 
 .venue .fp-tableCell {
-	vertical-align: unset;
+	// vertical-align: unset;
+	padding-top: 0;
 }
 
 h2 {
@@ -23,10 +28,10 @@ h2 {
 
 .left-bar {
 	background: rgba(255,255,255,0.85);
-	height: 100vh;
+	height: 100%;
 	left: 0;
-	padding: 2rem;
-	position: absolute;
+	padding: 3rem 2rem 8rem;
+	// position: absolute;
 	text-align: center;
 	top: 0;
 	width: 100%;
