@@ -55,7 +55,7 @@
 		}
 	}
 
-	.mickey-icon {
+	.disney-icon {
 		background-image: url('../img/mickey.png');
 		background-position: center;
 		background-repeat: no-repeat;
@@ -64,8 +64,23 @@
 		height: 2rem;
 		left: 2.5rem;
 		position: absolute;
-		transform: skew(10deg);
+		// transform: skew(10deg);
 		width: 2rem;
+		&.eeyore {
+			background-image: url('../img/eeyore-highlight.png');
+		}
+		&.stitch {
+			background-image: url('../img/stitch.png');
+			width: 1.8rem !important; // too lazy
+		}
+		&.dory {
+			background-image: url('../img/dory.png');
+			width: 1.8rem !important; // too lazy
+		}
+		&.mulan {
+			background-image: url('../img/mulan-dark2.png');
+			width: 1.8rem !important; // too lazy
+		}
 	}
 
 @media (min-width: $desktop) {
@@ -125,7 +140,7 @@
     	text-shadow: 3px 3px 2px black;
 		}
 	}
-	.mickey-icon {
+	.disney-icon {
 		background-image: url('../img/mickey.png');
 		background-position: center;
 		background-repeat: no-repeat;
@@ -136,5 +151,20 @@
 		position: absolute;
 		transform: skew(10deg);
 		width: 2rem;
+		&.eeyore {
+			background-image: url('../img/eeyore-highlight.png');
+		}
+		&.stitch {
+			background-image: url('../img/stitch.png');
+			width: 1.8rem !important; // too lazy
+		}
+		&.dory {
+			background-image: url('../img/dory.png');
+			width: 1.8rem !important; // too lazy
+		}
+		&.mulan {
+			background-image: url('../img/mulan-dark2.png');
+			width: 1.8rem !important; // too lazy
+		}
 	}
 }

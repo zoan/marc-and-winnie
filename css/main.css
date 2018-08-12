@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans|Merienda+One|Muli|Roboto|Great+Vibes");
 body {
   background-color: white; }
@@ -92,7 +93,7 @@ h3 {
     right: 3rem;
     text-shadow: 3px 3px 2px black; }
 
-.mickey-icon {
+.disney-icon {
   background-image: url("../img/mickey.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -101,8 +102,18 @@ h3 {
   height: 2rem;
   left: 2.5rem;
   position: absolute;
-  transform: skew(10deg);
   width: 2rem; }
+  .disney-icon.eeyore {
+    background-image: url("../img/eeyore-highlight.png"); }
+  .disney-icon.stitch {
+    background-image: url("../img/stitch.png");
+    width: 1.8rem !important; }
+  .disney-icon.dory {
+    background-image: url("../img/dory.png");
+    width: 1.8rem !important; }
+  .disney-icon.mulan {
+    background-image: url("../img/mulan-dark2.png");
+    width: 1.8rem !important; }
 
 @media (min-width: 768px) {
   .mobile-only {
@@ -153,7 +164,7 @@ h3 {
       position: absolute;
       right: 3rem;
       text-shadow: 3px 3px 2px black; }
-  .mickey-icon {
+  .disney-icon {
     background-image: url("../img/mickey.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -163,7 +174,18 @@ h3 {
     left: 2.5rem;
     position: absolute;
     transform: skew(10deg);
-    width: 2rem; } }
+    width: 2rem; }
+    .disney-icon.eeyore {
+      background-image: url("../img/eeyore-highlight.png"); }
+    .disney-icon.stitch {
+      background-image: url("../img/stitch.png");
+      width: 1.8rem !important; }
+    .disney-icon.dory {
+      background-image: url("../img/dory.png");
+      width: 1.8rem !important; }
+    .disney-icon.mulan {
+      background-image: url("../img/mulan-dark2.png");
+      width: 1.8rem !important; } }
 
 .page-header {
   align-items: center;
@@ -748,19 +770,19 @@ h2 {
     padding: 1rem 0;
     position: relative;
     width: 70%; }
-    .bridesmaids .bridesmaid-info .mickey-icon,
-    .bridesmaids .groomsman-info .mickey-icon,
-    .groomsmen .bridesmaid-info .mickey-icon,
-    .groomsmen .groomsman-info .mickey-icon {
+    .bridesmaids .bridesmaid-info .disney-icon,
+    .bridesmaids .groomsman-info .disney-icon,
+    .groomsmen .bridesmaid-info .disney-icon,
+    .groomsmen .groomsman-info .disney-icon {
       bottom: 0.3rem;
-      left: unset;
-      right: 1rem;
-      transform: skew(0deg);
+      left: 1rem;
+      right: unset;
+      transform: skew(Ω0deg);
       width: 1.5rem; }
-      .bridesmaids .bridesmaid-info .mickey-icon.blue,
-      .bridesmaids .groomsman-info .mickey-icon.blue,
-      .groomsmen .bridesmaid-info .mickey-icon.blue,
-      .groomsmen .groomsman-info .mickey-icon.blue {
+      .bridesmaids .bridesmaid-info .disney-icon.blue,
+      .bridesmaids .groomsman-info .disney-icon.blue,
+      .groomsmen .bridesmaid-info .disney-icon.blue,
+      .groomsmen .groomsman-info .disney-icon.blue {
         background-image: url("../img/mickey-blue.png");
         left: 1rem;
         right: unset;
@@ -796,6 +818,10 @@ h2 {
     border-right: 5px solid lightblue;
     border-left: 0;
     color: lightblue; }
+    .bridesmaids .groomsman-info .disney-icon.blue,
+    .groomsmen .groomsman-info .disney-icon.blue {
+      left: unset;
+      right: 1rem; }
     .bridesmaids .groomsman-info h3,
     .groomsmen .groomsman-info h3 {
       color: lightblue;
@@ -1035,19 +1061,19 @@ h2 {
       padding: 0.7rem;
       transform: skew(10deg);
       width: 20rem; }
-      .bridesmaids .bridesmaid-info .mickey-icon,
-      .bridesmaids .groomsman-info .mickey-icon,
-      .groomsmen .bridesmaid-info .mickey-icon,
-      .groomsmen .groomsman-info .mickey-icon {
+      .bridesmaids .bridesmaid-info .disney-icon,
+      .bridesmaids .groomsman-info .disney-icon,
+      .groomsmen .bridesmaid-info .disney-icon,
+      .groomsmen .groomsman-info .disney-icon {
         bottom: 0.3rem;
         left: unset;
         right: 1rem;
         transform: skew(-10deg);
         width: 1.5rem; }
-        .bridesmaids .bridesmaid-info .mickey-icon.blue,
-        .bridesmaids .groomsman-info .mickey-icon.blue,
-        .groomsmen .bridesmaid-info .mickey-icon.blue,
-        .groomsmen .groomsman-info .mickey-icon.blue {
+        .bridesmaids .bridesmaid-info .disney-icon.blue,
+        .bridesmaids .groomsman-info .disney-icon.blue,
+        .groomsmen .bridesmaid-info .disney-icon.blue,
+        .groomsmen .groomsman-info .disney-icon.blue {
           background-image: url("../img/mickey-blue.png");
           left: 1rem;
           right: unset;
