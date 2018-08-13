@@ -15,9 +15,9 @@
 - Compress images for faster loading
     + ~~Hero images~~
     + ~~Party images~~
-    + Story images
+    + ~~Story images~~
     + RSVP BG
-- Use `data-src=""` for images that should be lazy loaded
+- ~~Use `data-src=""` for images that should be lazy loaded~~
 - ~~Google Analytics~~
 - Check other wedding sites to confirm what details to include
 

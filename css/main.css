@@ -372,7 +372,7 @@ h3 {
 
 /** Venue **/
 .venue {
-  background-image: url("../img/casa-real.jpg");
+  background-image: url("../img/casa-real-cropped.jpg");
   background-position: center;
   background-size: cover;
   position: relative; }
@@ -1349,7 +1349,7 @@ h2 {
     margin: 4rem auto; } }
 
 .last {
-  background-image: url("../img/last.jpg");
+  background-image: url("../img/last-cropped.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
