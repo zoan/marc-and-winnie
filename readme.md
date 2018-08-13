@@ -12,14 +12,16 @@
 - ~~Make Disney icons~~
 - Mickey Mouse background pattern
 - Confirm correct images used
-- Compress images for faster loading
+- ~~Compress images for faster loading~~
     + ~~Hero images~~
     + ~~Party images~~
     + ~~Story images~~
-    + RSVP BG
+    + ~~RSVP BG~~
 - ~~Use `data-src=""` for images that should be lazy loaded~~
 - ~~Google Analytics~~
 - Check other wedding sites to confirm what details to include
+- Browser compatibility
+- Tablet testing
 
 #### Header
 - ~~Change text color for each section on enter~~
