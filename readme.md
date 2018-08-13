@@ -65,3 +65,16 @@
 - Confirm correct pictures & layout
 - Confirm copy & details
 - Gather guest emails
+
+
+---
+
+### Misc Notes
+Jovian - eeyore
+Clare - stitch
+Karina - dory
+Joanna - mulan
+
+icon color
+pink: #ffc0cb
+pink highlight: #ffdde3

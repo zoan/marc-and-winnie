@@ -372,7 +372,6 @@ h3 {
 
 /** Venue **/
 .venue {
-  background-image: url("../img/casa-real-cropped.jpg");
   background-position: center;
   background-size: cover;
   position: relative; }
@@ -414,7 +413,6 @@ h2 {
 
 @media (min-width: 768px) {
   .venue {
-    background-image: url("../img/casa-real-cropped.jpg");
     background-position: center;
     background-size: cover;
     position: relative; }
@@ -461,7 +459,6 @@ h2 {
 .our-story {
   background-blend-mode: luminosity;
   background-color: #9bc4ef;
-  background-image: url("../img/ggb-night-compressor.jpg");
   background-position: center;
   background-size: cover; }
   .our-story h2 {
@@ -585,7 +582,6 @@ h2 {
   .our-story {
     background-blend-mode: luminosity;
     background-color: #9bc4ef;
-    background-image: url("../img/ggb-night-compressor.jpg");
     background-position: center;
     background-size: cover; }
     .our-story h2 {
@@ -705,7 +701,6 @@ h2 {
 
 /** Wedding Party **/
 .wedding-party {
-  background: url("../img/walking-flip.JPG");
   background-position: center;
   background-size: cover;
   padding: 7rem 0 !important; }
