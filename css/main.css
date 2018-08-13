@@ -1128,7 +1128,6 @@ h2 {
 
 /** RSVP **/
 .rsvp {
-  background-image: url("../img/save-the-date-group-cropped.jpg");
   background-position: center;
   background-size: cover; }
   .rsvp.fp-section {
@@ -1349,7 +1348,6 @@ h2 {
     margin: 4rem auto; } }
 
 .last {
-  background-image: url("../img/last-cropped.jpg");
   background-position: center;
   background-size: cover;
   position: relative;

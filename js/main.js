@@ -89,6 +89,12 @@ $(document).ready(function() {
 			$('.main-menu li').removeClass('active-link-blue');
 			$('.main-menu li').removeClass('active-link-black');
 
+			if (index === slides.hero) {
+				// lazy load other slide backgrounds
+				$('.rsvp')[0].style.backgroundImage = "url('../img/save-the-date-group-cropped.jpg')";
+				$('.last')[0].style.backgroundImage = "url('./img/last-cropped.jpg')";
+			}
+
 			switch(nextIndex) {
 				case slides.hero:
 					menuLinks.map(el => menuLinks[el].style.color = sitePink);
