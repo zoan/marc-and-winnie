@@ -358,9 +358,13 @@ h3 {
     background-image: url("../img/hand-in-hand-edit-mobile.jpg"); }
   .hero.ocean-side {
     background-image: url("../img/ocean-side-mobile.jpg"); }
+  .hero .force-load {
+    display: none; }
 
 @media (min-width: 768px) {
   .hero {
+    background-image: url("../img/hand-in-hand-edit.jpg");
+    background-image: url("../img/ocean-side.jpg");
     background-image: url("../img/tree-tunnel-2.jpg");
     background-position: center;
     background-size: cover;

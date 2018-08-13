@@ -10,10 +10,15 @@
 	&.ocean-side {
 		background-image: url('../img/ocean-side-mobile.jpg');
 	}
+	.force-load {
+		display: none;
+	}
 }
 
 @media (min-width: $desktop) {
 	.hero {
+	background-image: url('../img/hand-in-hand-edit.jpg');
+	background-image: url('../img/ocean-side.jpg');
 	background-image: url('../img/tree-tunnel-2.jpg');
 	background-position: center;
 	background-size: cover;
