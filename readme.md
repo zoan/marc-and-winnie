@@ -27,7 +27,7 @@
 - ~~Change text color for each section on enter~~
 
 #### Home
-- scroll indicator
+- ~~scroll indicator~~
 
 #### Venue
 - ~~As sidebar?~~
