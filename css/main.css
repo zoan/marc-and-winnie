@@ -1123,7 +1123,7 @@ h2 {
     .groomsmen .groomsman-info {
       background: rgba(0, 0, 0, 0.7);
       border: 0;
-      border-top: 1px solid rgba(255, 192, 203, 0.2);
+      border-top: 5px solid rgba(255, 192, 203, 0.2);
       border-left: 5px solid pink;
       height: 5rem;
       padding: 0.7rem;
@@ -1176,7 +1176,7 @@ h2 {
     .bridesmaids .groomsman-info,
     .groomsmen .groomsman-info {
       border-left: 0;
-      border-top: 1px solid rgba(173, 216, 230, 0.2);
+      border-top: 5px solid rgba(173, 216, 230, 0.2);
       border-right: 5px solid lightblue;
       color: lightblue;
       transform: skew(-10deg); }
