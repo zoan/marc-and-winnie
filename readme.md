@@ -10,7 +10,7 @@
 - ~~Mobile styling~~
 - ~~Wedding Party pictures~~
 - ~~Make Disney icons~~
-- Mickey Mouse background pattern
+- ~~Mickey Mouse background pattern~~
 - Confirm correct images used
 - ~~Compress images for faster loading~~
     + ~~Hero images~~
