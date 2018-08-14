@@ -1,4 +1,11 @@
 /** Hero Section **/
+
+@keyframes float {
+	0% {transform:translateY(0px) }
+  50% {transform:translateY(7px) }
+  100% {transform:translateY(0px) }
+}
+
 .hero {
 	background-image: url('../img/tree-tunnel-mobile.jpg');
 	background-position: center;
@@ -11,6 +18,9 @@
 		background-image: url('../img/ocean-side-mobile.jpg');
 	}
 	.force-load {
+		display: none;
+	}
+	.scroll-indicator {
 		display: none;
 	}
 }
@@ -28,6 +38,26 @@
 	}
 	&.ocean-side {
 		background-image: url('../img/ocean-side.jpg');
+	}
+	.scroll-indicator {
+		animation: float 2.5s ease infinite;
+		bottom: 1rem;
+		color: white;
+		display: block;
+		font-family: 'Muli', sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		left: 0;
+		letter-spacing: 2px;
+		margin: auto;
+		position: absolute;
+		right: 0;
+		text-align: center;
+		width: 20rem;
+		p {
+			margin: 0;
+			text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+		}
 	}
 }
 }

@@ -349,6 +349,14 @@ h3 {
       width: 0; } }
 
 /** Hero Section **/
+@keyframes float {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(7px); }
+  100% {
+    transform: translateY(0px); } }
+
 .hero {
   background-image: url("../img/tree-tunnel-mobile.jpg");
   background-position: center;
@@ -359,6 +367,8 @@ h3 {
   .hero.ocean-side {
     background-image: url("../img/ocean-side-mobile.jpg"); }
   .hero .force-load {
+    display: none; }
+  .hero .scroll-indicator {
     display: none; }
 
 @media (min-width: 768px) {
@@ -372,7 +382,25 @@ h3 {
     .hero.hand-in-hand {
       background-image: url("../img/hand-in-hand-edit.jpg"); }
     .hero.ocean-side {
-      background-image: url("../img/ocean-side.jpg"); } }
+      background-image: url("../img/ocean-side.jpg"); }
+    .hero .scroll-indicator {
+      animation: float 2.5s ease infinite;
+      bottom: 1rem;
+      color: white;
+      display: block;
+      font-family: 'Muli', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      left: 0;
+      letter-spacing: 2px;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      text-align: center;
+      width: 20rem; }
+      .hero .scroll-indicator p {
+        margin: 0;
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8); } }
 
 /** Venue **/
 .venue {
