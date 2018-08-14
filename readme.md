@@ -48,7 +48,8 @@
 - ~~Remove sixths bridesmaid for now~~
 - ~~Evan & Dennis's pics~~
 - Handle mobile
-- Min-height for img sections
+- ~~Min-height for img sections~~
+- Centerpiece image of holding hands in shape of rose glass container
 
 #### Registry
 - ~~Crop photos to all be the same size~~

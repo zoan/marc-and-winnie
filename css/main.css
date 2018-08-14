@@ -253,12 +253,10 @@ h3 {
     width: 75%;
     z-index: 100; }
     .page-header .main-menu .menu-hero:hover,
-    .page-header .main-menu .menu-party:hover,
     .page-header .main-menu .menu-rsvp:hover {
       background: #ff8398;
       box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
       .page-header .main-menu .menu-hero:hover a,
-      .page-header .main-menu .menu-party:hover a,
       .page-header .main-menu .menu-rsvp:hover a {
         color: white !important; }
     .page-header .main-menu .menu-venue:hover {
@@ -270,6 +268,11 @@ h3 {
       background: #0089ff;
       box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
       .page-header .main-menu .menu-story:hover a {
+        color: white !important; }
+    .page-header .main-menu .menu-party:hover {
+      background: #b40bde;
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+      .page-header .main-menu .menu-party:hover a {
         color: white !important; }
     .page-header .main-menu .menu-registry:hover {
       background: #3e3e3e;
@@ -299,6 +302,11 @@ h3 {
         background: #3e3e3e;
         box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
         .page-header .main-menu li.active-link-black a {
+          color: white !important; }
+      .page-header .main-menu li.active-link-purple {
+        background: #b40bde;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+        .page-header .main-menu li.active-link-purple a {
           color: white !important; }
     .page-header .main-menu a {
       display: block;
@@ -762,8 +770,10 @@ h2 {
 
 /** Wedding Party **/
 .wedding-party {
+  background-color: #af8ce6;
+  background-image: url("../img/mickey-pattern-transparent-25.png");
   background-position: center;
-  background-size: cover;
+  background-size: 5.9rem;
   padding: 7rem 0 !important; }
   .wedding-party.fp-section {
     padding-top: 0 !important; }

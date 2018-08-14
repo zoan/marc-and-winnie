@@ -13,6 +13,7 @@ $(document).ready(function() {
 	const siteOrange = '#ff9b20';
 	const siteBlue = '#0089ff';
 	const siteBlack = '#3e3e3e';
+	const sitePurple = '#b40bde';
 	const venueBlue = '#31aaff';
 
 	// start full page
@@ -88,12 +89,13 @@ $(document).ready(function() {
 			$('.main-menu li').removeClass('active-link-orange');
 			$('.main-menu li').removeClass('active-link-blue');
 			$('.main-menu li').removeClass('active-link-black');
+			$('.main-menu li').removeClass('active-link-purple');
 
 			if (index === slides.hero) {
 				// lazy load other slide backgrounds
 				$('.venue')[0].style.backgroundImage = "url('./img/casa-real-cropped.jpg')";
 				$('.our-story')[0].style.backgroundImage = "url('./img/ggb-night-compressor.jpg')";
-				$('.wedding-party')[0].style.backgroundImage = "url('./img/walking-flip.JPG')";
+				// $('.wedding-party')[0].style.backgroundImage = "url('./img/walking-flip.JPG')";
 				$('.rsvp')[0].style.backgroundImage = "url('./img/save-the-date-group-cropped.jpg')";
 				$('.last')[0].style.backgroundImage = "url('./img/last-cropped.jpg')";
 			}
@@ -116,8 +118,8 @@ $(document).ready(function() {
 					break;
 				case slides.party:
 					menuLinks.map(el => menuLinks[el].style.color = 'white');
-					dots.map(el => dots[el].style.backgroundColor = sitePink);
-					$('.menu-party').addClass('active-link-pink');
+					dots.map(el => dots[el].style.backgroundColor = sitePurple);
+					$('.menu-party').addClass('active-link-purple');
 					break;
 				case slides.registry:
 					menuLinks.map(el => menuLinks[el].style.color = 'black');

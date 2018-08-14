@@ -83,7 +83,6 @@
 	.main-menu {
 		// lazy hover styling
 		.menu-hero,
-		.menu-party,
 		.menu-rsvp {
 			&:hover {
 				background: $site-pink;
@@ -106,6 +105,15 @@
 		.menu-story {
 			&:hover {
 				background: #0089ff;
+				box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+				a {
+					color: white !important;
+				}
+			}
+		}
+		.menu-party, {
+			&:hover {
+				background: #b40bde;
 				box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
 				a {
 					color: white !important;
@@ -149,6 +157,13 @@
 			}
 			&.active-link-black {
 				background: #3e3e3e;
+				box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+				a {
+					color: white !important;
+				}
+			}
+			&.active-link-purple {
+				background: #b40bde;
 				box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
 				a {
 					color: white !important;
