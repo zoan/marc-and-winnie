@@ -184,4 +184,6 @@ $(document).ready(function() {
 	var queryString = window && window.location.search;
 	var visitorEmail = queryString.split('?email=')[1];
 	$('#mce-EMAIL')[0].value = visitorEmail || '';
+
+	$('.load-placeholder').addClass('close');
 });

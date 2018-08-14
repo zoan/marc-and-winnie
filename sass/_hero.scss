@@ -17,6 +17,20 @@
 	&.ocean-side {
 		background-image: url('../img/ocean-side-mobile.jpg');
 	}
+	.load-placeholder {
+		background: #1b1b1b;
+		height: 100vh;
+		opacity: 1;
+		position: fixed;
+		top: 0;
+		transition: all 2.5s;
+		visibility: visible;
+		width: 100vw;
+		&.close {
+			opacity: 0;
+			visibility: hidden;
+		}
+	}
 	.force-load {
 		display: none;
 	}
