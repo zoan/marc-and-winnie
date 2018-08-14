@@ -1784,7 +1784,10 @@ h2 {
       flex-direction: column;
       height: 100%;
       justify-content: center;
-      padding-bottom: 5rem; }
+      padding-bottom: 3rem; }
+      .rsvp #mc_embed_signup #mc_embed_signup_scroll h2 {
+        margin-bottom: 1rem;
+        margin-top: 2rem; }
     .rsvp #mc_embed_signup .mc-field-group {
       width: 100%; } }
 
