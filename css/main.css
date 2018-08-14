@@ -815,6 +815,7 @@ h2 {
   .groomsmen .groomsman {
     display: flex;
     max-height: 9rem;
+    min-height: 9rem;
     margin: 0; }
   .bridesmaids .bridesmaid-info,
   .bridesmaids .groomsman-info,
@@ -943,7 +944,8 @@ h2 {
     .groomsmen .bridesmaid,
     .groomsmen .groomsman {
       display: flex;
-      margin: 0rem 1rem; }
+      margin: 0rem 1rem;
+      min-height: unset; }
       .bridesmaids .bridesmaid:first-child .bridesmaid-img,
       .bridesmaids .groomsman:first-child .bridesmaid-img,
       .groomsmen .bridesmaid:first-child .bridesmaid-img,

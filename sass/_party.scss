@@ -61,6 +61,7 @@
 	.groomsman {
 		display: flex;
 		max-height: 9rem;
+		min-height: 9rem;
 		margin: 0;
 		// margin-bottom: 0.1rem;
 	}
@@ -205,6 +206,7 @@
 	.groomsman {
 		display: flex;
 		margin: 0rem 1rem;
+		min-height: unset;
 		&:first-child {
 			.bridesmaid-img {
 				border-radius: 0 1rem 0 0;

@@ -22,6 +22,7 @@
 - Check other wedding sites to confirm what details to include
 - Browser compatibility
 - Tablet testing
+- ~~Favicon~~
 
 #### Header
 - ~~Change text color for each section on enter~~
@@ -47,6 +48,7 @@
 - ~~Remove sixths bridesmaid for now~~
 - ~~Evan & Dennis's pics~~
 - Handle mobile
+- Min-height for img sections
 
 #### Registry
 - ~~Crop photos to all be the same size~~
