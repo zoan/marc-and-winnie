@@ -357,6 +357,12 @@ h3 {
   100% {
     transform: translateY(0px); } }
 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(-359deg); } }
+
 .hero {
   background-image: url("../img/tree-tunnel-mobile.jpg");
   background-position: center;
@@ -367,8 +373,11 @@ h3 {
   .hero.ocean-side {
     background-image: url("../img/ocean-side-mobile.jpg"); }
   .hero .load-placeholder {
+    align-items: center;
     background: #1b1b1b;
+    display: flex;
     height: 100vh;
+    justify-content: center;
     opacity: 1;
     position: fixed;
     top: 0;
@@ -379,6 +388,12 @@ h3 {
     .hero .load-placeholder.close {
       opacity: 0;
       visibility: hidden; }
+      .hero .load-placeholder.close .jandl-loading-icon {
+        animation: none;
+        margin-right: -100rem; }
+    .hero .load-placeholder .jandl-loading-icon {
+      animation: spin 8.5s linear infinite;
+      transition: 3s all; }
   .hero .force-load {
     display: none; }
   .hero .scroll-indicator {
