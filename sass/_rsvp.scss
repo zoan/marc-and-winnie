@@ -105,6 +105,69 @@
 	}
 }
 
+@media (min-width: $tablet) {
+	.rsvp {
+		&.fp-section {
+			padding: initial !important;
+		}
+		.fp-tableCell {
+			background: none;
+			padding-top: 0;
+		}
+		.right-bar {
+			// background: -webkit-linear-gradient(right, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0.7) 70%, rgba(255,255,255,0.4) 90%, rgba(255,255,255,0) 100%);
+			// background: -o-linear-gradient(right, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0.7) 70%, rgba(255,255,255,0.4) 90%, rgba(255,255,255,0) 100%);
+			// background: linear-gradient(to left, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0.7) 70%, rgba(255,255,255,0.4) 90%, rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			height: 100vh;
+			// right: 0;
+			padding: 0 5rem;
+			// position: absolute;
+			// top: 0;
+			// width: 40rem;
+			h5 {
+				font-family: 'Muli', serif;
+				font-size: 20px;
+				font-weight: 600;
+			}
+			p {
+				font-family: 'Muli', serif;
+			}
+		}
+		#mc_embed_signup {
+			// margin-right: 5rem;
+			padding: 1rem 3.5rem;
+			width: 28rem;
+			form {
+				height: 100%;
+				margin-bottom: 2rem;
+				input,
+				select {
+					margin-bottom: 0;
+				}
+				.clear {
+					width: 100%;
+				}
+				.button {
+					color: white;
+					margin-top: 1rem;
+					width: 100%;
+				}
+			}
+			#mc_embed_signup_scroll {
+				align-items: center;
+				display: flex;
+				flex-direction: column;
+				height: 100%;
+				justify-content: center;
+				padding-bottom: 5rem;
+			}
+			.mc-field-group {
+				width: 100%;
+			}
+		}
+	}
+}
+
 @media (min-width: $desktop) {
 	.rsvp {
 		&.fp-section {

@@ -88,6 +88,30 @@
 }
 
 
+@media (min-width: $tablet) {
+	.scroll-png-left {
+		// display: block;
+		left: 5rem;
+		position: absolute;
+		top: 0;
+		transform: rotate(90deg);
+		transform-origin: left;
+		width: 40rem;
+	}
+	.scroll-png-right {
+		// display: block;
+		right: 5rem;
+		position: absolute;
+		top: 0;
+		transform: rotate(-90deg);
+		transform-origin: right;
+		width: 40rem;
+	}
+	.registry-container {
+		margin: 4rem auto;
+	}
+}
+
 @media (min-width: $desktop) {
 	.scroll-png-left {
 		display: block;

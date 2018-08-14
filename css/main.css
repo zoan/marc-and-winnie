@@ -280,6 +280,109 @@ h3 {
       .page-header .main-menu .menu-registry:hover a {
         color: white !important; }
     .page-header .main-menu li {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+      text-align: center;
+      transform: skew(-10deg);
+      transition: background 0.5s; }
+      .page-header .main-menu li.active-link-pink {
+        background: #ff8398;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+        .page-header .main-menu li.active-link-pink a {
+          color: white !important; }
+      .page-header .main-menu li.active-link-orange {
+        background: #ff9b20;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+        .page-header .main-menu li.active-link-orange a {
+          color: white !important; }
+      .page-header .main-menu li.active-link-blue {
+        background: #0089ff;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+        .page-header .main-menu li.active-link-blue a {
+          color: white !important; }
+      .page-header .main-menu li.active-link-black {
+        background: #3e3e3e;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+        .page-header .main-menu li.active-link-black a {
+          color: white !important; }
+      .page-header .main-menu li.active-link-purple {
+        background: #b40bde;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+        .page-header .main-menu li.active-link-purple a {
+          color: white !important; }
+    .page-header .main-menu a {
+      display: block;
+      transform: skew(10deg);
+      transition: color 0.5s; }
+      .page-header .main-menu a:hover {
+        text-decoration: none; }
+    .page-header .mobile-menu,
+    .page-header .hamburger-menu,
+    .page-header .mobile-title {
+      display: none; }
+    .page-header ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      margin: 0.7rem; }
+    .page-header li {
+      color: #ff8398;
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0 1.5rem; }
+      .page-header li a {
+        color: #ff8398;
+        text-decoration: none; }
+        .page-header li a:hover {
+          text-decoration: underline; }
+        .page-header li a:visited {
+          color: #ff8398; } }
+
+@media (min-width: 1024px) {
+  .page-header {
+    align-items: center;
+    background-color: transparent;
+    border-radius: 0 0 1rem 1rem;
+    display: flex;
+    font-family: 'Muli', sans-serif;
+    justify-content: center;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 75%;
+    z-index: 100; }
+    .page-header .main-menu .menu-hero:hover,
+    .page-header .main-menu .menu-rsvp:hover {
+      background: #ff8398;
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+      .page-header .main-menu .menu-hero:hover a,
+      .page-header .main-menu .menu-rsvp:hover a {
+        color: white !important; }
+    .page-header .main-menu .menu-venue:hover {
+      background: #ff9b20;
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+      .page-header .main-menu .menu-venue:hover a {
+        color: white !important; }
+    .page-header .main-menu .menu-story:hover {
+      background: #0089ff;
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+      .page-header .main-menu .menu-story:hover a {
+        color: white !important; }
+    .page-header .main-menu .menu-party:hover {
+      background: #b40bde;
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+      .page-header .main-menu .menu-party:hover a {
+        color: white !important; }
+    .page-header .main-menu .menu-registry:hover {
+      background: #3e3e3e;
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3); }
+      .page-header .main-menu .menu-registry:hover a {
+        color: white !important; }
+    .page-header .main-menu li {
       padding: 0.5rem;
       transform: skew(-10deg);
       transition: background 0.5s; }
@@ -481,6 +584,32 @@ h2 {
   width: 100%; }
 
 @media (min-width: 768px) {
+  .venue {
+    background-position: center;
+    background-size: cover;
+    position: relative; }
+  .venue .fp-tableCell {
+    vertical-align: unset; }
+  h2 {
+    color: #ff9b20;
+    font-family: 'Merienda One', cursive;
+    font-size: 70px;
+    letter-spacing: 1px;
+    margin-top: 5rem;
+    text-align: center; }
+  .left-bar {
+    height: 100vh; }
+    .left-bar h5 {
+      font-family: 'Muli', serif;
+      font-size: 20px;
+      font-weight: 600; }
+    .left-bar p {
+      font-family: 'Muli', serif; }
+  .venue-map {
+    height: 15rem;
+    width: 25rem; } }
+
+@media (min-width: 1024px) {
   .venue {
     background-position: center;
     background-size: cover;
@@ -926,6 +1055,285 @@ h2 {
       top: -0.5rem;
       z-index: 0; }
     .wedding-party .pink-flag-right {
+      position: absolute;
+      top: -0.5rem;
+      z-index: 0; }
+  .wedding-party .fp-tableCell {
+    vertical-align: unset; }
+  .wedding-party h2 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 2px 1px 1px black; }
+  .wedding-party-container {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    margin-top: 4rem; }
+  .bridesmaids,
+  .groomsmen {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%; }
+    .bridesmaids .bridesmaid,
+    .bridesmaids .groomsman,
+    .groomsmen .bridesmaid,
+    .groomsmen .groomsman {
+      display: flex;
+      margin: 0rem 1rem;
+      min-height: unset; }
+      .bridesmaids .bridesmaid:first-child .bridesmaid-img,
+      .bridesmaids .groomsman:first-child .bridesmaid-img,
+      .groomsmen .bridesmaid:first-child .bridesmaid-img,
+      .groomsmen .groomsman:first-child .bridesmaid-img {
+        border-radius: 0 1rem 0 0; }
+      .bridesmaids .bridesmaid:first-child .groomsman-img,
+      .bridesmaids .groomsman:first-child .groomsman-img,
+      .groomsmen .bridesmaid:first-child .groomsman-img,
+      .groomsmen .groomsman:first-child .groomsman-img {
+        border-radius: 1rem 0 0 0; }
+      .bridesmaids .bridesmaid:last-child .bridesmaid-info,
+      .bridesmaids .groomsman:last-child .bridesmaid-info,
+      .groomsmen .bridesmaid:last-child .bridesmaid-info,
+      .groomsmen .groomsman:last-child .bridesmaid-info {
+        border-bottom: 1px solid rgba(255, 192, 203, 0.2); }
+      .bridesmaids .bridesmaid:last-child .bridesmaid-img,
+      .bridesmaids .groomsman:last-child .bridesmaid-img,
+      .groomsmen .bridesmaid:last-child .bridesmaid-img,
+      .groomsmen .groomsman:last-child .bridesmaid-img {
+        border-radius: 0 0 1rem 0; }
+      .bridesmaids .bridesmaid:last-child .groomsman-info,
+      .bridesmaids .groomsman:last-child .groomsman-info,
+      .groomsmen .bridesmaid:last-child .groomsman-info,
+      .groomsmen .groomsman:last-child .groomsman-info {
+        border-bottom: 1px solid rgba(255, 192, 203, 0.2); }
+      .bridesmaids .bridesmaid:last-child .groomsman-img,
+      .bridesmaids .groomsman:last-child .groomsman-img,
+      .groomsmen .bridesmaid:last-child .groomsman-img,
+      .groomsmen .groomsman:last-child .groomsman-img {
+        border-radius: 0 0 0 1rem; }
+    .bridesmaids .joanna,
+    .groomsmen .joanna {
+      margin-left: -5rem; }
+      .bridesmaids .joanna .bridesmaid-img img,
+      .groomsmen .joanna .bridesmaid-img img {
+        top: -2rem;
+        width: 115%; }
+    .bridesmaids .clare,
+    .groomsmen .clare {
+      margin-left: -3.2rem; }
+      .bridesmaids .clare .bridesmaid-img img,
+      .groomsmen .clare .bridesmaid-img img {
+        left: -7.5rem;
+        top: -4rem;
+        width: 300%; }
+    .bridesmaids .jovian,
+    .groomsmen .jovian {
+      margin-left: -1.5rem; }
+      .bridesmaids .jovian .bridesmaid-img img,
+      .groomsmen .jovian .bridesmaid-img img {
+        left: -5.6rem;
+        top: -7rem;
+        width: 250%; }
+    .bridesmaids .karina,
+    .groomsmen .karina {
+      margin-left: 0.3rem; }
+      .bridesmaids .karina .bridesmaid-img img,
+      .groomsmen .karina .bridesmaid-img img {
+        left: -7.3rem;
+        top: -5.7rem;
+        width: 250%; }
+    .bridesmaids .cindy,
+    .groomsmen .cindy {
+      margin-left: 2rem; }
+      .bridesmaids .cindy .bridesmaid-img,
+      .groomsmen .cindy .bridesmaid-img {
+        background: black; }
+        .bridesmaids .cindy .bridesmaid-img img,
+        .groomsmen .cindy .bridesmaid-img img {
+          left: 0rem;
+          top: -1.2rem;
+          width: 125%; }
+    .bridesmaids .sixth,
+    .groomsmen .sixth {
+      margin-left: 3.8rem; }
+    .bridesmaids .evan,
+    .groomsmen .evan {
+      margin-right: -5rem; }
+      .bridesmaids .evan .groomsman-img img,
+      .groomsmen .evan .groomsman-img img {
+        right: -0.3rem;
+        top: -1.3rem;
+        width: 110%; }
+    .bridesmaids .dennis,
+    .groomsmen .dennis {
+      margin-right: -3.2rem; }
+      .bridesmaids .dennis .groomsman-img img,
+      .groomsmen .dennis .groomsman-img img {
+        right: -0.3rem;
+        top: -1.3rem;
+        width: 110%; }
+    .bridesmaids .michael,
+    .groomsmen .michael {
+      margin-right: -1.5rem; }
+      .bridesmaids .michael .groomsman-img img,
+      .groomsmen .michael .groomsman-img img {
+        right: -2.3rem;
+        top: -2rem;
+        width: 140%; }
+    .bridesmaids .daniel,
+    .groomsmen .daniel {
+      margin-right: 0.3rem; }
+      .bridesmaids .daniel .groomsman-img img,
+      .groomsmen .daniel .groomsman-img img {
+        right: -3.5rem;
+        top: -2.8rem;
+        width: 200%; }
+    .bridesmaids .josh,
+    .groomsmen .josh {
+      margin-right: 2rem; }
+      .bridesmaids .josh .groomsman-img img,
+      .groomsmen .josh .groomsman-img img {
+        right: -1.1rem;
+        top: -0.9rem;
+        width: 120%; }
+    .bridesmaids .alan,
+    .groomsmen .alan {
+      margin-right: 3.8rem; }
+      .bridesmaids .alan .groomsman-img img,
+      .groomsmen .alan .groomsman-img img {
+        right: -0.6rem;
+        top: -1.4rem;
+        width: 120%; }
+    .bridesmaids .placeholder .bridesmaid-img,
+    .bridesmaids .placeholder .groomsman-img,
+    .groomsmen .placeholder .bridesmaid-img,
+    .groomsmen .placeholder .groomsman-img {
+      background: lightgrey; }
+      .bridesmaids .placeholder .bridesmaid-img img,
+      .bridesmaids .placeholder .groomsman-img img,
+      .groomsmen .placeholder .bridesmaid-img img,
+      .groomsmen .placeholder .groomsman-img img {
+        display: none; }
+    .bridesmaids .bridesmaid-img,
+    .bridesmaids .groomsman-img,
+    .groomsmen .bridesmaid-img,
+    .groomsmen .groomsman-img {
+      border: 0;
+      border-radius: 0;
+      height: 5rem;
+      overflow: hidden;
+      position: relative;
+      transform: skew(10deg);
+      width: 7rem; }
+      .bridesmaids .bridesmaid-img img,
+      .bridesmaids .groomsman-img img,
+      .groomsmen .bridesmaid-img img,
+      .groomsmen .groomsman-img img {
+        position: absolute;
+        right: 0;
+        transform: skew(-10deg);
+        top: -2rem;
+        width: 150%; }
+    .bridesmaids .groomsman-img,
+    .groomsmen .groomsman-img {
+      border-color: lightblue;
+      transform: skew(-10deg); }
+      .bridesmaids .groomsman-img img,
+      .groomsmen .groomsman-img img {
+        right: initial;
+        transform: skew(10deg); }
+    .bridesmaids .bridesmaid-info,
+    .bridesmaids .groomsman-info,
+    .groomsmen .bridesmaid-info,
+    .groomsmen .groomsman-info {
+      background: rgba(0, 0, 0, 0.7);
+      border: 0;
+      border-top: 5px solid rgba(255, 192, 203, 0.2);
+      border-left: 5px solid pink;
+      height: 5rem;
+      padding: 0.7rem;
+      transform: skew(10deg);
+      width: 14rem; }
+      .bridesmaids .bridesmaid-info .disney-icon,
+      .bridesmaids .groomsman-info .disney-icon,
+      .groomsmen .bridesmaid-info .disney-icon,
+      .groomsmen .groomsman-info .disney-icon {
+        bottom: 0.3rem;
+        left: unset;
+        right: 1rem;
+        transform: skew(-10deg);
+        width: 1.5rem; }
+        .bridesmaids .bridesmaid-info .disney-icon.blue,
+        .bridesmaids .groomsman-info .disney-icon.blue,
+        .groomsmen .bridesmaid-info .disney-icon.blue,
+        .groomsmen .groomsman-info .disney-icon.blue {
+          background-image: url("../img/mickey-blue.png");
+          left: 1rem;
+          right: unset;
+          transform: skew(10deg); }
+      .bridesmaids .bridesmaid-info h3,
+      .bridesmaids .groomsman-info h3,
+      .groomsmen .bridesmaid-info h3,
+      .groomsmen .groomsman-info h3 {
+        color: pink;
+        font-size: 20px;
+        margin: 0;
+        margin-left: 1.5rem;
+        letter-spacing: 3px;
+        text-align: left;
+        transform: skew(-10deg); }
+      .bridesmaids .bridesmaid-info h5,
+      .bridesmaids .groomsman-info h5,
+      .groomsmen .bridesmaid-info h5,
+      .groomsmen .groomsman-info h5 {
+        color: white;
+        font-family: 'Muli', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0;
+        margin-left: 1rem;
+        transform: skew(-10deg); }
+      .bridesmaids .bridesmaid-info p,
+      .bridesmaids .groomsman-info p,
+      .groomsmen .bridesmaid-info p,
+      .groomsmen .groomsman-info p {
+        margin: 0; }
+    .bridesmaids .groomsman-info,
+    .groomsmen .groomsman-info {
+      border-left: 0;
+      border-top: 5px solid rgba(173, 216, 230, 0.2);
+      border-right: 5px solid lightblue;
+      color: lightblue;
+      transform: skew(-10deg); }
+      .bridesmaids .groomsman-info h3,
+      .groomsmen .groomsman-info h3 {
+        color: lightblue;
+        margin-left: 0;
+        margin-right: 1.5rem;
+        text-align: right;
+        transform: skew(10deg); }
+      .bridesmaids .groomsman-info h5,
+      .groomsmen .groomsman-info h5 {
+        color: white;
+        margin-right: 1rem;
+        text-align: right;
+        transform: skew(10deg); } }
+
+@media (min-width: 1024px) {
+  .wedding-party {
+    padding-top: 3em !important;
+    padding-bottom: 10px !important; }
+    .wedding-party .pink-flag-left {
+      display: block;
+      margin-left: 0;
+      margin-top: 0;
+      position: absolute;
+      top: -0.5rem;
+      z-index: 0; }
+    .wedding-party .pink-flag-right {
       display: block;
       position: absolute;
       top: -0.5rem;
@@ -1283,6 +1691,46 @@ h2 {
     background: none;
     padding-top: 0; }
   .rsvp .right-bar {
+    height: 100vh;
+    padding: 0 5rem; }
+    .rsvp .right-bar h5 {
+      font-family: 'Muli', serif;
+      font-size: 20px;
+      font-weight: 600; }
+    .rsvp .right-bar p {
+      font-family: 'Muli', serif; }
+  .rsvp #mc_embed_signup {
+    padding: 1rem 3.5rem;
+    width: 28rem; }
+    .rsvp #mc_embed_signup form {
+      height: 100%;
+      margin-bottom: 2rem; }
+      .rsvp #mc_embed_signup form input,
+      .rsvp #mc_embed_signup form select {
+        margin-bottom: 0; }
+      .rsvp #mc_embed_signup form .clear {
+        width: 100%; }
+      .rsvp #mc_embed_signup form .button {
+        color: white;
+        margin-top: 1rem;
+        width: 100%; }
+    .rsvp #mc_embed_signup #mc_embed_signup_scroll {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: center;
+      padding-bottom: 5rem; }
+    .rsvp #mc_embed_signup .mc-field-group {
+      width: 100%; } }
+
+@media (min-width: 1024px) {
+  .rsvp.fp-section {
+    padding: initial !important; }
+  .rsvp .fp-tableCell {
+    background: none;
+    padding-top: 0; }
+  .rsvp .right-bar {
     background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
     background: -o-linear-gradient(right, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
     background: linear-gradient(to left, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 0.7) 70%, rgba(255, 255, 255, 0.4) 90%, rgba(255, 255, 255, 0) 100%);
@@ -1396,6 +1844,24 @@ h2 {
   display: none; }
 
 @media (min-width: 768px) {
+  .scroll-png-left {
+    left: 5rem;
+    position: absolute;
+    top: 0;
+    transform: rotate(90deg);
+    transform-origin: left;
+    width: 40rem; }
+  .scroll-png-right {
+    right: 5rem;
+    position: absolute;
+    top: 0;
+    transform: rotate(-90deg);
+    transform-origin: right;
+    width: 40rem; }
+  .registry-container {
+    margin: 4rem auto; } }
+
+@media (min-width: 1024px) {
   .scroll-png-left {
     display: block;
     left: 5rem;
