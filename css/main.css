@@ -393,7 +393,7 @@ h3 {
         margin-right: -100rem; }
     .hero .load-placeholder .jandl-loading-icon {
       animation: spin 8.5s linear infinite;
-      transition: 3s all; }
+      transition: 7s all; }
   .hero .force-load {
     display: none; }
   .hero .scroll-indicator {
@@ -411,6 +411,8 @@ h3 {
       background-image: url("../img/hand-in-hand-edit.jpg"); }
     .hero.ocean-side {
       background-image: url("../img/ocean-side.jpg"); }
+    .hero .load-placeholder .jandl-loading-icon {
+      transition: 5s all; }
     .hero .scroll-indicator {
       animation: float 2.5s ease infinite;
       bottom: 1rem;

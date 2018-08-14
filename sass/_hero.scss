@@ -45,7 +45,7 @@
 		}
 		.jandl-loading-icon {
 			animation: spin 8.5s linear infinite;
-			transition: 3s all;
+			transition: 7s all;
 		}
 	}
 	.force-load {
@@ -69,6 +69,11 @@
 	}
 	&.ocean-side {
 		background-image: url('../img/ocean-side.jpg');
+	}
+	.load-placeholder {
+		.jandl-loading-icon {
+			transition: 5s all;
+		}
 	}
 	.scroll-indicator {
 		animation: float 2.5s ease infinite;
