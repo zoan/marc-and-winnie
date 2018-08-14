@@ -1037,6 +1037,7 @@ h2 {
 
 .bridesmaid-img,
 .groomsman-img {
+  background-color: lightgrey;
   border-radius: 50%;
   height: 15rem;
   overflow: hidden;
