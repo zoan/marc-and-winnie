@@ -635,7 +635,7 @@ h2 {
     position: absolute;
     text-align: left;
     top: 0;
-    width: 35%; }
+    width: 50%; }
     .left-bar h5 {
       font-family: 'Muli', serif;
       font-size: 20px;
@@ -918,6 +918,7 @@ h2 {
       color: white;
       margin: 0; }
   .wedding-party .pink-flag-left {
+    display: none;
     left: 0;
     margin-left: -1rem;
     margin-top: -5rem;
@@ -952,27 +953,34 @@ h2 {
   .bridesmaids .groomsman,
   .groomsmen .bridesmaid,
   .groomsmen .groomsman {
+    align-items: center;
     display: flex;
-    max-height: 9rem;
-    min-height: 9rem;
-    margin: 0; }
+    flex-direction: column-reverse;
+    margin: 0;
+    margin-bottom: 5rem;
+    min-height: 9rem; }
+  .bridesmaids .groomsman,
+  .groomsmen .groomsman {
+    flex-direction: column; }
   .bridesmaids .bridesmaid-info,
   .bridesmaids .groomsman-info,
   .groomsmen .bridesmaid-info,
   .groomsmen .groomsman-info {
-    background: rgba(0, 0, 0, 0.8);
+    background: #631ca599;
     border-left: 5px solid pink;
     border-right: 0;
     padding: 1rem 0;
     position: relative;
-    width: 70%; }
+    width: 20rem; }
     .bridesmaids .bridesmaid-info .disney-icon,
     .bridesmaids .groomsman-info .disney-icon,
     .groomsmen .bridesmaid-info .disney-icon,
     .groomsmen .groomsman-info .disney-icon {
       bottom: 0.3rem;
-      left: 1rem;
-      right: unset;
+      left: unset;
+      margin: auto;
+      margin-top: 1rem;
+      position: relative;
       transform: skew(Ω0deg);
       width: 1.5rem; }
       .bridesmaids .bridesmaid-info .disney-icon.blue,
@@ -990,9 +998,8 @@ h2 {
       color: pink;
       font-size: 30px;
       margin: 0;
-      margin-left: 1.5rem;
       letter-spacing: 3px;
-      text-align: left; }
+      text-align: center; }
     .bridesmaids .bridesmaid-info h5,
     .bridesmaids .groomsman-info h5,
     .groomsmen .bridesmaid-info h5,
@@ -1002,7 +1009,7 @@ h2 {
       font-size: 14px;
       font-weight: 600;
       margin: 0;
-      margin-left: 1rem; }
+      text-align: center; }
     .bridesmaids .bridesmaid-info p,
     .bridesmaids .groomsman-info p,
     .groomsmen .bridesmaid-info p,
@@ -1013,36 +1020,38 @@ h2 {
     border-left: 0;
     border-right: 5px solid lightblue;
     border-left: 0;
-    color: lightblue; }
+    color: lightblue;
+    margin-top: 0.5rem; }
     .bridesmaids .groomsman-info .disney-icon.blue,
     .groomsmen .groomsman-info .disney-icon.blue {
-      left: unset;
-      right: 1rem; }
+      left: unset; }
     .bridesmaids .groomsman-info h3,
     .groomsmen .groomsman-info h3 {
       color: lightblue;
       margin-left: 0;
-      margin-right: 1.5rem;
-      text-align: right; }
+      text-align: center; }
     .bridesmaids .groomsman-info h5,
     .groomsmen .groomsman-info h5 {
       color: white;
-      margin-right: 1rem;
-      text-align: right; }
+      text-align: center; }
 
 .bridesmaid-img,
 .groomsman-img {
+  border-radius: 50%;
+  height: 15rem;
   overflow: hidden;
-  width: 50%; }
+  width: 15rem; }
   .bridesmaid-img img,
   .groomsman-img img {
     width: 100%; }
 
 .bridesmaid-img {
-  border-left: 0; }
+  border-left: 0;
+  border: 5px solid pink;
+  margin-bottom: 0.5rem; }
 
 .groomsman-img {
-  border-right: 0; }
+  border: 5px solid lightblue; }
 
 @media (min-width: 768px) {
   .wedding-party {
@@ -1082,6 +1091,7 @@ h2 {
     .groomsmen .bridesmaid,
     .groomsmen .groomsman {
       display: flex;
+      flex-direction: row;
       margin: 0rem 1rem;
       min-height: unset; }
       .bridesmaids .bridesmaid:first-child .bridesmaid-img,
@@ -1224,6 +1234,7 @@ h2 {
       border: 0;
       border-radius: 0;
       height: 5rem;
+      margin-bottom: 0;
       overflow: hidden;
       position: relative;
       transform: skew(10deg);
@@ -1254,6 +1265,7 @@ h2 {
       border-top: 5px solid rgba(255, 192, 203, 0.2);
       border-left: 5px solid pink;
       height: 5rem;
+      margin-top: 0;
       padding: 0.7rem;
       transform: skew(10deg);
       width: 14rem; }
@@ -1263,6 +1275,7 @@ h2 {
       .groomsmen .groomsman-info .disney-icon {
         bottom: 0.3rem;
         left: unset;
+        position: absolute;
         right: 1rem;
         transform: skew(-10deg);
         width: 1.5rem; }
@@ -1295,6 +1308,7 @@ h2 {
         font-weight: 600;
         margin: 0;
         margin-left: 1rem;
+        text-align: left;
         transform: skew(-10deg); }
       .bridesmaids .bridesmaid-info p,
       .bridesmaids .groomsman-info p,

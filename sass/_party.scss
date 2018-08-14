@@ -23,6 +23,7 @@
 		}
 	}
 	.pink-flag-left {
+		display: none;
 		left: 0;
 		margin-left: -1rem;
 		margin-top: -5rem;
@@ -61,25 +62,34 @@
 	margin-top: 3rem;
 	.bridesmaid,
 	.groomsman {
+		align-items: center;
 		display: flex;
-		max-height: 9rem;
-		min-height: 9rem;
+		flex-direction: column-reverse;
+		// max-height: 9rem;
 		margin: 0;
+		margin-bottom: 5rem;
+		min-height: 9rem;
 		// margin-bottom: 0.1rem;
+	}
+	.groomsman {
+		flex-direction: column;
 	}
 	.bridesmaid-info,
 	.groomsman-info {
-		background: rgba(0, 0, 0, 0.8);
+		background: #631ca599;
 		// border: 1px solid pink;
 		border-left: 5px solid pink;
 		border-right: 0;
 		padding: 1rem 0;
 		position: relative;
-		width: 70%;
+		width: 20rem;
 		.disney-icon {
 			bottom: 0.3rem;
-			left: 1rem;
-			right: unset;
+			left: unset;
+			margin: auto;
+			margin-top: 1rem;
+			position: relative;
+			// right: 1rem;
 			transform: skew(Ω0deg);
 			width: 1.5rem;
 			&.blue {
@@ -93,9 +103,9 @@
 			color: pink;
 			font-size: 30px;
 			margin: 0;
-			margin-left: 1.5rem;
+			// margin-left: 1.5rem;
 			letter-spacing: 3px;
-			text-align: left;
+			text-align: center;
 			// transform: skew(-10deg);
 		}
 		h5 {
@@ -104,7 +114,8 @@
 			font-size: 14px;
 			font-weight: 600;
 			margin: 0;
-			margin-left: 1rem;
+			// margin-left: 1rem;
+			text-align: center;
 			// transform: skew(-10deg);
 		}
 		p {
@@ -117,24 +128,25 @@
 		border-right: 5px solid lightblue;
 		border-left: 0;
 		color: lightblue;
+		margin-top: 0.5rem;
 		// transform: skew(-10deg);
 		.disney-icon {
 			&.blue {
 				left: unset;
-				right: 1rem;
+				// right: 1rem;
 			}
 		}
 		h3 {
 			color: lightblue;
 			margin-left: 0;
-			margin-right: 1.5rem;
-			text-align: right;
+			// margin-right: 1.5rem;
+			text-align: center;
 			// transform: skew(10deg);
 		}
 		h5 {
 			color: white;
-			margin-right: 1rem;
-			text-align: right;
+			// margin-right: 1rem;
+			text-align: center;
 			// transform: skew(10deg);
 		}
 	}
@@ -144,8 +156,10 @@
 .groomsman-img {
 	// border: 1px solid pink;
 	// border-radius: 0 1rem 1rem 0;
+	border-radius: 50%;
+	height: 15rem;
 	overflow: hidden;
-	width: 50%;
+	width: 15rem;
 	img {
 		width: 100%;
 	}
@@ -153,11 +167,13 @@
 
 .bridesmaid-img {
 	border-left: 0;
+	border: 5px solid pink;
+	margin-bottom: 0.5rem;
 }
 
 .groomsman-img {
-	// border: 1px solid lightblue;
-	border-right: 0;
+	border: 5px solid lightblue;
+	// border-right: 0;
 	// border-radius: 1rem 0 0 1rem;
 }
 
@@ -208,6 +224,7 @@
 	.bridesmaid,
 	.groomsman {
 		display: flex;
+		flex-direction: row;
 		margin: 0rem 1rem;
 		min-height: unset;
 		&:first-child {
@@ -360,6 +377,7 @@
 		border: 0;
 		border-radius: 0;
     height: 5rem;
+    margin-bottom: 0;
     overflow: hidden;
     position: relative;
     transform: skew(10deg);
@@ -387,12 +405,14 @@
 		border-top: 5px solid rgba(255, 192, 203, 0.2);
 		border-left: 5px solid pink;
 		height: 5rem;
+		margin-top: 0;
 		padding: 0.7rem;
 		transform: skew(10deg);
 		width: 14rem;
 		.disney-icon {
 			bottom: 0.3rem;
 			left: unset;
+			position: absolute;
 			right: 1rem;
 			transform: skew(-10deg);
 			width: 1.5rem;
@@ -419,6 +439,7 @@
 			font-weight: 600;
 			margin: 0;
 			margin-left: 1rem;
+			text-align: left;
 			transform: skew(-10deg);
 		}
 		p {

@@ -21,7 +21,7 @@
 - ~~Google Analytics~~
 - Check other wedding sites to confirm what details to include
 - Browser compatibility
-- Tablet testing
+- ~~Tablet testing~~
 - ~~Favicon~~
 
 #### Header
@@ -42,12 +42,13 @@
 - ~~Descriptors on polaroids~~
 - ~~Some design/pattern for the background~~
 - More pictures / better pictures
+- Write better story
 
 #### Wedding Party
 - ~~Move banners up a bit~~
 - ~~Remove sixths bridesmaid for now~~
 - ~~Evan & Dennis's pics~~
-- Handle mobile
+- ~~Handle mobile~~
 - ~~Min-height for img sections~~
 - Centerpiece image of holding hands in shape of rose glass container
 
