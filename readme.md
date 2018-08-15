@@ -36,6 +36,7 @@
 - ~~Directions~~
 - ~~Parking~~
 - ~~Hotels~~
+- Free parking
 
 #### Story
 - ~~Intro text section~~
@@ -43,6 +44,7 @@
 - ~~Some design/pattern for the background~~
 - More pictures / better pictures
 - Write better story
+- Winnie's Grad Photo
 
 #### Wedding Party
 - ~~Move banners up a bit~~
@@ -61,14 +63,16 @@
 - ~~Food allergy input~~
 - ~~RSVP Button styling~~
 - ~~Update design to match Venue~~
+- Update meal selection
 
 #### Mobile
 - ~~Mobile Only section headers~~
 
 #### Invite Email
-- Confirm correct pictures & layout
-- Confirm copy & details
+- ~~Confirm correct pictures & layout~~
+- ~~Confirm copy & details~~
 - Gather guest emails
+- Remove address info
 
 
 ---

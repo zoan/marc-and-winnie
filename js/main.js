@@ -96,7 +96,7 @@ $(document).ready(function() {
 				$('.venue')[0].style.backgroundImage = "url('./img/casa-real-cropped.jpg')";
 				$('.our-story')[0].style.backgroundImage = "url('./img/ggb-night-compressor.jpg')";
 				// $('.wedding-party')[0].style.backgroundImage = "url('./img/walking-flip.JPG')";
-				$('.rsvp')[0].style.backgroundImage = "url('./img/save-the-date-group-cropped.jpg')";
+				$('.rsvp')[0].style.backgroundImage = "url('./img/rsvp-bg.jpg')";
 				$('.last')[0].style.backgroundImage = "url('./img/last-cropped.jpg')";
 			}
 
