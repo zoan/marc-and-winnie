@@ -20,7 +20,7 @@
 - ~~Use `data-src=""` for images that should be lazy loaded~~
 - ~~Google Analytics~~
 - Check other wedding sites to confirm what details to include
-- Browser compatibility
+- ~~Browser compatibility~~
 - ~~Tablet testing~~
 - ~~Favicon~~
 

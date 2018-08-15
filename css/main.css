@@ -678,8 +678,10 @@ h2 {
     width: 90%; }
     .our-story .story-text .story-container {
       background: rgba(0, 0, 0, 0.5);
+      border: 3px double white;
       margin-top: -4rem;
-      padding: 2rem; }
+      padding: 2rem;
+      padding-top: 3rem; }
       .our-story .story-text .story-container p {
         font-size: 18px;
         letter-spacing: 1px;
@@ -692,6 +694,7 @@ h2 {
       letter-spacing: 1px; }
     .our-story .story-text .once-udon {
       font-family: 'Merienda One', cursive;
+      margin-bottom: 0.5rem;
       margin-left: -1rem;
       position: relative;
       z-index: 10; }
@@ -792,7 +795,7 @@ h2 {
     .our-story .story-text {
       color: white;
       font-size: 24px;
-      height: 40rem;
+      height: 30rem;
       margin-bottom: 0;
       margin-left: auto;
       margin-right: 5rem;
@@ -804,6 +807,7 @@ h2 {
         background: rgba(0, 0, 0, 0.5);
         margin-top: -4rem;
         padding: 2rem;
+        padding-top: 3rem;
         transform: skew(10deg); }
         .our-story .story-text .story-container p {
           font-size: 18px;

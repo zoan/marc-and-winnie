@@ -35,8 +35,10 @@
     width: 90%;
     .story-container {
     	background: rgba(0, 0, 0, 0.5);
+    	border: 3px double white;
     	margin-top: -4rem;
     	padding: 2rem;
+    	padding-top: 3rem;
     	p {
     		font-size: 18px;
     		letter-spacing: 1px;
@@ -53,6 +55,7 @@
     }
     .once-udon {
     	font-family: 'Merienda One', cursive;
+    	margin-bottom: 0.5rem;
     	margin-left: -1rem;
     	position: relative;
     	z-index: 10;
@@ -184,7 +187,7 @@
 		.story-text {
 	    color: white;
 	    font-size: 24px;
-	    height: 40rem;
+	    height: 30rem;
 	    margin-bottom: 0;
 	    margin-left: auto;
 	    margin-right: 5rem;
@@ -196,6 +199,7 @@
 	    	background: rgba(0, 0, 0, 0.5);
 	    	margin-top: -4rem;
 	    	padding: 2rem;
+	    	padding-top: 3rem;
 	    	transform: skew(10deg);
 	    	p {
 	    		font-size: 18px;
