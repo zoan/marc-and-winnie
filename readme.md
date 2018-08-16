@@ -42,7 +42,7 @@
 - ~~Intro text section~~
 - ~~Descriptors on polaroids~~
 - ~~Some design/pattern for the background~~
-- More pictures / better pictures
+- ~~More pictures / better pictures~~
 - Write better story
 - ~~Winnie's Grad Photo~~
 
@@ -58,12 +58,12 @@
 - ~~Crop photos to all be the same size~~
 
 #### RSVP
-- Confirm disabled email functionality
+- ~~Confirm disabled email functionality~~
 - ~~Bottom padding~~
 - ~~Food allergy input~~
 - ~~RSVP Button styling~~
 - ~~Update design to match Venue~~
-- Update meal selection
+- ~~Update meal selection~~
 
 #### Mobile
 - ~~Mobile Only section headers~~
