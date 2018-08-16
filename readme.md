@@ -44,7 +44,7 @@
 - ~~Some design/pattern for the background~~
 - More pictures / better pictures
 - Write better story
-- Winnie's Grad Photo
+- ~~Winnie's Grad Photo~~
 
 #### Wedding Party
 - ~~Move banners up a bit~~
