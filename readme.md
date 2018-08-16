@@ -11,7 +11,7 @@
 - ~~Wedding Party pictures~~
 - ~~Make Disney icons~~
 - ~~Mickey Mouse background pattern~~
-- Confirm correct images used
+- ~~Confirm correct images used~~
 - ~~Compress images for faster loading~~
     + ~~Hero images~~
     + ~~Party images~~
@@ -19,7 +19,7 @@
     + ~~RSVP BG~~
 - ~~Use `data-src=""` for images that should be lazy loaded~~
 - ~~Google Analytics~~
-- Check other wedding sites to confirm what details to include
+- ~~Check other wedding sites to confirm what details to include~~
 - ~~Browser compatibility~~
 - ~~Tablet testing~~
 - ~~Favicon~~
@@ -36,7 +36,7 @@
 - ~~Directions~~
 - ~~Parking~~
 - ~~Hotels~~
-- Free parking
+- ~~Free parking~~
 
 #### Story
 - ~~Intro text section~~
