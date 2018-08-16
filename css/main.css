@@ -778,6 +778,13 @@ h2 {
   .our-story.fp-section {
     padding-bottom: 0 !important;
     padding-top: 0 !important; }
+  .our-story .content {
+    margin-bottom: 15rem; } }
+
+@media (min-width: 1024px) {
+  .our-story.fp-section {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important; }
   .our-story .fp-tableCell {
     vertical-align: unset; }
   .our-story {
@@ -795,7 +802,7 @@ h2 {
     .our-story .story-text {
       color: white;
       font-size: 24px;
-      height: 30rem;
+      height: 50rem;
       margin-bottom: 0;
       margin-left: auto;
       margin-right: 5rem;
@@ -900,6 +907,10 @@ h2 {
         transform: rotate(3deg); }
         .our-story .polaroid.right-tilt:hover {
           transform: rotate(-3deg) scale(1.1); } }
+
+@media (min-width: 1343px) {
+  .our-story .story-text {
+    height: 40rem; } }
 
 /** Wedding Party **/
 .wedding-party {

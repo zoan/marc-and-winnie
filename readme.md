@@ -43,7 +43,7 @@
 - ~~Descriptors on polaroids~~
 - ~~Some design/pattern for the background~~
 - ~~More pictures / better pictures~~
-- Write better story
+- ~~Write better story~~
 - ~~Winnie's Grad Photo~~
 
 #### Wedding Party
@@ -72,7 +72,7 @@
 - ~~Confirm correct pictures & layout~~
 - ~~Confirm copy & details~~
 - Gather guest emails
-- Remove address info
+- ~~Remove address info~~
 
 
 ---
