@@ -577,6 +577,9 @@ h2 {
     color: white;
     font-family: 'Muli', serif;
     font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
     padding: 0.5rem;
     width: 25rem; }
   .left-bar h5 {
@@ -592,6 +595,7 @@ h2 {
     font-family: 'Muli', serif; }
   .left-bar ul {
     font-family: 'Muli', serif;
+    margin: auto;
     max-width: 25rem; }
 
 .venue-map {
@@ -655,6 +659,12 @@ h2 {
       font-weight: 600; }
     .left-bar p {
       font-family: 'Muli', serif; }
+    .left-bar h4 {
+      margin-left: 0;
+      margin-right: 0; }
+    .left-bar ul {
+      margin-left: 0;
+      margin-right: 0; }
   .venue-map {
     height: 15rem;
     width: 25rem; } }
