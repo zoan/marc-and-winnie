@@ -13,6 +13,7 @@
 .venue .fp-tableCell {
 	// vertical-align: unset;
 	padding-top: 0;
+	height: 100rem;
 }
 
 h2 {
@@ -28,13 +29,22 @@ h2 {
 
 .left-bar {
 	background: rgba(255,255,255,0.85);
-	// height: 100%;
 	left: 0;
 	padding: 3rem 2rem 8rem;
-	// position: absolute;
 	text-align: center;
 	top: 0;
 	width: 100%;
+	h2 {
+			line-height: 1.2;
+	}
+	h4 {
+		background-color: #ff9b2094;
+		color: white;
+		font-family: 'Muli', serif;
+		font-size: 18px;
+		padding: 0.5rem;
+		width: 25rem;
+	}
 	h5 {
 		font-family: 'Muli', serif;
 		font-size: 20px;
@@ -42,15 +52,23 @@ h2 {
 	}
 	p {
 		font-family: 'Muli', serif;
+		margin: 0.5rem 0;
 		strong {
 			font-size: 18px
 		}
+	}
+	a {
+		font-family: 'Muli', serif;
+	}
+	ul {
+		font-family: 'Muli', serif;
+		max-width: 25rem;
 	}
 }
 
 .venue-map {
 	border: 5px solid #ff9b2094 !important;
-	margin: 2rem 0;
+	margin: 1rem 0;
 	width: 100%;
 }
 
@@ -79,17 +97,7 @@ h2 {
 	}
 
 	.left-bar {
-		// background: rgba(255, 255, 255, 0.8); /* FF3.6-15 */
-	 //  background: -webkit-linear-gradient(left, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0.7) 70%, rgba(255,255,255,0.4) 90%, rgba(255,255,255,0) 100%);
-	 //  background: -o-linear-gradient(left, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0.7) 70%, rgba(255,255,255,0.4) 90%, rgba(255,255,255,0) 100%);
-	 //  background: linear-gradient(to right, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0.7) 70%, rgba(255,255,255,0.4) 90%, rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		height: 100vh;
-		// left: 0;
-		// padding: 5rem;
-		// position: absolute;
-		// text-align: left;
-		// top: 0;
-		// width: 35%;
+		// height: 100vh;
 		h5 {
 			font-family: 'Muli', serif;
 			font-size: 20px;
@@ -135,10 +143,11 @@ h2 {
 	  background: -webkit-linear-gradient(left, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0.7) 70%, rgba(255,255,255,0.4) 90%, rgba(255,255,255,0) 100%);
 	  background: -o-linear-gradient(left, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0.7) 70%, rgba(255,255,255,0.4) 90%, rgba(255,255,255,0) 100%);
 	  background: linear-gradient(to right, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0.7) 70%, rgba(255,255,255,0.4) 90%, rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		height: 100vh;
+		// height: 100vh;
 		left: 0;
+		min-height: 100vh;
 		padding: 5rem;
-		position: absolute;
+		// position: absolute;
 		text-align: left;
 		top: 0;
 		width: 50%;
