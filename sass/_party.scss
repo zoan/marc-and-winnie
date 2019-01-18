@@ -301,8 +301,16 @@
 			}
 		}
 	}
-	.sixth {
+	.emily {
 		margin-left: 3.8rem;
+		.bridesmaid-img {
+			background: black;
+			img {
+				left: 0rem;
+				top: -1.2rem;
+				width: 250%;
+			}
+		}
 	}
 	.evan {
 		margin-right: -5rem;
@@ -592,8 +600,21 @@
 			}
 		}
 	}
-	.sixth {
+	.emily {
 		margin-left: 3.8rem;
+		.bridesmaid-info {
+			h3 {
+				margin-left: 1rem;
+			}
+		}
+		.bridesmaid-img {
+			background: black;
+			img {
+				left: -1.2rem;
+    		top: -0.8rem;
+    		width: 115%;
+			}
+		}
 	}
 	.evan {
 		margin-right: -5rem;

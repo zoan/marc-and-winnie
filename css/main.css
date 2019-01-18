@@ -1205,9 +1205,17 @@ h2 {
           left: 0rem;
           top: -1.2rem;
           width: 125%; }
-    .bridesmaids .sixth,
-    .groomsmen .sixth {
+    .bridesmaids .emily,
+    .groomsmen .emily {
       margin-left: 3.8rem; }
+      .bridesmaids .emily .bridesmaid-img,
+      .groomsmen .emily .bridesmaid-img {
+        background: black; }
+        .bridesmaids .emily .bridesmaid-img img,
+        .groomsmen .emily .bridesmaid-img img {
+          left: 0rem;
+          top: -1.2rem;
+          width: 250%; }
     .bridesmaids .evan,
     .groomsmen .evan {
       margin-right: -5rem; }
@@ -1489,9 +1497,20 @@ h2 {
           left: 0rem;
           top: -1.2rem;
           width: 125%; }
-    .bridesmaids .sixth,
-    .groomsmen .sixth {
+    .bridesmaids .emily,
+    .groomsmen .emily {
       margin-left: 3.8rem; }
+      .bridesmaids .emily .bridesmaid-info h3,
+      .groomsmen .emily .bridesmaid-info h3 {
+        margin-left: 1rem; }
+      .bridesmaids .emily .bridesmaid-img,
+      .groomsmen .emily .bridesmaid-img {
+        background: black; }
+        .bridesmaids .emily .bridesmaid-img img,
+        .groomsmen .emily .bridesmaid-img img {
+          left: -1.2rem;
+          top: -0.8rem;
+          width: 115%; }
     .bridesmaids .evan,
     .groomsmen .evan {
       margin-right: -5rem; }
